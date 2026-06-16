@@ -1,0 +1,21 @@
+# Tema 6: Pre-defensa del Perfil de Tesis
+## 🏫 Materia: Taller de Grado (TG-180)
+
+---
+
+### 📚 Apuntes y Conceptos Clave
+* Preparación de material audiovisual de exposición oral.
+* Simulación de defensa final ante tribunales simulados y corrección de observaciones.
+
+---
+
+### ✍️ Mis Resúmenes y Notas de Clase
+*Haz doble clic en este archivo para registrar tus notas, fórmulas o resúmenes de las clases del docente.*
+
+---
+
+### 📂 Archivos y Tareas de esta Unidad
+*Arrastra tus prácticas, códigos o diapositivas a esta carpeta para organizarlas aquí.*
+
+---
+*Documento autogenerado para el control de estudios del Ing. José Luis Choquevilca - UNIOR*

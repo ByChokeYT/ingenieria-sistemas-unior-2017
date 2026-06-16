@@ -1,0 +1,9 @@
+<html> 
+<head> <title>dar alta</title> </head> 
+<body>
+     <?php $conexion = mysqli_connect("localhost", "root", "12345678", "examen") or die("Problemas con la conexión");
+     mysqli_query($conexion, "insert into cursos(nombrecurso) values ('$_REQUEST[nombrecurso]')") or die("Problemas en el select" . mysqli_error($conexion)); 
+     mysqli_close($conexion); echo "El curso fue dado de alta.";
+     ?>
+</body> 
+</html>

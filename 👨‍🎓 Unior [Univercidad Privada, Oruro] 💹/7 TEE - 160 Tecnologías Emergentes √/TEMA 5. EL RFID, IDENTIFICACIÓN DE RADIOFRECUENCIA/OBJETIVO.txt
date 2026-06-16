@@ -1,0 +1,7 @@
+OBJETIVO. EL objetivo es, que el estudiante comprenda que  la tecnología RIFD
+ se usa en gran variedad de servicios del ámbito civil y militar, público y privado,
+ tales como la gestión de activos (equipajes, bibliotecas, documentos),
+ identificación de personas (hospitales, parques, prisiones) y de animales, 
+pagos automáticos, etc., por lo que se puede afirmar y predecir que la 
+tecnología tiene un impacto importante sobre la vida diaria de empresas, 
+instituciones y ciudadanos.

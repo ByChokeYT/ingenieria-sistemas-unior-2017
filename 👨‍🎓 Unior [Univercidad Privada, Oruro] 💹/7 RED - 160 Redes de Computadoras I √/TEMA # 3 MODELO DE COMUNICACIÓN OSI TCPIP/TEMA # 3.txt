@@ -1,0 +1,4 @@
+TEMA # 3 MODELO DE COMUNICACIÓN OSI TCP/IP
+En este tema el estudiante lograra entender y 
+analizar los modelos OSI y TCP/IP para facilitar la estandarización en el proceso de comunicación
+ dentro de una red.

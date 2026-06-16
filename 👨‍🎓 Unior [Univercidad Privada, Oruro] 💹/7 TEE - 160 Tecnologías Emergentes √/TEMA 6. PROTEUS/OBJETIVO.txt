@@ -1,0 +1,5 @@
+OBJETIVO. El objetivo es , que el alumno entienda que el PROTEUS es una aplicación 
+para la ejecución de proyectos de construcción de equipos electrónicos en todas sus etapas:
+diseño del esquema electrónico, programación del software, construcción de la placa de circuito impreso, 
+simulación de todo el conjunto, depuración de errores, 
+documentación y construcción.

@@ -1,0 +1,4 @@
+TEMA # 2 CONFIGURACIÓN BÁSICA DE SWITCH
+En este tema el estudiante aprendera configurar switch Cisco desde cero y paso a paso.
+ de una manera secuencial, desde la configuración del nombre de un switch,
+ hasta la configuración de una red básica de switches por medio de su CLI (Command Line Interface)

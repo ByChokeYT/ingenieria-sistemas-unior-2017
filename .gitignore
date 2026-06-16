@@ -1,0 +1,21 @@
+# Media files (GitHub blocks files > 100MB, videos are very heavy)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.crdownload
+
+# Compressed files
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# System and editor files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.vscode/
+.idea/
