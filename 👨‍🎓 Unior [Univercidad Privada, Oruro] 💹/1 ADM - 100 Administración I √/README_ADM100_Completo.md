@@ -1,4 +1,4 @@
-# 📈 Administración I
+# 📈 Administración I — ADM-100
 
 ## 🏫 Universidad Privada de Oruro (UNIOR)
 ### 💻 Carrera: Ingeniería de Sistemas
@@ -6,21 +6,27 @@
 ---
 
 ### 📊 Ficha Técnica de la Asignatura
-- **Sigla:** ADM-100
-- **Semestre:** 1º Semestre
-- **Prerrequisitos:** Ninguno
-- **Estado:** 🟢 Aprobada
+
+| Campo | Detalle |
+|---|---|
+| **Sigla** | ADM-100 |
+| **Semestre** | 1º Semestre |
+| **Prerrequisitos** | Ninguno |
+| **Estado** | 🟢 Aprobada |
 
 ### 📝 Descripción de la Materia
+
 Introducción a los conceptos y teorías de la administración, el diseño organizacional y la gestión de recursos humanos, financieros, materiales y tecnológicos para alcanzar objetivos con eficiencia y eficacia.
 
-### 📚 Apuntes y Resumen de Contenidos
-### 🗺️ Ruta de Aprendizaje de Administración I
-Esta es la guía completa de temas que debes estudiar y dominar en esta asignatura:
+---
 
-#### 📂 Tema 1: Introducción a la Teoría Administrativa y la Empresa
+## 🗺️ Ruta de Aprendizaje Completa
 
-##### 1.1 Conceptos Básicos de Administración
+---
+
+## 📂 TEMA 1: Introducción a la Teoría Administrativa y la Empresa
+
+### 1.1 Conceptos Básicos de Administración
 
 La **administración** es el proceso de planificar, organizar, dirigir y controlar el uso de los recursos (humanos, financieros, materiales y tecnológicos) para alcanzar los objetivos organizacionales de manera eficiente y eficaz.
 
@@ -32,7 +38,7 @@ La **administración** es el proceso de planificar, organizar, dirigir y control
 
 $$\text{Productividad} = \frac{\text{Resultados Obtenidos}}{\text{Recursos Utilizados}}$$
 
-##### 1.2 Historia y Evolución de la Teoría Administrativa
+### 1.2 Historia y Evolución de la Teoría Administrativa
 
 | Escuela | Autor Principal | Énfasis | Aporte Clave |
 |---|---|---|---|
@@ -60,7 +66,7 @@ $$\text{Productividad} = \frac{\text{Resultados Obtenidos}}{\text{Recursos Utili
 13. Iniciativa
 14. Espíritu de equipo (unión del personal)
 
-##### 1.3 Clasificación de Empresas
+### 1.3 Clasificación de Empresas
 
 **Por Actividad/Sector:**
 - *Primario:* Extractivas (minería, agricultura, petróleo)
@@ -83,11 +89,11 @@ $$\text{Productividad} = \frac{\text{Resultados Obtenidos}}{\text{Recursos Utili
 
 ---
 
-#### 📂 Tema 2: Planificación — El Rumbo de la Empresa
+## 📂 TEMA 2: Planificación — El Rumbo de la Empresa
 
 La **planificación** es el proceso de establecer los objetivos de la organización y determinar los mejores cursos de acción para alcanzarlos. Es la primera y más importante función administrativa porque todas las demás dependen de ella.
 
-##### 2.1 Importancia de la Planificación
+### 2.1 Importancia de la Planificación
 
 - Reduce la incertidumbre ante el futuro
 - Establece el rumbo y los objetivos claros
@@ -95,7 +101,7 @@ La **planificación** es el proceso de establecer los objetivos de la organizaci
 - Optimiza el uso de recursos
 - Mejora la toma de decisiones
 
-##### 2.2 Tipos de Planes
+### 2.2 Tipos de Planes
 
 | Tipo | Nivel | Horizonte | Ejemplo |
 |---|---|---|---|
@@ -103,7 +109,7 @@ La **planificación** es el proceso de establecer los objetivos de la organizaci
 | **Táctico** | Mandos medios | Mediano plazo (1 año) | Plan de ventas anual |
 | **Operativo** | Supervisores | Corto plazo (días/meses) | Cronograma de producción semanal |
 
-##### 2.3 Misión, Visión y Valores
+### 2.3 Misión, Visión y Valores
 
 - **Misión:** ¿Para qué existe la empresa? (propósito actual)
   > *Ejemplo: "Proveer soluciones tecnológicas de calidad a las PYMES de Bolivia."*
@@ -111,7 +117,7 @@ La **planificación** es el proceso de establecer los objetivos de la organizaci
   > *Ejemplo: "Ser la empresa tecnológica líder de Bolivia para el 2030."*
 - **Valores:** Principios que guían el comportamiento organizacional (honestidad, innovación, responsabilidad, etc.)
 
-##### 2.4 Objetivos SMART
+### 2.4 Objetivos SMART
 
 Un objetivo bien definido debe ser:
 
@@ -125,7 +131,7 @@ Un objetivo bien definido debe ser:
 
 > *Ejemplo SMART:* "Incrementar las ventas en un 15% durante el primer semestre de 2025 mediante la apertura de dos nuevas sucursales."
 
-##### 2.5 Herramientas de Planificación
+### 2.5 Herramientas de Planificación
 
 - **Políticas:** Guías generales de acción que orientan la toma de decisiones.
 - **Reglas:** Disposiciones específicas que deben cumplirse obligatoriamente.
@@ -133,7 +139,7 @@ Un objetivo bien definido debe ser:
 - **Cronograma:** Plan de actividades con fechas y responsables (diagrama de Gantt).
 - **Procedimientos:** Secuencia de pasos para realizar una tarea específica.
 
-##### 2.6 Toma de Decisiones
+### 2.6 Toma de Decisiones
 
 **Proceso racional de toma de decisiones:**
 1. Identificar el problema
@@ -150,11 +156,11 @@ Un objetivo bien definido debe ser:
 
 ---
 
-#### 📂 Tema 3: Organización — Diseño de la Estructura
+## 📂 TEMA 3: Organización — Diseño de la Estructura
 
 La **organización** es el proceso de diseñar la estructura formal de la empresa: definir tareas, asignar responsabilidades, establecer jerarquías y coordinar los recursos para alcanzar los objetivos.
 
-##### 3.1 Principios de Organización
+### 3.1 Principios de Organización
 
 - **División del trabajo:** Especializar tareas para aumentar la productividad.
 - **Jerarquía:** Niveles de autoridad claramente definidos (pirámide organizacional).
@@ -164,7 +170,7 @@ La **organización** es el proceso de diseñar la estructura formal de la empres
 - **Delegación:** Transferencia de autoridad a subordinados para que tomen decisiones en su área.
 - **Centralización vs. Descentralización:** Grado en que la toma de decisiones se concentra en la cúpula o se distribuye en los niveles inferiores.
 
-##### 3.2 El Organigrama
+### 3.2 El Organigrama
 
 El **organigrama** es la representación gráfica de la estructura formal de la organización. Muestra:
 - Los puestos de trabajo y sus nombres
@@ -177,7 +183,7 @@ El **organigrama** es la representación gráfica de la estructura formal de la 
 - **Circular:** La alta dirección está al centro
 - **Mixto:** Combinación de vertical y horizontal
 
-##### 3.3 Tipos de Departamentalización
+### 3.3 Tipos de Departamentalización
 
 | Tipo | Criterio de Agrupación | Ventaja | Desventaja |
 |---|---|---|---|
@@ -187,7 +193,7 @@ El **organigrama** es la representación gráfica de la estructura formal de la 
 | **Por Clientes** | Por tipo de cliente | Atención personalizada | Recursos duplicados |
 | **Matricial** | Combina funcional + proyecto | Flexibilidad y especialización | Doble mando (conflictos) |
 
-##### 3.4 Tipos de Estructura Organizacional
+### 3.4 Tipos de Estructura Organizacional
 
 - **Estructura Lineal:** Autoridad directa, cadena de mando clara. Ideal para empresas pequeñas.
 - **Estructura Funcional:** Especialistas dirigen en su área. Varios jefes según la función.
@@ -198,11 +204,11 @@ El **organigrama** es la representación gráfica de la estructura formal de la 
 
 ---
 
-#### 📂 Tema 4: Dirección y Liderazgo — El Factor Humano
+## 📂 TEMA 4: Dirección y Liderazgo — El Factor Humano
 
 La **dirección** es la función administrativa que implica guiar, motivar y liderar al personal para que ejecute las actividades planificadas. Es la función más humana de la administración.
 
-##### 4.1 Motivación
+### 4.1 Motivación
 
 La motivación es el impulso interno que mueve a las personas a actuar hacia el logro de un objetivo.
 
@@ -247,7 +253,7 @@ Las personas tienen tres necesidades dominantes:
 - **Poder:** Deseo de influir y controlar a otros.
 - **Afiliación:** Deseo de establecer relaciones amistosas y cercanas.
 
-##### 4.2 Liderazgo
+### 4.2 Liderazgo
 
 El **liderazgo** es la capacidad de influir en las personas para que trabajen con entusiasmo hacia el logro de los objetivos organizacionales.
 
@@ -273,7 +279,7 @@ Evalúa al líder en dos dimensiones (del 1 al 9):
 | (5,5) | Término medio | Equilibrio moderado en ambas |
 | (9,9) | Equipo ideal | Máximo en producción Y en personas ✅ |
 
-##### 4.3 Comunicación en la Empresa
+### 4.3 Comunicación en la Empresa
 
 La **comunicación** es el proceso de transmitir información, ideas y emociones entre personas dentro y fuera de la organización.
 
@@ -289,7 +295,7 @@ La **comunicación** es el proceso de transmitir información, ideas y emociones
 - Físicas (ruido, distancia)
 - Culturales (diferencias de costumbres)
 
-##### 4.4 Resolución de Conflictos
+### 4.4 Resolución de Conflictos
 
 **Tipos de conflictos:**
 - Intrapersonal, Interpersonal, Intragrupal, Intergrupal
@@ -306,18 +312,18 @@ La **comunicación** es el proceso de transmitir información, ideas y emociones
 
 ---
 
-#### 📂 Tema 5: Control — Evaluación del Desempeño
+## 📂 TEMA 5: Control — Evaluación del Desempeño
 
 El **control** es la función administrativa que verifica si las actividades se están realizando conforme a lo planificado, identificando desviaciones y aplicando las correcciones necesarias.
 
-##### 5.1 Importancia del Control
+### 5.1 Importancia del Control
 
 - Garantiza que los planes se ejecuten correctamente
 - Detecta errores a tiempo para corregirlos
 - Mide el desempeño real frente a los estándares
 - Genera retroalimentación para mejorar
 
-##### 5.2 Proceso de Control
+### 5.2 Proceso de Control
 
 ```
 Paso 1 → Establecer estándares de desempeño
@@ -333,7 +339,7 @@ Paso 4 → Tomar medidas correctivas
          (si hay desviación: corregir, ajustar el plan o redefinir el estándar)
 ```
 
-##### 5.3 Tipos de Control
+### 5.3 Tipos de Control
 
 | Tipo | Momento | Descripción | Ejemplo |
 |---|---|---|---|
@@ -341,7 +347,7 @@ Paso 4 → Tomar medidas correctivas
 | **Concurrente** | Durante la acción | Monitorea en tiempo real mientras se ejecuta | Supervisor revisando el trabajo en planta |
 | **Correctivo (Feedback)** | Después de la acción | Evalúa resultados y corrige para el futuro | Auditoría financiera al cierre del año |
 
-##### 5.4 Herramientas de Control
+### 5.4 Herramientas de Control
 
 - **Presupuesto de control:** Comparar gastos reales vs. gastos planificados.
 - **Auditoría:** Revisión formal de procesos financieros y operativos.
@@ -350,7 +356,7 @@ Paso 4 → Tomar medidas correctivas
 - **Balanced Scorecard (BSC):** Tablero de mando que mide el desempeño en 4 perspectivas: financiera, clientes, procesos internos y aprendizaje.
 - **Auditoría administrativa:** Evaluación sistemática de todas las funciones gerenciales.
 
-##### 5.5 Estándares de Control
+### 5.5 Estándares de Control
 
 Un **estándar** es el criterio o parámetro contra el cual se mide el desempeño real:
 - Estándares de cantidad (unidades producidas por hora)
@@ -360,11 +366,11 @@ Un **estándar** es el criterio o parámetro contra el cual se mide el desempeñ
 
 ---
 
-#### 📂 Tema 6: Administración Estratégica y Análisis FODA
+## 📂 TEMA 6: Administración Estratégica y Análisis FODA
 
 La **administración estratégica** es el proceso de formular, implementar y evaluar las estrategias que permiten a la organización alcanzar sus objetivos de largo plazo y mantener ventaja competitiva.
 
-##### 6.1 El Proceso de Administración Estratégica
+### 6.1 El Proceso de Administración Estratégica
 
 ```
 1. Análisis del entorno externo e interno (FODA)
@@ -378,7 +384,7 @@ La **administración estratégica** es el proceso de formular, implementar y eva
 5. Evaluación y control estratégico (¿estamos logrando los resultados?)
 ```
 
-##### 6.2 Análisis FODA (SWOT)
+### 6.2 Análisis FODA (SWOT)
 
 El **FODA** es una herramienta de diagnóstico estratégico que analiza cuatro factores:
 
@@ -399,14 +405,14 @@ El **FODA** es una herramienta de diagnóstico estratégico que analiza cuatro f
 **Amenazas (A):** Factores externos negativos que pueden perjudicar a la empresa.
 > Ej: nueva competencia, cambios en regulaciones, crisis económica.
 
-##### 6.3 Matriz FODA — Estrategias Cruzadas
+### 6.3 Matriz FODA — Estrategias Cruzadas
 
 | | **Fortalezas (F)** | **Debilidades (D)** |
 |---|---|---|
 | **Oportunidades (O)** | **FO — Estrategias Ofensivas** (usar fortalezas para aprovechar oportunidades) | **DO — Estrategias de Reorientación** (superar debilidades para aprovechar oportunidades) |
 | **Amenazas (A)** | **FA — Estrategias Defensivas** (usar fortalezas para minimizar amenazas) | **DA — Estrategias de Supervivencia** (minimizar debilidades y amenazas) |
 
-##### 6.4 Niveles de Estrategia
+### 6.4 Niveles de Estrategia
 
 | Nivel | ¿Quién la define? | ¿Qué responde? |
 |---|---|---|
@@ -414,7 +420,7 @@ El **FODA** es una herramienta de diagnóstico estratégico que analiza cuatro f
 | **Competitiva (negocio)** | Gerentes de unidad de negocio | ¿Cómo competiremos en este mercado? |
 | **Funcional** | Gerentes de área | ¿Cómo apoya cada área la estrategia? |
 
-##### 6.5 Estrategias Competitivas Genéricas (Michael Porter)
+### 6.5 Estrategias Competitivas Genéricas (Michael Porter)
 
 | Estrategia | Descripción | Ejemplo |
 |---|---|---|
@@ -422,7 +428,7 @@ El **FODA** es una herramienta de diagnóstico estratégico que analiza cuatro f
 | **Diferenciación** | Ofrecer un producto único que justifique mayor precio | Apple, Mercedes-Benz |
 | **Enfoque/Nicho** | Concentrarse en un segmento específico del mercado | Marca exclusiva para zurdos o para atletas de alto rendimiento |
 
-##### 6.6 Análisis del Entorno Externo — PESTEL
+### 6.6 Análisis del Entorno Externo — PESTEL
 
 | Factor | Descripción | Ejemplo |
 |---|---|---|
@@ -433,7 +439,7 @@ El **FODA** es una herramienta de diagnóstico estratégico que analiza cuatro f
 | **E**cológico | Medio ambiente, sostenibilidad, cambio climático | Leyes de emisión de CO₂ |
 | **L**egal | Leyes laborales, normativas, propiedad intelectual | Ley de protección de datos |
 
-##### 6.7 Las 5 Fuerzas de Porter (Análisis de la Industria)
+### 6.7 Las 5 Fuerzas de Porter (Análisis de la Industria)
 
 Michael Porter propone analizar la competitividad de un sector con 5 fuerzas:
 
@@ -445,13 +451,13 @@ Michael Porter propone analizar la competitividad de un sector con 5 fuerzas:
 
 ---
 
-#### 📂 Tema 7: Responsabilidad Social Empresarial (RSE)
+## 📂 TEMA 7 (EXTRA): Responsabilidad Social Empresarial (RSE)
 
-##### 7.1 Concepto
+### 7.1 Concepto
 
 La **RSE** es el compromiso voluntario de las empresas de contribuir al desarrollo sostenible de la sociedad, más allá del cumplimiento legal, considerando el impacto de sus decisiones en empleados, comunidad, medio ambiente y grupos de interés (stakeholders).
 
-##### 7.2 Dimensiones de la RSE
+### 7.2 Dimensiones de la RSE
 
 | Dimensión | Descripción |
 |---|---|
@@ -460,7 +466,7 @@ La **RSE** es el compromiso voluntario de las empresas de contribuir al desarrol
 | **Ambiental** | Reducir impacto ecológico, uso responsable de recursos naturales |
 | **Ética** | Actuar con honestidad, transparencia y cumplimiento de normas |
 
-##### 7.3 Grupos de Interés (Stakeholders)
+### 7.3 Grupos de Interés (Stakeholders)
 
 Todos los grupos que son afectados por las decisiones de la empresa:
 - **Internos:** Empleados, accionistas, directivos
@@ -468,35 +474,31 @@ Todos los grupos que son afectados por las decisiones de la empresa:
 
 ---
 
-### 🗂️ Estructura de Carpetas de Aprendizaje
-Temas y carpetas de estudio organizadas en este directorio:
-- 📁 [Tema 1 - Introduccion a la Administracion](./Tema%201%20-%20Introduccion%20a%20la%20Administracion)
-- 📁 [Tema 2 - Planificacion](./Tema%202%20-%20Planificacion)
-- 📁 [Tema 3 - Organizacion](./Tema%203%20-%20Organizacion)
-- 📁 [Tema 4 - Direccion y Liderazgo](./Tema%204%20-%20Direccion%20y%20Liderazgo)
-- 📁 [Tema 5 - Control](./Tema%205%20-%20Control)
-- 📁 [Tema 6 - Administracion Estrategica y FODA](./Tema%206%20-%20Administracion%20Estrategica%20y%20FODA)
-- 📁 [Tema 7 - Responsabilidad Social Empresarial RSE](./Tema%207%20-%20Responsabilidad%20Social%20Empresarial%20RSE)
+## 🎯 Ponderación y Control de Calificaciones
 
-### 🎯 Ponderación y Control de Calificaciones
 | Actividad Evaluativa | Ponderación | Nota Obtenida |
-| --- | :---: | :---: |
+|---|---|---|
 | **Examen Primer Parcial** | 30% | `__ / 100` |
 | **Examen Segundo Parcial** | 30% | `__ / 100` |
 | **Examen Final / Proyecto** | 30% | `__ / 100` |
 | **Tareas y Prácticas** | 10% | `__ / 100` |
 | **Nota Final** | **100%** | **`__ / 100`** |
 
-### 📅 Cronograma de Fechas Importantes
-- [ ] **Examen Primer Parcial:** _Fecha: ____/____/_________
-- [ ] **Examen Segundo Parcial:** _Fecha: ____/____/_________
-- [ ] **Entrega de Proyecto/Trabajo Final:** _Fecha: ____/____/_________
-- [ ] **Examen Final:** _Fecha: ____/____/_________
+---
 
-### 📂 Archivos en esta Carpeta
-Aquí tienes un listado de los archivos almacenados en esta materia:
-- 📄 [README_ADM100_Completo.md](./README_ADM100_Completo.md)
-- 📄 [[adm -100 ]Administracion 1 lic. ivan zavala.docx](./%5Badm%20-100%20%5DAdministracion%201%20lic.%20ivan%20zavala.docx)
+## 📅 Cronograma de Fechas Importantes
+
+- [ ] **Examen Primer Parcial:** *Fecha: **/**/*________
+- [ ] **Examen Segundo Parcial:** *Fecha: **/**/*________
+- [ ] **Entrega de Proyecto/Trabajo Final:** *Fecha: **/**/*________
+- [ ] **Examen Final:** *Fecha: **/**/*________
 
 ---
-*Documento autogenerado para el control de estudios del Ing. José Luis Choquevilca - UNIOR*
+
+## 📂 Archivos en esta Carpeta
+
+- 📄 [[adm-100] Administracion 1 lic. ivan zavala.docx](./[adm%20-100%20]Administracion%201%20lic.%20ivan%20zavala.docx)
+
+---
+
+*Documento enriquecido para el control de estudios del Ing. José Luis Choquevilca — UNIOR 2017*

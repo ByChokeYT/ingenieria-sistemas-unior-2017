@@ -460,152 +460,201 @@ Conceptos clave de diseño de software y estructuras que debes dominar:
         "emoji": "📈",
         "title": "Administración I",
         "prereq": "Ninguno",
-        "description": "Introducción a los conceptos y teorías de la administración, el diseño organizacional y la gestión de recursos.",
+        "description": "Introducción a los conceptos y teorías de la administración, el diseño organizacional y la gestión de recursos humanos, financieros, materiales y tecnológicos para alcanzar objetivos con eficiencia y eficacia.",
         "apuntes": """### 🗺️ Ruta de Aprendizaje de Administración I
 Esta es la guía completa de temas que debes estudiar y dominar en esta asignatura:
 
 #### 📂 Tema 1: Introducción a la Teoría Administrativa y la Empresa
 
-##### 1. Conceptos Básicos de Administración
+##### 1.1 Conceptos Básicos de Administración
+
 La **administración** es el proceso de planificar, organizar, dirigir y controlar el uso de los recursos (humanos, financieros, materiales y tecnológicos) para alcanzar los objetivos organizacionales de manera eficiente y eficaz.
 
-*   **Eficiencia:** Capacidad de obtener los mayores resultados con la mínima cantidad de recursos (insumos). Se enfoca en los "medios" y en minimizar costos ("hacer las cosas bien").
-*   **Eficacia:** Grado en el que se alcanzan los objetivos y metas propuestas. Se enfoca en los "fines" y resultados logrados ("hacer las cosas correctas").
-*   **Productividad:** Relación matemática entre los resultados obtenidos (salidas) y los recursos utilizados (entradas).
-    $$\\text{Productividad} = \\frac{\\text{Resultados Obtenidos}}{\\text{Recursos Utilizados}}$$
-    Ser productivo implica lograr la máxima eficiencia y eficacia conjuntamente.
+| Concepto | Definición | Pregunta Clave |
+|---|---|---|
+| **Eficiencia** | Obtener máximos resultados con mínimos recursos | ¿Cómo se utilizaron los recursos? |
+| **Eficacia** | Grado en que se alcanzan los objetivos | ¿Se lograron las metas? |
+| **Productividad** | Relación entre resultados y recursos usados | ¿Optimizamos la relación salidas/entradas? |
 
-| Concepto | Enfoque | Pregunta Clave |
-| :--- | :--- | :--- |
-| **Eficiencia** | Recursos y Medios | ¿Cómo se utilizaron los recursos? |
-| **Eficacia** | Objetivos y Fines | ¿Se lograron las metas propuestas? |
-| **Productividad** | Relación Insumo-Producto | ¿Cómo optimizamos la relación salidas/entradas? |
+$$\\text{Productividad} = \\frac{\\text{Resultados Obtenidos}}{\\text{Recursos Utilizados}}$$
 
-##### 2. Historia y Evolución de la Teoría Administrativa
-La administración científica y clásica nació de la necesidad de estructurar y racionalizar el trabajo durante la Revolución Industrial:
+##### 1.2 Historia y Evolución de la Teoría Administrativa
 
-*   **Escuela de la Administración Científica (Frederick W. Taylor):**
-    *   **Énfasis:** En las tareas y el trabajo operativo.
-    *   **Aportes:** Estudio de tiempos y movimientos, estandarización de herramientas, división del trabajo obrero y pago de incentivos salariales por producción.
-    *   **Principios:** Planeación, preparación, control y ejecución.
-*   **Escuela de la Teoría Clásica (Henri Fayol):**
-    *   **Énfasis:** En la estructura organizacional y funciones administrativas globales.
-    *   **Funciones Básicas de la Empresa:** Técnicas, comerciales, financieras, de seguridad, contables y administrativas (prever, organizar, dirigir, coordinar y controlar).
-    *   **Principios Relevantes:** Unidad de mando, unidad de dirección, división del trabajo, jerarquía, equidad y disciplina (14 principios en total).
-*   **Escuela de las Relaciones Humanas (Elton Mayo):**
-    *   **Énfasis:** En las personas y la psicología industrial.
-    *   **Experimento de Hawthorne:** Demostró que el nivel de producción depende de la integración social y las normas del grupo informal, no solo de los incentivos económicos.
-*   **Enfoques Modernos:**
-    *   **Enfoque de Sistemas:** Concibe a la empresa como un sistema abierto integrado por subsistemas que interactúan dinámicamente con su entorno (entradas -> proceso -> salidas -> retroalimentación).
-    *   **Enfoque Contingencial (Teoría de las Decisiones):** Establece que no existe una única "mejor forma" de administrar; todo es relativo y depende de factores externos (tecnología, ambiente, tamaño).
+| Escuela | Autor Principal | Énfasis | Aporte Clave |
+|---|---|---|---|
+| Administración Científica | Frederick W. Taylor | Tareas operativas | Estudio de tiempos y movimientos |
+| Teoría Clásica | Henri Fayol | Estructura organizacional | 14 principios de administración |
+| Relaciones Humanas | Elton Mayo | Factor humano | Experimento de Hawthorne |
+| Burocrática | Max Weber | Normas y jerarquía formal | Modelo burocrático racional |
+| Conductual | Abraham Maslow / McGregor | Comportamiento humano | Teoría X, Y y jerarquía de necesidades |
+| Sistemas | Bertalanffy | Visión integral | Empresa como sistema abierto |
+| Contingencial | Lawrence y Lorsch | Contexto y entorno | No hay una única forma de administrar |
 
-##### 3. Definición, Clasificación y Rol Social de la Empresa
-Una **empresa** es una entidad socioeconómica constituida por capital, trabajo y dirección, coordinada para producir bienes o prestar servicios que satisfacen necesidades de la sociedad con fines lucrativos o sociales.
+**Los 14 Principios de Fayol:**
+1. División del trabajo
+2. Autoridad y responsabilidad
+3. Disciplina
+4. Unidad de mando
+5. Unidad de dirección
+6. Subordinación del interés individual al general
+7. Remuneración del personal
+8. Centralización
+9. Jerarquía (cadena escalar)
+10. Orden
+11. Equidad
+12. Estabilidad del personal
+13. Iniciativa
+14. Espíritu de equipo (unión del personal)
 
-*   **Clasificación de Empresas:**
-    1.  **Por Actividad/Sector:**
-        *   *Primario:* Extractivas (minería, petróleo, agricultura).
-        *   *Secundario:* Manufactureras e industriales (construcción, fábricas).
-        *   *Terciario:* Servicios y comercio (bancos, educación, TI).
-    2.  **Por Tamaño (criterios de empleados y ventas):**
-        *   *Microempresa* (1-10 empleados), *Pequeña* (11-50), *Mediana* (51-250), *Grande* (más de 250).
-    3.  **Por Origen del Capital:**
-        *   *Privada:* Capital de particulares.
-        *   *Pública:* Capital aportado por el Estado.
-        *   *Mixta:* Capital conjunto público-privado.
-    4.  **Por Ámbito Geográfico:** Locales, provinciales, nacionales, multinacionales.
-*   **Rol de la Empresa en la Sociedad:**
-    *   **Económico:** Creación de empleo, dinamización del mercado y generación de riqueza/PIB.
-    *   **Social:** Innovación, provisión de bienes de calidad y Responsabilidad Social Empresarial (RSE), buscando mitigar impactos ecológicos y contribuir activamente al bienestar comunitario.
+##### 1.3 Clasificación de Empresas
 
-#### 📂 Tema 2: Planificación (El rumbo de la empresa)
+**Por Actividad/Sector:**
+- *Primario:* Extractivas (minería, agricultura, petróleo)
+- *Secundario:* Manufactureras (fábricas, construcción)
+- *Terciario:* Servicios y comercio (bancos, TI, educación)
 
-La **planificación** es la función administrativa que consiste en definir objetivos, establecer estrategias y desarrollar planes para coordinar actividades.
+**Por Tamaño:**
+| Tipo | Empleados |
+|---|---|
+| Microempresa | 1–10 |
+| Pequeña | 11–50 |
+| Mediana | 51–250 |
+| Grande | Más de 250 |
 
-##### 1. Tipos de Planes
-Las organizaciones utilizan diferentes tipos de planes según su alcance, marco temporal, especificidad y frecuencia de uso:
-*   **Planes Estratégicos:** Diseñados por la alta gerencia para toda la organización. Tienen un alcance amplio, un marco temporal de largo plazo (generalmente de 3 a 5 años o más) y definen la visión, misión y metas globales de la empresa.
-*   **Planes Tácticos:** Desarrollados por los gerentes de nivel medio para áreas o departamentos específicos (ej. plan táctico de marketing o de sistemas). Traducen los planes estratégicos en acciones concretas a mediano plazo (1 a 3 años).
-*   **Planes Operativos:** Formulados por los supervisores de primera línea. Se enfocan en las tareas cotidianas y rutinarias del personal operativo a corto plazo (semanal, mensual o anual) con un alto nivel de detalle y formalización.
+**Por Origen del Capital:**
+- Privada, Pública, Mixta
 
-##### 2. Objetivos SMART
-Los objetivos eficaces deben cumplir con la metodología **SMART** para asegurar que sean claros y medibles:
+**Por Ámbito Geográfico:**
+- Local, Provincial, Nacional, Multinacional, Transnacional
 
-| Letra | Criterio | Descripción | Ejemplo de Aplicación |
-| :--- | :--- | :--- | :--- |
-| **S** | *Specific* (Específico) | Claramente definido, sin ambigüedades. | "Aumentar las descargas de la aplicación de control académico." |
-| **M** | *Measurable* (Medible) | Cuantificable para evaluar el progreso. | "...en un 20% respecto al semestre anterior." |
-| **A** | *Achievable* (Alcanzable) | Realista y factible según los recursos disponibles. | "...mediante campañas de difusión interna en la universidad." |
-| **R** | *Relevant* (Relevante) | Alineado con los objetivos y la visión de la institución. | "...para mejorar el posicionamiento digital de la carrera." |
-| **T** | *Time-bound* (Temporal) | Con un límite de tiempo o fecha de vencimiento clara. | "...en los próximos 6 meses." |
+---
 
-*Ejemplo de Objetivo SMART consolidado:* "Aumentar las descargas de la aplicación de control académico en un 20% en los próximos 6 meses mediante campañas de difusión interna en la universidad, con el fin de mejorar el posicionamiento digital de la carrera."
+#### 📂 Tema 2: Planificación — El Rumbo de la Empresa
 
-##### 3. Herramientas de Planificación
-*   **Diagrama de Gantt:** Herramienta visual que representa un cronograma de actividades. Muestra en barras horizontales el inicio, la duración y la finalización de cada tarea, así como sus interdependencias.
-*   **Presupuesto:** Plan financiero detallado que cuantifica en términos monetarios los recursos necesarios para ejecutar las actividades planificadas durante un período de tiempo.
-*   **Procedimientos:** Guías de acción paso a paso que describen detalladamente la secuencia cronológica de operaciones para realizar tareas repetitivas de manera estandarizada.
+La **planificación** es el proceso de establecer los objetivos de la organización y determinar los mejores cursos de acción para alcanzarlos. Es la primera y más importante función administrativa porque todas las demás dependen de ella.
 
-##### 4. Proceso de Toma de Decisiones
-La toma de decisiones es una parte crítica de la planificación. Consta de 8 pasos estructurados:
-1.  **Identificación de un Problema:** Detección de una discrepancia entre el estado actual y el estado deseado.
-2.  **Identificación de los Criterios de Decisión:** Determinar los factores pertinentes para resolver el problema (ej. costo, confiabilidad, facilidad de uso).
-3.  **Ponderación de los Criterios:** Asignar un peso o valor de prioridad a cada criterio identificado.
-4.  **Desarrollo de Alternativas:** Listar todas las opciones viables que podrían resolver el problema.
-5.  **Análisis de Alternativas:** Evaluar críticamente cada alternativa frente a los criterios y ponderaciones establecidos.
-6.  **Selección de una Alternativa:** Elegir la opción con la mayor puntuación ponderada.
-7.  **Implementación de la Alternativa:** Comunicar y poner en marcha la decisión elegida en la organización.
-8.  **Evaluación de la Efectividad de la Decisión:** Evaluar si el problema se resolvió eficazmente a partir del resultado obtenido.
+##### 2.1 Importancia de la Planificación
 
-#### 📂 Tema 3: Organización (Diseño de la estructura)
+- Reduce la incertidumbre ante el futuro
+- Establece el rumbo y los objetivos claros
+- Facilita el control posterior
+- Optimiza el uso de recursos
+- Mejora la toma de decisiones
 
-La **organización** consiste en estructurar el trabajo y los recursos de una empresa para cumplir eficientemente con los objetivos planificados.
+##### 2.2 Tipos de Planes
 
-##### 1. Tipos de Departamentalización
-La departamentalización es el proceso de agrupar actividades laborales afines en áreas de especialización específicas:
+| Tipo | Nivel | Horizonte | Ejemplo |
+|---|---|---|---|
+| **Estratégico** | Alta dirección | Largo plazo (3–5 años) | Plan de expansión de la empresa |
+| **Táctico** | Mandos medios | Mediano plazo (1 año) | Plan de ventas anual |
+| **Operativo** | Supervisores | Corto plazo (días/meses) | Cronograma de producción semanal |
 
-| Tipo | Criterio de Agrupación | Ventajas Clave | Desventajas Clave | Ejemplo |
-| :--- | :--- | :--- | :--- | :--- |
-| **Funcional** | Por funciones empresariales afines (finanzas, ventas, sistemas). | Alta especialización de personal y eficiencia de recursos. | Pérdida de visión global, barreras de comunicación. | Departamento de TI / Sistemas. |
-| **Por Productos** | Por líneas de bienes o servicios individuales. | Enfoque directo en el producto, alta adaptabilidad. | Duplicación de recursos y aumento de costos operativos. | División de Software / Hardware. |
-| **Geográfica** | Por zonas territoriales o mercados regionales. | Adaptación rápida a leyes y preferencias locales. | Dificultad para el control centralizado de operaciones. | Región Oruro / Región La Paz. |
-| **Por Procesos** | Según el flujo de producción o actividades. | Optimización y fluidez del trabajo especializado. | Dificultad de adaptación a cambios fuera del proceso. | Diseño -> Codificación -> QA. |
-| **Por Clientes** | Según las necesidades de grupos de clientes. | Enfoque de servicio enfocado al cliente, alta satisfacción. | Conflicto por prioridad de recursos organizacionales. | Sector Educación / Sector Corporativo. |
+##### 2.3 Misión, Visión y Valores
 
-##### 2. Los 6 Principios del Diseño Organizacional
-1.  **Especialización del Trabajo (División del Trabajo):** Grado en el que las tareas se dividen en puestos de trabajo individuales para mejorar la destreza y eficiencia de los empleados.
-2.  **Departamentalización:** Criterio formal bajo el cual se clasifican y agrupan los puestos y actividades de la organización.
-3.  **Cadena de Mando:** Línea continua de autoridad que discurre desde el nivel directivo más alto hasta el nivel operativo más bajo, estableciendo quién reporta a quién. Incluye la *unidad de mando* (un subordinado debe reportar a un único jefe).
-4.  **Tramo de Control (Tramo Administrativo):** Cantidad de subordinados directos que un directivo puede supervisar de forma eficiente y eficaz. Determina si una estructura es alta o plana.
-5.  **Centralización y Descentralización:**
-    *   *Centralización:* La toma de decisiones críticas se concentra en los niveles jerárquicos superiores.
-    *   *Descentralización:* Se delega la toma de decisiones a los gerentes de primera línea y empleados operativos para una respuesta más ágil.
-6.  **Formalización:** Grado de estandarización de los puestos de trabajo mediante manuales, reglas estrictas, políticas y procedimientos predefinidos.
+- **Misión:** ¿Para qué existe la empresa? (propósito actual)
+  > *Ejemplo: "Proveer soluciones tecnológicas de calidad a las PYMES de Bolivia."*
+- **Visión:** ¿Hacia dónde va la empresa? (aspiración futura)
+  > *Ejemplo: "Ser la empresa tecnológica líder de Bolivia para el 2030."*
+- **Valores:** Principios que guían el comportamiento organizacional (honestidad, innovación, responsabilidad, etc.)
 
-##### 3. Tipos de Organigramas
-Los organigramas son representaciones gráficas de la estructura orgánica de una empresa:
-*   **Vertical:** La jerarquía se despliega de arriba hacia abajo; los puestos de mayor nivel se ubican en la parte superior (el más clásico).
-*   **Horizontal:** Los niveles jerárquicos se muestran de izquierda a derecha, reduciendo el impacto visual de la jerarquía y promoviendo la colaboración interfuncional.
-*   **Circular:** La máxima autoridad se sitúa en el centro, y los niveles de mando se extienden en círculos concéntricos hacia el exterior.
-*   **Mixto:** Utiliza distribuciones tanto verticales como horizontales en diferentes secciones para optimizar el espacio físico del diagrama.
+##### 2.4 Objetivos SMART
 
-##### 4. Estructuras Organizacionales
-*   **Estructura Simple:** Organización flexible con bajo nivel de departamentalización, tramos de control muy amplios, autoridad altamente centralizada y poca formalización (común en empresas emergentes).
-*   **Estructura Funcional:** Agrupa las especialidades ocupacionales similares o afines. Es sumamente eficiente para evitar duplicidades de esfuerzo.
-*   **Estructura Divisional:** Compuesta por unidades operativas o divisiones independientes y descentralizadas basadas en productos, mercados o clientes.
-*   **Estructura Matricial:** Combina las ventajas de la departamentalización funcional y por proyectos. Asigna especialistas de diversas áreas funcionales a proyectos temporales, respondiendo a una doble cadena de mando (el gerente de la función y el director del proyecto).
+Un objetivo bien definido debe ser:
+
+| Letra | Concepto | Pregunta |
+|---|---|---|
+| **S** – Specific | Específico | ¿Qué se quiere lograr exactamente? |
+| **M** – Measurable | Medible | ¿Cómo sabré que lo logré? |
+| **A** – Achievable | Alcanzable | ¿Es posible lograrlo con los recursos disponibles? |
+| **R** – Relevant | Relevante | ¿Está alineado con la misión de la empresa? |
+| **T** – Time-bound | Con tiempo definido | ¿Cuándo se logrará? |
+
+> *Ejemplo SMART:* "Incrementar las ventas en un 15% durante el primer semestre de 2025 mediante la apertura de dos nuevas sucursales."
+
+##### 2.5 Herramientas de Planificación
+
+- **Políticas:** Guías generales de acción que orientan la toma de decisiones.
+- **Reglas:** Disposiciones específicas que deben cumplirse obligatoriamente.
+- **Presupuesto:** Plan expresado en términos financieros (cuánto costará el plan).
+- **Cronograma:** Plan de actividades con fechas y responsables (diagrama de Gantt).
+- **Procedimientos:** Secuencia de pasos para realizar una tarea específica.
+
+##### 2.6 Toma de Decisiones
+
+**Proceso racional de toma de decisiones:**
+1. Identificar el problema
+2. Analizar el problema (causas y efectos)
+3. Generar alternativas de solución
+4. Evaluar alternativas (costo-beneficio)
+5. Seleccionar la mejor alternativa
+6. Implementar la decisión
+7. Evaluar resultados (retroalimentación)
+
+**Tipos de decisiones:**
+- **Programadas:** Situaciones rutinarias y repetitivas (hay procedimiento establecido)
+- **No programadas:** Situaciones nuevas, complejas o únicas (requieren criterio gerencial)
+
+---
+
+#### 📂 Tema 3: Organización — Diseño de la Estructura
+
+La **organización** es el proceso de diseñar la estructura formal de la empresa: definir tareas, asignar responsabilidades, establecer jerarquías y coordinar los recursos para alcanzar los objetivos.
+
+##### 3.1 Principios de Organización
+
+- **División del trabajo:** Especializar tareas para aumentar la productividad.
+- **Jerarquía:** Niveles de autoridad claramente definidos (pirámide organizacional).
+- **Unidad de mando:** Cada empleado debe reportar solo a un jefe.
+- **Tramo de control:** Número de subordinados que un gerente puede supervisar eficazmente (normalmente 5–10 personas).
+- **Autoridad y responsabilidad:** Deben ir juntas: quien tiene autoridad también tiene responsabilidad.
+- **Delegación:** Transferencia de autoridad a subordinados para que tomen decisiones en su área.
+- **Centralización vs. Descentralización:** Grado en que la toma de decisiones se concentra en la cúpula o se distribuye en los niveles inferiores.
+
+##### 3.2 El Organigrama
+
+El **organigrama** es la representación gráfica de la estructura formal de la organización. Muestra:
+- Los puestos de trabajo y sus nombres
+- Las relaciones de autoridad y jerarquía
+- Los canales formales de comunicación
+
+**Tipos de organigramas:**
+- **Vertical:** La autoridad fluye de arriba hacia abajo (el más común)
+- **Horizontal:** La autoridad fluye de izquierda a derecha
+- **Circular:** La alta dirección está al centro
+- **Mixto:** Combinación de vertical y horizontal
+
+##### 3.3 Tipos de Departamentalización
+
+| Tipo | Criterio de Agrupación | Ventaja | Desventaja |
+|---|---|---|---|
+| **Funcional** | Por funciones (ventas, finanzas, RRHH) | Especialización por área | Poca comunicación entre áreas |
+| **Por Productos** | Por línea de producto o servicio | Enfoque en el producto | Duplicación de recursos |
+| **Geográfica** | Por región o zona | Adaptación local | Difícil coordinación central |
+| **Por Clientes** | Por tipo de cliente | Atención personalizada | Recursos duplicados |
+| **Matricial** | Combina funcional + proyecto | Flexibilidad y especialización | Doble mando (conflictos) |
+
+##### 3.4 Tipos de Estructura Organizacional
+
+- **Estructura Lineal:** Autoridad directa, cadena de mando clara. Ideal para empresas pequeñas.
+- **Estructura Funcional:** Especialistas dirigen en su área. Varios jefes según la función.
+- **Estructura Línea-Staff:** Combina línea (autoridad directa) con staff (asesores especializados).
+- **Estructura Matricial:** Doble dependencia: jefe funcional + jefe de proyecto.
+- **Estructura por Proyectos:** Equipos temporales formados para un proyecto específico.
+- **Estructura en Red (Virtual):** Empresa pequeña que subcontrata funciones clave a terceros.
+
+---
 
 #### 📂 Tema 4: Dirección y Liderazgo — El Factor Humano
 
-La dirección es la función administrativa que implica guiar, motivar y liderar al personal para que ejecute las actividades planificadas. Es la función más humana de la administración.
+La **dirección** es la función administrativa que implica guiar, motivar y liderar al personal para que ejecute las actividades planificadas. Es la función más humana de la administración.
 
 ##### 4.1 Motivación
 
 La motivación es el impulso interno que mueve a las personas a actuar hacia el logro de un objetivo.
 
-###### Teoría de la Jerarquía de Necesidades — Abraham Maslow
+**Teoría de la Jerarquía de Necesidades — Abraham Maslow**
 
-```text
+```
         /\\
        /  \\
       / 5  \\    Autorrealización (desarrollo personal, logro)
@@ -619,205 +668,251 @@ La motivación es el impulso interno que mueve a las personas a actuar hacia el 
 /         1         \\ Fisiológicas (comida, agua, descanso, abrigo)
 ```
 
-Un empleado motivado a nivel 3 (social) no responde solo a incentivos económicos; necesita sentirse parte del equipo.
+> Un empleado motivado a nivel 3 (social) no responde solo a incentivos económicos; necesita sentirse parte del equipo.
 
-###### Teoría de los Dos Factores — Frederick Herzberg
+**Teoría de los Dos Factores — Frederick Herzberg**
 
 | Factor | Tipo | Ejemplos | Efecto |
-| :--- | :--- | :--- | :--- |
+|---|---|---|---|
 | **Higiénicos** | Extrínsecos | Salario, condiciones de trabajo, seguridad | Evitan la insatisfacción, pero NO motivan |
 | **Motivadores** | Intrínsecos | Logro, reconocimiento, responsabilidad, crecimiento | SÍ generan motivación y satisfacción |
 
-###### Teoría X e Y — Douglas McGregor
+**Teoría X e Y — Douglas McGregor**
 
 | Teoría X | Teoría Y |
-| :--- | :--- |
+|---|---|
 | El empleado es perezoso por naturaleza | El empleado disfruta trabajar |
 | Necesita control y amenaza para producir | Se autodirige y autocontrola |
 | Evita la responsabilidad | Busca responsabilidades |
 | Requiere dirección autoritaria | Requiere dirección participativa |
 
-###### Teoría de las Necesidades Adquiridas — David McClelland
+**Teoría de las Necesidades Adquiridas — David McClelland**
 
 Las personas tienen tres necesidades dominantes:
-*   **Logro:** Deseo de hacer las cosas mejor y superar estándares.
-*   **Poder:** Deseo de influir y controlar a otros.
-*   **Afiliación:** Deseo de establecer relaciones amistosas y cercanas.
+- **Logro:** Deseo de hacer las cosas mejor y superar estándares.
+- **Poder:** Deseo de influir y controlar a otros.
+- **Afiliación:** Deseo de establecer relaciones amistosas y cercanas.
 
 ##### 4.2 Liderazgo
 
-El liderazgo es la capacidad de influir en las personas para que trabajen con entusiasmo hacia el logro de los objetivos organizacionales.
+El **liderazgo** es la capacidad de influir en las personas para que trabajen con entusiasmo hacia el logro de los objetivos organizacionales.
 
-###### Estilos clásicos de liderazgo (Kurt Lewin)
+**Estilos clásicos de liderazgo (Kurt Lewin):**
 
 | Estilo | Descripción | Cuándo usarlo |
-| :--- | :--- | :--- |
+|---|---|---|
 | **Autocrático** | El líder decide todo sin consultar. Ordena y controla. | Crisis, emergencias, tareas de alto riesgo |
 | **Democrático** | El líder consulta al grupo antes de decidir. Participativo. | Equipos experimentados y motivados |
 | **Laissez-faire** | El líder deja que el grupo decida libremente. Delega todo. | Equipos de expertos altamente autónomos |
 
-###### La Rejilla Gerencial (Blake y Mouton)
+**La Rejilla Gerencial (Blake y Mouton):**
 
 Evalúa al líder en dos dimensiones (del 1 al 9):
-*   Interés en la producción (resultados/tareas)
-*   Interés en las personas (relaciones/equipo)
+- **Interés en la producción** (resultados/tareas)
+- **Interés en las personas** (relaciones/equipo)
 
 | Posición en la Rejilla | Estilo | Descripción |
-| :---: | :--- | :--- |
-| **(1,1)** | Empobrecido | Mínimo esfuerzo en ambas dimensiones |
-| **(9,1)** | Autoritario | Máximo en producción, mínimo en personas |
-| **(1,9)** | Club social | Máximo en personas, mínimo en producción |
-| **(5,5)** | Término medio | Equilibrio moderado en ambas |
-| **(9,9)** | Equipo ideal | Máximo en producción Y en personas ✅ |
+|---|---|---|
+| (1,1) | Empobrecido | Mínimo esfuerzo en ambas dimensiones |
+| (9,1) | Autoritario | Máximo en producción, mínimo en personas |
+| (1,9) | Club social | Máximo en personas, mínimo en producción |
+| (5,5) | Término medio | Equilibrio moderado en ambas |
+| (9,9) | Equipo ideal | Máximo en producción Y en personas ✅ |
 
 ##### 4.3 Comunicación en la Empresa
 
-La comunicación es el proceso de transmitir información, ideas y emociones entre personas dentro y fuera de la organización.
+La **comunicación** es el proceso de transmitir información, ideas y emociones entre personas dentro y fuera de la organización.
 
-###### Tipos según dirección:
-*   **Descendente:** De jefes hacia subordinados (órdenes, instrucciones, políticas)
-*   **Ascendente:** De subordinados hacia jefes (reportes, sugerencias, quejas)
-*   **Horizontal:** Entre personas del mismo nivel jerárquico
-*   **Diagonal:** Entre diferentes niveles y áreas simultáneamente
+**Tipos según dirección:**
+- **Descendente:** De jefes hacia subordinados (órdenes, instrucciones, políticas)
+- **Ascendente:** De subordinados hacia jefes (reportes, sugerencias, quejas)
+- **Horizontal:** Entre personas del mismo nivel jerárquico
+- **Diagonal:** Entre diferentes niveles y áreas simultáneamente
 
-###### Barreras de la comunicación:
-*   **Semánticas** (palabras con diferente significado)
-*   **Psicológicas** (emociones, prejuicios)
-*   **Físicas** (ruido, distancia)
-*   **Culturales** (diferencias de costumbres)
+**Barreras de la comunicación:**
+- Semánticas (palabras con diferente significado)
+- Psicológicas (emociones, prejuicios)
+- Físicas (ruido, distancia)
+- Culturales (diferencias de costumbres)
 
 ##### 4.4 Resolución de Conflictos
 
-###### Tipos de conflictos:
-*   Intrapersonal, Interpersonal, Intragrupal, Intergrupal
+**Tipos de conflictos:**
+- Intrapersonal, Interpersonal, Intragrupal, Intergrupal
 
-###### Estrategias de resolución:
+**Estrategias de resolución:**
 
 | Estrategia | Descripción | Resultado |
-| :--- | :--- | :--- |
+|---|---|---|
 | **Evasión** | Ignorar el conflicto | Ninguna parte gana (pierde-pierde) |
 | **Acomodación** | Ceder a la otra parte | La otra parte gana (pierde-gana) |
 | **Competición** | Imponer la propia posición | Una parte gana (gana-pierde) |
 | **Compromiso** | Ambas partes ceden algo | Ambas ceden algo (mitad-mitad) |
 | **Colaboración** | Buscar solución que satisfaga a ambos | Ambas ganan (gana-gana) ✅ |
 
+---
 
-#### 📂 Tema 5: Control (Evaluación del desempeño)
+#### 📂 Tema 5: Control — Evaluación del Desempeño
 
-El **control** es el proceso de monitorear, comparar y corregir las actividades laborales para asegurar que se cumplan según los objetivos y estándares planificados.
+El **control** es la función administrativa que verifica si las actividades se están realizando conforme a lo planificado, identificando desviaciones y aplicando las correcciones necesarias.
 
-##### 1. El Proceso de Control en 4 Pasos
-El control organizacional sigue un ciclo de retroalimentación constante estructurado en cuatro fases sucesivas:
-1.  **Establecimiento de Estándares de Desempeño:** Definir los objetivos medibles y niveles aceptables de rendimiento (ej. ventas trimestrales, margen de beneficio, tiempo de respuesta).
-2.  **Medición del Desempeño Real:** Recopilar datos cuantitativos y cualitativos sobre los resultados de las tareas y procesos de la organización.
-3.  **Comparación del Desempeño con el Estándar:** Identificar si existe desviación (diferencia significativa) entre los estándares fijados y el rendimiento real obtenido.
-4.  **Toma de Acciones Correctivas o Administrativas:**
-    *   *No hacer nada:* Si el desempeño cumple el estándar.
-    *   *Corregir el desempeño real:* Modificar procesos, reasignar recursos o capacitar al personal.
-    *   *Revisar el estándar:* Modificar la meta si resulta ser poco realista o irrealizable.
+##### 5.1 Importancia del Control
 
-##### 2. Tipos de Control
-El control se clasifica según el momento del proceso productivo en el que se ejecuta:
+- Garantiza que los planes se ejecuten correctamente
+- Detecta errores a tiempo para corregirlos
+- Mide el desempeño real frente a los estándares
+- Genera retroalimentación para mejorar
 
-| Tipo de Control | Fase de Aplicación | Enfoque Principal | Ejemplos Prácticos |
-| :--- | :--- | :--- | :--- |
-| **Preventivo / Preliminar** | Antes de que inicie la actividad. | Evitar problemas futuros antes de que ocurran mediante preparación y recursos adecuados. | * Inspección de materia prima.<br>* Capacitación e inducción de nuevos empleados.<br>* Mantenimiento preventivo de maquinarias. |
-| **Concurrente** | Durante el desarrollo de la actividad. | Corregir desviaciones en tiempo real para evitar errores graves durante la ejecución. | * Supervisión directa en la línea de montaje.<br>* Monitoreo digital en tiempo real de transacciones de software.<br>* Dispositivos de seguridad de parada de emergencia. |
-| **Correctivo / Retroalimentación** | Después de finalizada la actividad. | Evaluar resultados históricos para tomar acciones correctivas de cara al futuro. | * Auditoría de estados financieros anuales.<br>* Control de calidad de productos terminados.<br>* Encuestas post-venta de satisfacción al cliente. |
+##### 5.2 Proceso de Control
 
-##### 3. Indicadores Clave de Rendimiento (KPIs)
-Un **KPI** (*Key Performance Indicator*) es una métrica cuantificable que refleja el éxito de la organización con respecto a un objetivo comercial específico. Son específicos, medibles, oportunos y orientados a la acción (ej. Tasa de Retención de Clientes, Costo de Adquisición de Clientes - CAC, Retorno de Inversión - ROI).
+```
+Paso 1 → Establecer estándares de desempeño
+         (metas, normas, indicadores esperados)
+            ↓
+Paso 2 → Medir el desempeño real
+         (datos, informes, observación directa)
+            ↓
+Paso 3 → Comparar el desempeño real vs. el estándar
+         (¿hay desviaciones?)
+            ↓
+Paso 4 → Tomar medidas correctivas
+         (si hay desviación: corregir, ajustar el plan o redefinir el estándar)
+```
 
-##### 4. Cuadro de Mando Integral (Balanced Scorecard - BSC)
-Herramienta de gestión estratégica que traduce la visión y la estrategia empresarial en un conjunto de indicadores de desempeño medibles, organizados en 4 perspectivas interrelacionadas:
-1.  **Perspectiva Financiera:** ¿Cómo nos vemos ante nuestros accionistas? (ej. crecimiento de ingresos, rentabilidad, valor de la acción).
-2.  **Perspectiva del Cliente:** ¿Cómo nos perciben los clientes? (ej. satisfacción, retención de clientes, cuota de mercado).
-3.  **Perspectiva de Procesos Internos:** ¿En qué procesos internos debemos sobresalir para satisfacer al cliente? (ej. tiempo de fabricación, costos de operación, calidad).
-4.  **Perspectiva de Aprendizaje y Crecimiento:** ¿Cómo podemos seguir innovando y mejorando? (ej. capacitación del personal, retención de talentos clave, sistemas de TI).
+##### 5.3 Tipos de Control
 
-##### 5. Tipos de Estándares
-Los estándares se utilizan como puntos de referencia para comparar el desempeño real:
-*   **Estándares Físicos:** Medidas no monetarias de cantidad o rendimiento (ej. horas de trabajo invertidas, unidades producidas al día).
-*   **Estándares de Costos:** Valores monetarios asignados a la producción (ej. costo de mano de obra por unidad, costo de materiales directos).
-*   **Estándares de Capital:** Relacionados con la inversión física y financiera (ej. retorno sobre capital empleado, índice de rotación de activos).
-*   **Estándares de Ingresos:** Valores monetarios logrados por ventas (ej. ingreso por pasajero-kilómetro, ventas mensuales).
-*   **Estándares de Programas:** Referentes al avance cronológico de proyectos (ej. grado de avance del diseño de software en la fase de prototipado).
-*   **Estándares Intangibles:** Difíciles de cuantificar pero vitales (ej. reputación corporativa, satisfacción laboral, imagen de marca).
+| Tipo | Momento | Descripción | Ejemplo |
+|---|---|---|---|
+| **Preventivo (Feedforward)** | Antes de la acción | Anticipa problemas antes de que ocurran | Capacitar al personal antes de iniciar producción |
+| **Concurrente** | Durante la acción | Monitorea en tiempo real mientras se ejecuta | Supervisor revisando el trabajo en planta |
+| **Correctivo (Feedback)** | Después de la acción | Evalúa resultados y corrige para el futuro | Auditoría financiera al cierre del año |
 
-#### 📂 Tema 6: Administración Estratégica y FODA
+##### 5.4 Herramientas de Control
 
-La **administración estratégica** es el proceso mediante el cual los gerentes formulan e implementan estrategias para lograr una ventaja competitiva sostenible.
+- **Presupuesto de control:** Comparar gastos reales vs. gastos planificados.
+- **Auditoría:** Revisión formal de procesos financieros y operativos.
+- **Indicadores de Gestión (KPIs):** Métricas clave de desempeño (ventas, productividad, calidad).
+- **Diagrama de Gantt:** Control visual del avance de un proyecto.
+- **Balanced Scorecard (BSC):** Tablero de mando que mide el desempeño en 4 perspectivas: financiera, clientes, procesos internos y aprendizaje.
+- **Auditoría administrativa:** Evaluación sistemática de todas las funciones gerenciales.
 
-##### 1. Matriz FODA Cruzada (FO / FA / DO / DA)
-Herramienta de diagnóstico que permite cruzar el análisis interno (Fortalezas y Debilidades) con el externo (Oportunidades y Amenazas) para formular estrategias de acción:
+##### 5.5 Estándares de Control
 
-| Factores Internos / Externos | Oportunidades (O)<br>*(Entorno Externo)* | Amenazas (A)<br>*(Entorno Externo)* |
-| :--- | :--- | :--- |
-| **Fortalezas (F)**<br>*(Capacidades Internas)* | **Estrategias FO (Maxi-Maxi / Ofensivas):**<br>Usar las fortalezas internas para explotar las oportunidades externas.<br>*Ejemplo:* Lanzar un nuevo software móvil (O) aprovechando la experiencia técnica del equipo (F). | **Estrategias FA (Maxi-Mini / Defensivas):**<br>Usar las fortalezas para evitar o reducir el impacto de las amenazas.<br>*Ejemplo:* Usar la alta liquidez financiera (F) para soportar una guerra de precios de nuevos competidores (A). |
-| **Debilidades (D)**<br>*(Limitaciones Internas)* | **Estrategias DO (Mini-Maxi / Adaptativas):**<br>Superar o corregir las debilidades internas aprovechando las oportunidades externas.<br>*Ejemplo:* Contratar expertos en marketing (D) para capitalizar la alta demanda del mercado (O). | **Estrategias DA (Mini-Mini / Supervivencia):**<br>Minimizar las debilidades y eludir las amenazas para evitar la quiebra.<br>*Ejemplo:* Fusionarse con otra empresa ante la falta de tecnología (D) y las regulaciones estrictas del gobierno (A). |
+Un **estándar** es el criterio o parámetro contra el cual se mide el desempeño real:
+- Estándares de cantidad (unidades producidas por hora)
+- Estándares de calidad (tasa de defectos aceptable)
+- Estándares de tiempo (tiempo máximo para entregar un pedido)
+- Estándares de costo (costo máximo por unidad producida)
 
-##### 2. Análisis PESTEL
-Es un marco de análisis del macroentorno de la organización que evalúa seis factores clave externos:
-*   **P**olíticos: Políticas gubernamentales, estabilidad política, subsidios, acuerdos comerciales.
-*   **E**conómicos: Inflación, tasas de interés, tipo de cambio de divisas, crecimiento del PIB, desempleo.
-*   **S**ociales: Tendencias demográficas, estilo de vida, hábitos de consumo, nivel educativo, cultura.
-*   **T**ecnológicos: Automatización, investigación y desarrollo (I+D), patentes, infraestructura tecnológica.
-*   **E**cológicos / Ambientales: Regulaciones de reciclaje, huella de carbono, cambio climático, políticas ecológicas.
-*   **L**egales: Leyes laborales, leyes de propiedad intelectual, leyes de protección al consumidor, normas de seguridad.
+---
 
-##### 3. Las 5 Fuerzas de Porter
-Define el atractivo y la rentabilidad potencial de una industria a través de la competencia:
-1.  **Rivalidad entre Competidores Existentes (Centro):** Intensidad de la disputa entre empresas del mismo sector.
-2.  **Poder de Negociación de los Proveedores:** Capacidad de los proveedores para imponer precios, plazos o condiciones de entrega.
-3.  **Poder de Negociación de los Clientes:** Capacidad de los clientes para exigir menores precios, mejor calidad o más servicios.
-4.  **Amenaza de Nuevos Competidores Entrantes:** Barreras de entrada que dificultan el ingreso de nuevas empresas al sector.
-5.  **Amenaza de Productos o Servicios Sustitutos:** Existencia de productos diferentes que satisfacen la misma necesidad de los clientes.
+#### 📂 Tema 6: Administración Estratégica y Análisis FODA
 
-##### 4. Estrategias Genéricas de Porter
-Para lograr una ventaja competitiva sostenible, Michael Porter propone tres enfoques estratégicos principales:
-*   **Liderazgo en Costos:** Ofrecer productos o servicios al menor costo de producción posible en toda la industria (ej. Ryanair, Walmart).
-*   **Diferenciación:** Crear un producto o servicio que el cliente perciba como único y de alto valor, cobrando un precio premium (ej. Apple, Mercedes-Benz).
-*   **Enfoque o Nicho:** Centrarse en un segmento de mercado, área geográfica o grupo de clientes sumamente específico, aplicando ya sea liderazgo en costos o diferenciación (ej. Ferrari en autos de carreras de lujo).
+La **administración estratégica** es el proceso de formular, implementar y evaluar las estrategias que permiten a la organización alcanzar sus objetivos de largo plazo y mantener ventaja competitiva.
 
-##### 5. Niveles de Estrategia Organizacional
-*   **Estrategia Corporativa:** Determina en qué sectores industriales y mercados participará la corporación, así como la asignación general de recursos entre sus unidades de negocio (fijada por la alta dirección).
-*   **Estrategia Competitiva (De Negocio):** Define cómo competirá cada unidad de negocio independiente en su mercado específico frente a sus competidores.
-*   **Estrategia Funcional:** Define cómo cada área operativa de la organización (sistemas, marketing, recursos humanos, finanzas, operaciones) apoyará la estrategia competitiva de su respectiva unidad de negocio.
+##### 6.1 El Proceso de Administración Estratégica
+
+```
+1. Análisis del entorno externo e interno (FODA)
+        ↓
+2. Definición de la misión, visión y objetivos estratégicos
+        ↓
+3. Formulación de estrategias (¿cómo llegar ahí?)
+        ↓
+4. Implementación de estrategias (poner en marcha)
+        ↓
+5. Evaluación y control estratégico (¿estamos logrando los resultados?)
+```
+
+##### 6.2 Análisis FODA (SWOT)
+
+El **FODA** es una herramienta de diagnóstico estratégico que analiza cuatro factores:
+
+| | **Interno** (dentro de la empresa) | **Externo** (fuera de la empresa) |
+|---|---|---|
+| **Positivo** | **F**ortalezas | **O**portunidades |
+| **Negativo** | **D**ebilidades | **A**menazas |
+
+**Fortalezas (F):** Ventajas internas que la empresa controla.
+> Ej: personal altamente capacitado, tecnología de punta, marca reconocida.
+
+**Debilidades (D):** Limitaciones internas que frenan el desempeño.
+> Ej: falta de capital, mala atención al cliente, procesos lentos.
+
+**Oportunidades (O):** Factores externos favorables que la empresa puede aprovechar.
+> Ej: crecimiento del mercado digital, nuevas leyes favorables, demanda insatisfecha.
+
+**Amenazas (A):** Factores externos negativos que pueden perjudicar a la empresa.
+> Ej: nueva competencia, cambios en regulaciones, crisis económica.
+
+##### 6.3 Matriz FODA — Estrategias Cruzadas
+
+| | **Fortalezas (F)** | **Debilidades (D)** |
+|---|---|---|
+| **Oportunidades (O)** | **FO — Estrategias Ofensivas** (usar fortalezas para aprovechar oportunidades) | **DO — Estrategias de Reorientación** (superar debilidades para aprovechar oportunidades) |
+| **Amenazas (A)** | **FA — Estrategias Defensivas** (usar fortalezas para minimizar amenazas) | **DA — Estrategias de Supervivencia** (minimizar debilidades y amenazas) |
+
+##### 6.4 Niveles de Estrategia
+
+| Nivel | ¿Quién la define? | ¿Qué responde? |
+|---|---|---|
+| **Corporativa** | Alta dirección (CEO, Directorio) | ¿En qué negocios competiremos? |
+| **Competitiva (negocio)** | Gerentes de unidad de negocio | ¿Cómo competiremos en este mercado? |
+| **Funcional** | Gerentes de área | ¿Cómo apoya cada área la estrategia? |
+
+##### 6.5 Estrategias Competitivas Genéricas (Michael Porter)
+
+| Estrategia | Descripción | Ejemplo |
+|---|---|---|
+| **Liderazgo en Costos** | Ser el productor más barato del mercado | Walmart, tiendas de descuento |
+| **Diferenciación** | Ofrecer un producto único que justifique mayor precio | Apple, Mercedes-Benz |
+| **Enfoque/Nicho** | Concentrarse en un segmento específico del mercado | Marca exclusiva para zurdos o para atletas de alto rendimiento |
+
+##### 6.6 Análisis del Entorno Externo — PESTEL
+
+| Factor | Descripción | Ejemplo |
+|---|---|---|
+| **P**olítico | Estabilidad política, regulaciones gubernamentales | Cambio de gobierno, nueva ley laboral |
+| **E**conómico | Inflación, tipo de cambio, crecimiento del PIB | Devaluación del boliviano |
+| **S**ocial | Tendencias demográficas, cultura, estilos de vida | Envejecimiento poblacional |
+| **T**ecnológico | Innovaciones, digitalización, automatización | Inteligencia Artificial, e-commerce |
+| **E**cológico | Medio ambiente, sostenibilidad, cambio climático | Leyes de emisión de CO₂ |
+| **L**egal | Leyes laborales, normativas, propiedad intelectual | Ley de protección de datos |
+
+##### 6.7 Las 5 Fuerzas de Porter (Análisis de la Industria)
+
+Michael Porter propone analizar la competitividad de un sector con 5 fuerzas:
+
+1. **Rivalidad entre competidores actuales** — ¿Qué tan intensa es la competencia?
+2. **Amenaza de nuevos entrantes** — ¿Es fácil entrar al mercado?
+3. **Poder de negociación de los proveedores** — ¿Los proveedores pueden imponer condiciones?
+4. **Poder de negociación de los clientes** — ¿Los clientes pueden presionar en precios?
+5. **Amenaza de productos sustitutos** — ¿Hay productos alternativos que reemplacen al nuestro?
+
+---
 
 #### 📂 Tema 7: Responsabilidad Social Empresarial (RSE)
 
-La **Responsabilidad Social Empresarial (RSE)** es el compromiso continuo y voluntario de las organizaciones de actuar éticamente y contribuir al desarrollo económico, mejorando al mismo tiempo la calidad de vida de sus trabajadores, sus familias, la comunidad local y la sociedad en general.
+##### 7.1 Concepto
 
-##### 1. El Concepto del Triple Resultado (Triple Bottom Line)
-La gestión de RSE establece que el desempeño de una empresa debe medirse en función de tres dimensiones de sostenibilidad:
-*   **Económico (Personas y Planeta Rentables):** Capacidad de generar utilidades financieras, garantizando la viabilidad económica a largo plazo.
-*   **Social (Personas):** Respeto a los derechos humanos, condiciones laborales dignas, igualdad de oportunidades e impacto social positivo en la comunidad.
-*   **Ambiental (Planeta):** Minimizar el impacto ecológico de las operaciones (reciclaje, reducción de emisiones, uso eficiente del agua y energía).
+La **RSE** es el compromiso voluntario de las empresas de contribuir al desarrollo sostenible de la sociedad, más allá del cumplimiento legal, considerando el impacto de sus decisiones en empleados, comunidad, medio ambiente y grupos de interés (stakeholders).
 
-##### 2. Dimensiones de la RSE
-*   **Dimensión Interna:**
-    *   *Gestión del Talento Humano:* Capacitación, igualdad de oportunidades e inclusión.
-    *   *Seguridad y Salud Ocupacional:* Garantizar ambientes de trabajo seguros y saludables.
-    *   *Adaptación al Cambio:* Gestión ética de reestructuraciones empresariales.
-    *   *Ecoeficiencia Operativa:* Reducción en el consumo de insumos y gestión interna de residuos.
-*   **Dimensión Externa:**
-    *   *Comunidades Locales:* Inversión social, apoyo a la educación local y desarrollo comunitario.
-    *   *Proveedores y Socios:* Fomento del comercio justo y exigencia de prácticas éticas en la cadena de suministro.
-    *   *Consumidores:* Provisión de productos seguros y de calidad, publicidad transparente.
-    *   *Problemas Ambientales Globales:* Mitigación del cambio climático y preservación de ecosistemas.
+##### 7.2 Dimensiones de la RSE
 
-##### 3. Stakeholders (Grupos de Interés)
-Los stakeholders son individuos o grupos que se ven afectados por las decisiones, actividades y resultados de la organización, o que pueden influir en ella:
+| Dimensión | Descripción |
+|---|---|
+| **Económica** | Generar rentabilidad y empleo, cumplir obligaciones fiscales |
+| **Social** | Bienestar de empleados, comunidad, clientes y sociedad |
+| **Ambiental** | Reducir impacto ecológico, uso responsable de recursos naturales |
+| **Ética** | Actuar con honestidad, transparencia y cumplimiento de normas |
 
-| Categoría | Grupos de Interés | Expectativas Clave | RSE en Acción |
-| :--- | :--- | :--- | :--- |
-| **Internos** | **Empleados / Gerentes** | Salarios dignos, desarrollo profesional, seguridad, respeto de derechos. | Capacitaciones constantes, incentivos y planes de conciliación laboral. |
-| | **Accionistas / Propietarios** | Rendimiento sobre su inversión, transparencia de gestión, reputación corporativa. | Informes periódicos auditados bajo estándares globales (ej. GRI). |
-| **Externos** | **Clientes / Consumidores** | Productos seguros, precios justos, atención de calidad, respeto de datos. | Etiquetado claro, productos ecoamigables y canales de retroalimentación directos. |
-| | **Proveedores** | Relaciones a largo plazo, plazos de pago justos, especificaciones claras. | Contratos transparentes y apoyo en certificaciones de calidad. |
-| | **Comunidad Local** | Generación de empleo, apoyo a proyectos locales, cuidado del entorno. | Proyectos educativos, voluntariado corporativo y desarrollo de infraestructura. |
-| | **Gobierno / Reguladores** | Cumplimiento estricto de la ley, pago puntual de impuestos, impacto legal. | Apego irrestricto a normativas laborales, fiscales y ambientales. |
-| | **Medio Ambiente** | Huella de carbono reducida, uso de energías limpias, conservación de biodiversidad. | Implementación de paneles solares, reforestación y reciclaje masivo. |"""
+##### 7.3 Grupos de Interés (Stakeholders)
+
+Todos los grupos que son afectados por las decisiones de la empresa:
+- **Internos:** Empleados, accionistas, directivos
+- **Externos:** Clientes, proveedores, comunidad, gobierno, competidores, medio ambiente
+
+---"""
     },
     "ISO-100": {
         "emoji": "🏢",

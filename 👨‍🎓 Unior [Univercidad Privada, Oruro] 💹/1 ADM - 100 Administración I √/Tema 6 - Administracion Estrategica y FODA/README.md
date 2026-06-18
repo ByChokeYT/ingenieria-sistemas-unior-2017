@@ -1,46 +1,91 @@
-# Tema 6: Administración Estratégica y FODA
+# Tema 6: Administración Estratégica y Análisis FODA
 ## 🏫 Materia: Administración I (ADM-100)
 
 ---
 
 ### 📚 Apuntes y Conceptos Clave
-La **administración estratégica** es el proceso mediante el cual los gerentes formulan e implementan estrategias para lograr una ventaja competitiva sostenible.
+La **administración estratégica** es el proceso de formular, implementar y evaluar las estrategias que permiten a la organización alcanzar sus objetivos de largo plazo y mantener ventaja competitiva.
 
-##### 1. Matriz FODA Cruzada (FO / FA / DO / DA)
-Herramienta de diagnóstico que permite cruzar el análisis interno (Fortalezas y Debilidades) con el externo (Oportunidades y Amenazas) para formular estrategias de acción:
+##### 6.1 El Proceso de Administración Estratégica
 
-| Factores Internos / Externos | Oportunidades (O)<br>*(Entorno Externo)* | Amenazas (A)<br>*(Entorno Externo)* |
-| :--- | :--- | :--- |
-| **Fortalezas (F)**<br>*(Capacidades Internas)* | **Estrategias FO (Maxi-Maxi / Ofensivas):**<br>Usar las fortalezas internas para explotar las oportunidades externas.<br>*Ejemplo:* Lanzar un nuevo software móvil (O) aprovechando la experiencia técnica del equipo (F). | **Estrategias FA (Maxi-Mini / Defensivas):**<br>Usar las fortalezas para evitar o reducir el impacto de las amenazas.<br>*Ejemplo:* Usar la alta liquidez financiera (F) para soportar una guerra de precios de nuevos competidores (A). |
-| **Debilidades (D)**<br>*(Limitaciones Internas)* | **Estrategias DO (Mini-Maxi / Adaptativas):**<br>Superar o corregir las debilidades internas aprovechando las oportunidades externas.<br>*Ejemplo:* Contratar expertos en marketing (D) para capitalizar la alta demanda del mercado (O). | **Estrategias DA (Mini-Mini / Supervivencia):**<br>Minimizar las debilidades y eludir las amenazas para evitar la quiebra.<br>*Ejemplo:* Fusionarse con otra empresa ante la falta de tecnología (D) y las regulaciones estrictas del gobierno (A). |
+```
+1. Análisis del entorno externo e interno (FODA)
+        ↓
+2. Definición de la misión, visión y objetivos estratégicos
+        ↓
+3. Formulación de estrategias (¿cómo llegar ahí?)
+        ↓
+4. Implementación de estrategias (poner en marcha)
+        ↓
+5. Evaluación y control estratégico (¿estamos logrando los resultados?)
+```
 
-##### 2. Análisis PESTEL
-Es un marco de análisis del macroentorno de la organización que evalúa seis factores clave externos:
-*   **P**olíticos: Políticas gubernamentales, estabilidad política, subsidios, acuerdos comerciales.
-*   **E**conómicos: Inflación, tasas de interés, tipo de cambio de divisas, crecimiento del PIB, desempleo.
-*   **S**ociales: Tendencias demográficas, estilo de vida, hábitos de consumo, nivel educativo, cultura.
-*   **T**ecnológicos: Automatización, investigación y desarrollo (I+D), patentes, infraestructura tecnológica.
-*   **E**cológicos / Ambientales: Regulaciones de reciclaje, huella de carbono, cambio climático, políticas ecológicas.
-*   **L**egales: Leyes laborales, leyes de propiedad intelectual, leyes de protección al consumidor, normas de seguridad.
+##### 6.2 Análisis FODA (SWOT)
 
-##### 3. Las 5 Fuerzas de Porter
-Define el atractivo y la rentabilidad potencial de una industria a través de la competencia:
-1.  **Rivalidad entre Competidores Existentes (Centro):** Intensidad de la disputa entre empresas del mismo sector.
-2.  **Poder de Negociación de los Proveedores:** Capacidad de los proveedores para imponer precios, plazos o condiciones de entrega.
-3.  **Poder de Negociación de los Clientes:** Capacidad de los clientes para exigir menores precios, mejor calidad o más servicios.
-4.  **Amenaza de Nuevos Competidores Entrantes:** Barreras de entrada que dificultan el ingreso de nuevas empresas al sector.
-5.  **Amenaza de Productos o Servicios Sustitutos:** Existencia de productos diferentes que satisfacen la misma necesidad de los clientes.
+El **FODA** es una herramienta de diagnóstico estratégico que analiza cuatro factores:
 
-##### 4. Estrategias Genéricas de Porter
-Para lograr una ventaja competitiva sostenible, Michael Porter propone tres enfoques estratégicos principales:
-*   **Liderazgo en Costos:** Ofrecer productos o servicios al menor costo de producción posible en toda la industria (ej. Ryanair, Walmart).
-*   **Diferenciación:** Crear un producto o servicio que el cliente perciba como único y de alto valor, cobrando un precio premium (ej. Apple, Mercedes-Benz).
-*   **Enfoque o Nicho:** Centrarse en un segmento de mercado, área geográfica o grupo de clientes sumamente específico, aplicando ya sea liderazgo en costos o diferenciación (ej. Ferrari en autos de carreras de lujo).
+| | **Interno** (dentro de la empresa) | **Externo** (fuera de la empresa) |
+|---|---|---|
+| **Positivo** | **F**ortalezas | **O**portunidades |
+| **Negativo** | **D**ebilidades | **A**menazas |
 
-##### 5. Niveles de Estrategia Organizacional
-*   **Estrategia Corporativa:** Determina en qué sectores industriales y mercados participará la corporación, así como la asignación general de recursos entre sus unidades de negocio (fijada por la alta dirección).
-*   **Estrategia Competitiva (De Negocio):** Define cómo competirá cada unidad de negocio independiente en su mercado específico frente a sus competidores.
-*   **Estrategia Funcional:** Define cómo cada área operativa de la organización (sistemas, marketing, recursos humanos, finanzas, operaciones) apoyará la estrategia competitiva de su respectiva unidad de negocio.
+**Fortalezas (F):** Ventajas internas que la empresa controla.
+> Ej: personal altamente capacitado, tecnología de punta, marca reconocida.
+
+**Debilidades (D):** Limitaciones internas que frenan el desempeño.
+> Ej: falta de capital, mala atención al cliente, procesos lentos.
+
+**Oportunidades (O):** Factores externos favorables que la empresa puede aprovechar.
+> Ej: crecimiento del mercado digital, nuevas leyes favorables, demanda insatisfecha.
+
+**Amenazas (A):** Factores externos negativos que pueden perjudicar a la empresa.
+> Ej: nueva competencia, cambios en regulaciones, crisis económica.
+
+##### 6.3 Matriz FODA — Estrategias Cruzadas
+
+| | **Fortalezas (F)** | **Debilidades (D)** |
+|---|---|---|
+| **Oportunidades (O)** | **FO — Estrategias Ofensivas** (usar fortalezas para aprovechar oportunidades) | **DO — Estrategias de Reorientación** (superar debilidades para aprovechar oportunidades) |
+| **Amenazas (A)** | **FA — Estrategias Defensivas** (usar fortalezas para minimizar amenazas) | **DA — Estrategias de Supervivencia** (minimizar debilidades y amenazas) |
+
+##### 6.4 Niveles de Estrategia
+
+| Nivel | ¿Quién la define? | ¿Qué responde? |
+|---|---|---|
+| **Corporativa** | Alta dirección (CEO, Directorio) | ¿En qué negocios competiremos? |
+| **Competitiva (negocio)** | Gerentes de unidad de negocio | ¿Cómo competiremos en este mercado? |
+| **Funcional** | Gerentes de área | ¿Cómo apoya cada área la estrategia? |
+
+##### 6.5 Estrategias Competitivas Genéricas (Michael Porter)
+
+| Estrategia | Descripción | Ejemplo |
+|---|---|---|
+| **Liderazgo en Costos** | Ser el productor más barato del mercado | Walmart, tiendas de descuento |
+| **Diferenciación** | Ofrecer un producto único que justifique mayor precio | Apple, Mercedes-Benz |
+| **Enfoque/Nicho** | Concentrarse en un segmento específico del mercado | Marca exclusiva para zurdos o para atletas de alto rendimiento |
+
+##### 6.6 Análisis del Entorno Externo — PESTEL
+
+| Factor | Descripción | Ejemplo |
+|---|---|---|
+| **P**olítico | Estabilidad política, regulaciones gubernamentales | Cambio de gobierno, nueva ley laboral |
+| **E**conómico | Inflación, tipo de cambio, crecimiento del PIB | Devaluación del boliviano |
+| **S**ocial | Tendencias demográficas, cultura, estilos de vida | Envejecimiento poblacional |
+| **T**ecnológico | Innovaciones, digitalización, automatización | Inteligencia Artificial, e-commerce |
+| **E**cológico | Medio ambiente, sostenibilidad, cambio climático | Leyes de emisión de CO₂ |
+| **L**egal | Leyes laborales, normativas, propiedad intelectual | Ley de protección de datos |
+
+##### 6.7 Las 5 Fuerzas de Porter (Análisis de la Industria)
+
+Michael Porter propone analizar la competitividad de un sector con 5 fuerzas:
+
+1. **Rivalidad entre competidores actuales** — ¿Qué tan intensa es la competencia?
+2. **Amenaza de nuevos entrantes** — ¿Es fácil entrar al mercado?
+3. **Poder de negociación de los proveedores** — ¿Los proveedores pueden imponer condiciones?
+4. **Poder de negociación de los clientes** — ¿Los clientes pueden presionar en precios?
+5. **Amenaza de productos sustitutos** — ¿Hay productos alternativos que reemplacen al nuestro?
+
+---
 
 ---
 

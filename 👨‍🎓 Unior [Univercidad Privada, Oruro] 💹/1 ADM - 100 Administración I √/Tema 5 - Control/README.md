@@ -1,48 +1,60 @@
-# Tema 5: Control (Evaluación del desempeño)
+# Tema 5: Control — Evaluación del Desempeño
 ## 🏫 Materia: Administración I (ADM-100)
 
 ---
 
 ### 📚 Apuntes y Conceptos Clave
-El **control** es el proceso de monitorear, comparar y corregir las actividades laborales para asegurar que se cumplan según los objetivos y estándares planificados.
+El **control** es la función administrativa que verifica si las actividades se están realizando conforme a lo planificado, identificando desviaciones y aplicando las correcciones necesarias.
 
-##### 1. El Proceso de Control en 4 Pasos
-El control organizacional sigue un ciclo de retroalimentación constante estructurado en cuatro fases sucesivas:
-1.  **Establecimiento de Estándares de Desempeño:** Definir los objetivos medibles y niveles aceptables de rendimiento (ej. ventas trimestrales, margen de beneficio, tiempo de respuesta).
-2.  **Medición del Desempeño Real:** Recopilar datos cuantitativos y cualitativos sobre los resultados de las tareas y procesos de la organización.
-3.  **Comparación del Desempeño con el Estándar:** Identificar si existe desviación (diferencia significativa) entre los estándares fijados y el rendimiento real obtenido.
-4.  **Toma de Acciones Correctivas o Administrativas:**
-    *   *No hacer nada:* Si el desempeño cumple el estándar.
-    *   *Corregir el desempeño real:* Modificar procesos, reasignar recursos o capacitar al personal.
-    *   *Revisar el estándar:* Modificar la meta si resulta ser poco realista o irrealizable.
+##### 5.1 Importancia del Control
 
-##### 2. Tipos de Control
-El control se clasifica según el momento del proceso productivo en el que se ejecuta:
+- Garantiza que los planes se ejecuten correctamente
+- Detecta errores a tiempo para corregirlos
+- Mide el desempeño real frente a los estándares
+- Genera retroalimentación para mejorar
 
-| Tipo de Control | Fase de Aplicación | Enfoque Principal | Ejemplos Prácticos |
-| :--- | :--- | :--- | :--- |
-| **Preventivo / Preliminar** | Antes de que inicie la actividad. | Evitar problemas futuros antes de que ocurran mediante preparación y recursos adecuados. | * Inspección de materia prima.<br>* Capacitación e inducción de nuevos empleados.<br>* Mantenimiento preventivo de maquinarias. |
-| **Concurrente** | Durante el desarrollo de la actividad. | Corregir desviaciones en tiempo real para evitar errores graves durante la ejecución. | * Supervisión directa en la línea de montaje.<br>* Monitoreo digital en tiempo real de transacciones de software.<br>* Dispositivos de seguridad de parada de emergencia. |
-| **Correctivo / Retroalimentación** | Después de finalizada la actividad. | Evaluar resultados históricos para tomar acciones correctivas de cara al futuro. | * Auditoría de estados financieros anuales.<br>* Control de calidad de productos terminados.<br>* Encuestas post-venta de satisfacción al cliente. |
+##### 5.2 Proceso de Control
 
-##### 3. Indicadores Clave de Rendimiento (KPIs)
-Un **KPI** (*Key Performance Indicator*) es una métrica cuantificable que refleja el éxito de la organización con respecto a un objetivo comercial específico. Son específicos, medibles, oportunos y orientados a la acción (ej. Tasa de Retención de Clientes, Costo de Adquisición de Clientes - CAC, Retorno de Inversión - ROI).
+```
+Paso 1 → Establecer estándares de desempeño
+         (metas, normas, indicadores esperados)
+            ↓
+Paso 2 → Medir el desempeño real
+         (datos, informes, observación directa)
+            ↓
+Paso 3 → Comparar el desempeño real vs. el estándar
+         (¿hay desviaciones?)
+            ↓
+Paso 4 → Tomar medidas correctivas
+         (si hay desviación: corregir, ajustar el plan o redefinir el estándar)
+```
 
-##### 4. Cuadro de Mando Integral (Balanced Scorecard - BSC)
-Herramienta de gestión estratégica que traduce la visión y la estrategia empresarial en un conjunto de indicadores de desempeño medibles, organizados en 4 perspectivas interrelacionadas:
-1.  **Perspectiva Financiera:** ¿Cómo nos vemos ante nuestros accionistas? (ej. crecimiento de ingresos, rentabilidad, valor de la acción).
-2.  **Perspectiva del Cliente:** ¿Cómo nos perciben los clientes? (ej. satisfacción, retención de clientes, cuota de mercado).
-3.  **Perspectiva de Procesos Internos:** ¿En qué procesos internos debemos sobresalir para satisfacer al cliente? (ej. tiempo de fabricación, costos de operación, calidad).
-4.  **Perspectiva de Aprendizaje y Crecimiento:** ¿Cómo podemos seguir innovando y mejorando? (ej. capacitación del personal, retención de talentos clave, sistemas de TI).
+##### 5.3 Tipos de Control
 
-##### 5. Tipos de Estándares
-Los estándares se utilizan como puntos de referencia para comparar el desempeño real:
-*   **Estándares Físicos:** Medidas no monetarias de cantidad o rendimiento (ej. horas de trabajo invertidas, unidades producidas al día).
-*   **Estándares de Costos:** Valores monetarios asignados a la producción (ej. costo de mano de obra por unidad, costo de materiales directos).
-*   **Estándares de Capital:** Relacionados con la inversión física y financiera (ej. retorno sobre capital empleado, índice de rotación de activos).
-*   **Estándares de Ingresos:** Valores monetarios logrados por ventas (ej. ingreso por pasajero-kilómetro, ventas mensuales).
-*   **Estándares de Programas:** Referentes al avance cronológico de proyectos (ej. grado de avance del diseño de software en la fase de prototipado).
-*   **Estándares Intangibles:** Difíciles de cuantificar pero vitales (ej. reputación corporativa, satisfacción laboral, imagen de marca).
+| Tipo | Momento | Descripción | Ejemplo |
+|---|---|---|---|
+| **Preventivo (Feedforward)** | Antes de la acción | Anticipa problemas antes de que ocurran | Capacitar al personal antes de iniciar producción |
+| **Concurrente** | Durante la acción | Monitorea en tiempo real mientras se ejecuta | Supervisor revisando el trabajo en planta |
+| **Correctivo (Feedback)** | Después de la acción | Evalúa resultados y corrige para el futuro | Auditoría financiera al cierre del año |
+
+##### 5.4 Herramientas de Control
+
+- **Presupuesto de control:** Comparar gastos reales vs. gastos planificados.
+- **Auditoría:** Revisión formal de procesos financieros y operativos.
+- **Indicadores de Gestión (KPIs):** Métricas clave de desempeño (ventas, productividad, calidad).
+- **Diagrama de Gantt:** Control visual del avance de un proyecto.
+- **Balanced Scorecard (BSC):** Tablero de mando que mide el desempeño en 4 perspectivas: financiera, clientes, procesos internos y aprendizaje.
+- **Auditoría administrativa:** Evaluación sistemática de todas las funciones gerenciales.
+
+##### 5.5 Estándares de Control
+
+Un **estándar** es el criterio o parámetro contra el cual se mide el desempeño real:
+- Estándares de cantidad (unidades producidas por hora)
+- Estándares de calidad (tasa de defectos aceptable)
+- Estándares de tiempo (tiempo máximo para entregar un pedido)
+- Estándares de costo (costo máximo por unidad producida)
+
+---
 
 ---
 
