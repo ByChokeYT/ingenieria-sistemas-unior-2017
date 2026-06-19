@@ -69,6 +69,20 @@ Un objetivo bien definido debe ser:
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **Diferencie la Planificación Estratégica de la Operativa en términos de horizonte temporal y alcance.**
+   * *Respuesta:* La planificación estratégica es a largo plazo (3-5 años) y abarca a toda la empresa (alta dirección); la operativa es a corto plazo (días/meses) y detalla tareas cotidianas.
+2. **¿Qué representan la Misión y la Visión de una empresa?**
+   * *Respuesta:* La Misión es la razón de ser actual (propósito), y la Visión es la aspiración futura de la organización a largo plazo.
+3. **¿Qué significan las siglas de un objetivo SMART?**
+   * *Respuesta:* Specific (Específico), Measurable (Medible), Achievable (Alcanzable), Relevant (Relevante), Time-bound (Límite de tiempo).
+4. **En el proceso racional de toma de decisiones, ¿cuál es el primer paso?**
+   * A) Evaluar alternativas
+   * B) Identificar el problema
+   * C) Seleccionar la alternativa
+   * D) Implementar la decisión
+   * *Respuesta correcta:* B) Identificar el problema.
+
 ---
 
 ### ✍️ Mis Resúmenes y Notas de Clase

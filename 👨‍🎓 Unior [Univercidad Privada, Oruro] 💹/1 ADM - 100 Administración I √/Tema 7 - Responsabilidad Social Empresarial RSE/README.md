@@ -25,6 +25,20 @@ Todos los grupos que son afectados por las decisiones de la empresa:
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué es la teoría del Triple Resultado (Triple Bottom Line) en RSE?**
+   * *Respuesta:* Es un marco que mide el desempeño de la empresa considerando tres pilares de sostenibilidad: Económico (rentabilidad), Social (personas) y Ambiental (planeta).
+2. **Diferencie la dimensión interna y externa de la RSE.**
+   * *Respuesta:* La interna abarca el trato con los empleados, seguridad laboral y ecoeficiencia en procesos; la externa abarca relaciones con proveedores, clientes, comunidad local y medio ambiente global.
+3. **¿Quiénes son los Stakeholders y mencione 3 ejemplos internos y 3 externos?**
+   * *Respuesta:* Son grupos de interés afectados por la empresa. Internos: Empleados, gerentes, accionistas. Externos: Clientes, proveedores, gobierno.
+4. **¿Qué tipo de stakeholder representa el Medio Ambiente en el análisis ético corporativo?**
+   * A) Interno directo
+   * B) Externo indirecto
+   * C) Inexistente
+   * D) Socio comercial
+   * *Respuesta correcta:* B) Externo indirecto (Grupo clave de interés).
+
 ---
 
 ### ✍️ Mis Resúmenes y Notas de Clase

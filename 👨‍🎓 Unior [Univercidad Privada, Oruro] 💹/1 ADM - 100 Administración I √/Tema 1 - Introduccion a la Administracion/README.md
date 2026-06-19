@@ -67,6 +67,20 @@ $$\text{Productividad} = \frac{\text{Resultados Obtenidos}}{\text{Recursos Utili
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Cuál es la diferencia fundamental entre Eficiencia y Eficacia?**
+   * *Respuesta:* La eficiencia se enfoca en optimizar el uso de recursos (medios), mientras que la eficacia se enfoca en lograr los objetivos propuestos (fines).
+2. **¿Quién es considerado el padre de la Administración Científica y en qué se enfocaba su estudio?**
+   * *Respuesta:* Frederick W. Taylor. Se enfocaba en la racionalización del trabajo a nivel operativo (tareas).
+3. **¿Qué demostró el Experimento de Hawthorne realizado por Elton Mayo?**
+   * *Respuesta:* Que la productividad no depende únicamente de factores físicos y económicos, sino de la integración social, el reconocimiento y la motivación grupal (factor humano).
+4. **Una empresa manufacturera con 45 empleados se clasifica como:**
+   * A) Microempresa
+   * B) Pequeña empresa
+   * C) Mediana empresa
+   * D) Grande empresa
+   * *Respuesta correcta:* B) Pequeña empresa (rango de 11 a 50 empleados).
+
 ---
 
 ### ✍️ Mis Resúmenes y Notas de Clase

@@ -16,8 +16,6 @@ Introducción a los conceptos y teorías de la administración, el diseño organ
 
 ### 📚 Apuntes y Resumen de Contenidos
 ### 🗺️ Ruta de Aprendizaje de Administración I
-Esta es la guía completa de temas que debes estudiar y dominar en esta asignatura:
-
 #### 📂 Tema 1: Introducción a la Teoría Administrativa y la Empresa
 
 ##### 1.1 Conceptos Básicos de Administración
@@ -82,6 +80,20 @@ $$\text{Productividad} = \frac{\text{Resultados Obtenidos}}{\text{Recursos Utili
 - Local, Provincial, Nacional, Multinacional, Transnacional
 
 ---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Cuál es la diferencia fundamental entre Eficiencia y Eficacia?**
+   * *Respuesta:* La eficiencia se enfoca en optimizar el uso de recursos (medios), mientras que la eficacia se enfoca en lograr los objetivos propuestos (fines).
+2. **¿Quién es considerado el padre de la Administración Científica y en qué se enfocaba su estudio?**
+   * *Respuesta:* Frederick W. Taylor. Se enfocaba en la racionalización del trabajo a nivel operativo (tareas).
+3. **¿Qué demostró el Experimento de Hawthorne realizado por Elton Mayo?**
+   * *Respuesta:* Que la productividad no depende únicamente de factores físicos y económicos, sino de la integración social, el reconocimiento y la motivación grupal (factor humano).
+4. **Una empresa manufacturera con 45 empleados se clasifica como:**
+   * A) Microempresa
+   * B) Pequeña empresa
+   * C) Mediana empresa
+   * D) Grande empresa
+   * *Respuesta correcta:* B) Pequeña empresa (rango de 11 a 50 empleados).
 
 #### 📂 Tema 2: Planificación — El Rumbo de la Empresa
 
@@ -150,6 +162,20 @@ Un objetivo bien definido debe ser:
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **Diferencie la Planificación Estratégica de la Operativa en términos de horizonte temporal y alcance.**
+   * *Respuesta:* La planificación estratégica es a largo plazo (3-5 años) y abarca a toda la empresa (alta dirección); la operativa es a corto plazo (días/meses) y detalla tareas cotidianas.
+2. **¿Qué representan la Misión y la Visión de una empresa?**
+   * *Respuesta:* La Misión es la razón de ser actual (propósito), y la Visión es la aspiración futura de la organización a largo plazo.
+3. **¿Qué significan las siglas de un objetivo SMART?**
+   * *Respuesta:* Specific (Específico), Measurable (Medible), Achievable (Alcanzable), Relevant (Relevante), Time-bound (Límite de tiempo).
+4. **En el proceso racional de toma de decisiones, ¿cuál es el primer paso?**
+   * A) Evaluar alternativas
+   * B) Identificar el problema
+   * C) Seleccionar la alternativa
+   * D) Implementar la decisión
+   * *Respuesta correcta:* B) Identificar el problema.
+
 #### 📂 Tema 3: Organización — Diseño de la Estructura
 
 La **organización** es el proceso de diseñar la estructura formal de la empresa: definir tareas, asignar responsabilidades, establecer jerarquías y coordinar los recursos para alcanzar los objetivos.
@@ -197,6 +223,20 @@ El **organigrama** es la representación gráfica de la estructura formal de la 
 - **Estructura en Red (Virtual):** Empresa pequeña que subcontrata funciones clave a terceros.
 
 ---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué es el "tramo de control" en una estructura organizacional?**
+   * *Respuesta:* Es el número de subordinados directos que un gerente o supervisor puede dirigir y controlar de manera eficiente y eficaz.
+2. **Diferencie entre una estructura Centralizada y Descentralizada.**
+   * *Respuesta:* En la centralizada, la autoridad para tomar decisiones se concentra en los niveles más altos; en la descentralizada, se delega a niveles inferiores.
+3. **¿Qué caracteriza a la departamentalización matricial?**
+   * *Respuesta:* Combina dos formas de departamentalización (funcional y de proyecto/producto) en una misma estructura, dando lugar a una doble cadena de mando.
+4. **¿Cuál de los siguientes principios establece que un empleado debe recibir órdenes de un solo superior?**
+   * A) Unidad de dirección
+   * B) División del trabajo
+   * C) Unidad de mando
+   * D) Tramo de control
+   * *Respuesta correcta:* C) Unidad de mando.
 
 #### 📂 Tema 4: Dirección y Liderazgo — El Factor Humano
 
@@ -306,6 +346,20 @@ La **comunicación** es el proceso de transmitir información, ideas y emociones
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **Según la Teoría X e Y de McGregor, ¿cómo ve el trabajo un directivo con mentalidad "Teoría X"?**
+   * *Respuesta:* Cree que las personas evitan el trabajo por naturaleza, carecen de ambición, buscan seguridad y deben ser obligadas, controladas o amenazadas para producir.
+2. **En la Jerarquía de Necesidades de Maslow, ¿cuál es la base (nivel 1) y cuál la cúspide (nivel 5)?**
+   * *Respuesta:* La base son las necesidades Fisiológicas (alimentación, descanso), y la cúspide es la Autorrealización (desarrollo personal, logros).
+3. **¿Qué define la posición (9,9) en la Rejilla Gerencial de Blake y Mouton?**
+   * *Respuesta:* El estilo de "Líder de Equipo", que muestra un máximo interés tanto por las personas (9) como por la producción (9).
+4. **Si un líder permite que su equipo altamente capacitado tome todas las decisiones sin su intervención directa, ¿qué estilo ejerce?**
+   * A) Autocrático
+   * B) Democrático
+   * C) Laissez-faire (Dejar hacer)
+   * D) Paternalista
+   * *Respuesta correcta:* C) Laissez-faire.
+
 #### 📂 Tema 5: Control — Evaluación del Desempeño
 
 El **control** es la función administrativa que verifica si las actividades se están realizando conforme a lo planificado, identificando desviaciones y aplicando las correcciones necesarias.
@@ -359,6 +413,20 @@ Un **estándar** es el criterio o parámetro contra el cual se mide el desempeñ
 - Estándares de costo (costo máximo por unidad producida)
 
 ---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **Describa brevemente los 4 pasos del proceso de control.**
+   * *Respuesta:* 1. Establecer estándares; 2. Medir el desempeño real; 3. Comparar el desempeño real con el estándar; 4. Aplicar medidas correctivas.
+2. **Diferencie entre control preventivo y control correctivo.**
+   * *Respuesta:* El preventivo se realiza antes de iniciar la actividad para evitar problemas; el correctivo se ejecuta después de terminar la actividad para corregir desviaciones futuras.
+3. **¿Qué es el Balanced Scorecard (BSC) y cuáles son sus 4 perspectivas?**
+   * *Respuesta:* Es una herramienta estratégica de control. Perspectivas: Financiera, Cliente, Procesos Internos, Aprendizaje y Crecimiento.
+4. **Un estándar intangible se refiere a:**
+   * A) Unidades producidas
+   * B) Horas de trabajo
+   * C) Reputación o moral de los empleados
+   * D) Costos unitarios
+   * *Respuesta correcta:* C) Reputación o moral de los empleados.
 
 #### 📂 Tema 6: Administración Estratégica y Análisis FODA
 
@@ -445,6 +513,20 @@ Michael Porter propone analizar la competitividad de un sector con 5 fuerzas:
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **En la matriz FODA cruzada, ¿qué busca una estrategia DA?**
+   * *Respuesta:* Es una estrategia de supervivencia que busca minimizar tanto las debilidades internas como las amenazas del entorno.
+2. **Mencione las 6 dimensiones externas analizadas en el PESTEL.**
+   * *Respuesta:* Político, Económico, Social, Tecnológico, Ecológico (Ambiental) y Legal.
+3. **¿Cuáles son las 5 fuerzas competitivas que define Michael Porter?**
+   * *Respuesta:* Rivalidad entre competidores, poder de negociación de proveedores, poder de negociación de clientes, amenaza de nuevos competidores y amenaza de productos sustitutos.
+4. **Si una marca de autos de super lujo se enfoca únicamente en un segmento muy adinerado y de nicho, ¿qué estrategia genérica de Porter aplica?**
+   * A) Diferenciación de nicho
+   * B) Liderazgo en costos
+   * C) Diferenciación masiva
+   * D) Liderazgo en costos enfocado
+   * *Respuesta correcta:* A) Diferenciación de nicho (Enfoque).
+
 #### 📂 Tema 7: Responsabilidad Social Empresarial (RSE)
 
 ##### 7.1 Concepto
@@ -467,6 +549,21 @@ Todos los grupos que son afectados por las decisiones de la empresa:
 - **Externos:** Clientes, proveedores, comunidad, gobierno, competidores, medio ambiente
 
 ---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué es la teoría del Triple Resultado (Triple Bottom Line) en RSE?**
+   * *Respuesta:* Es un marco que mide el desempeño de la empresa considerando tres pilares de sostenibilidad: Económico (rentabilidad), Social (personas) y Ambiental (planeta).
+2. **Diferencie la dimensión interna y externa de la RSE.**
+   * *Respuesta:* La interna abarca el trato con los empleados, seguridad laboral y ecoeficiencia en procesos; la externa abarca relaciones con proveedores, clientes, comunidad local y medio ambiente global.
+3. **¿Quiénes son los Stakeholders y mencione 3 ejemplos internos y 3 externos?**
+   * *Respuesta:* Son grupos de interés afectados por la empresa. Internos: Empleados, gerentes, accionistas. Externos: Clientes, proveedores, gobierno.
+4. **¿Qué tipo de stakeholder representa el Medio Ambiente en el análisis ético corporativo?**
+   * A) Interno directo
+   * B) Externo indirecto
+   * C) Inexistente
+   * D) Socio comercial
+   * *Respuesta correcta:* B) Externo indirecto (Grupo clave de interés).
+
 
 ### 🗂️ Estructura de Carpetas de Aprendizaje
 Temas y carpetas de estudio organizadas en este directorio:

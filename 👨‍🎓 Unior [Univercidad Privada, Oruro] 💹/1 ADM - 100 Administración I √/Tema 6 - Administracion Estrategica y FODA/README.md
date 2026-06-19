@@ -87,6 +87,20 @@ Michael Porter propone analizar la competitividad de un sector con 5 fuerzas:
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **En la matriz FODA cruzada, ¿qué busca una estrategia DA?**
+   * *Respuesta:* Es una estrategia de supervivencia que busca minimizar tanto las debilidades internas como las amenazas del entorno.
+2. **Mencione las 6 dimensiones externas analizadas en el PESTEL.**
+   * *Respuesta:* Político, Económico, Social, Tecnológico, Ecológico (Ambiental) y Legal.
+3. **¿Cuáles son las 5 fuerzas competitivas que define Michael Porter?**
+   * *Respuesta:* Rivalidad entre competidores, poder de negociación de proveedores, poder de negociación de clientes, amenaza de nuevos competidores y amenaza de productos sustitutos.
+4. **Si una marca de autos de super lujo se enfoca únicamente en un segmento muy adinerado y de nicho, ¿qué estrategia genérica de Porter aplica?**
+   * A) Diferenciación de nicho
+   * B) Liderazgo en costos
+   * C) Diferenciación masiva
+   * D) Liderazgo en costos enfocado
+   * *Respuesta correcta:* A) Diferenciación de nicho (Enfoque).
+
 ---
 
 ### ✍️ Mis Resúmenes y Notas de Clase

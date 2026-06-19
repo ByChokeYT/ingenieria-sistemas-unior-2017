@@ -56,6 +56,20 @@ Un **estándar** es el criterio o parámetro contra el cual se mide el desempeñ
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **Describa brevemente los 4 pasos del proceso de control.**
+   * *Respuesta:* 1. Establecer estándares; 2. Medir el desempeño real; 3. Comparar el desempeño real con el estándar; 4. Aplicar medidas correctivas.
+2. **Diferencie entre control preventivo y control correctivo.**
+   * *Respuesta:* El preventivo se realiza antes de iniciar la actividad para evitar problemas; el correctivo se ejecuta después de terminar la actividad para corregir desviaciones futuras.
+3. **¿Qué es el Balanced Scorecard (BSC) y cuáles son sus 4 perspectivas?**
+   * *Respuesta:* Es una herramienta estratégica de control. Perspectivas: Financiera, Cliente, Procesos Internos, Aprendizaje y Crecimiento.
+4. **Un estándar intangible se refiere a:**
+   * A) Unidades producidas
+   * B) Horas de trabajo
+   * C) Reputación o moral de los empleados
+   * D) Costos unitarios
+   * *Respuesta correcta:* C) Reputación o moral de los empleados.
+
 ---
 
 ### ✍️ Mis Resúmenes y Notas de Clase

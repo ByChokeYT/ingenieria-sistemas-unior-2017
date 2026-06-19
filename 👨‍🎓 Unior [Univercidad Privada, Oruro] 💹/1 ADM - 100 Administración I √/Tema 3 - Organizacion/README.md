@@ -50,6 +50,20 @@ El **organigrama** es la representación gráfica de la estructura formal de la 
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué es el "tramo de control" en una estructura organizacional?**
+   * *Respuesta:* Es el número de subordinados directos que un gerente o supervisor puede dirigir y controlar de manera eficiente y eficaz.
+2. **Diferencie entre una estructura Centralizada y Descentralizada.**
+   * *Respuesta:* En la centralizada, la autoridad para tomar decisiones se concentra en los niveles más altos; en la descentralizada, se delega a niveles inferiores.
+3. **¿Qué caracteriza a la departamentalización matricial?**
+   * *Respuesta:* Combina dos formas de departamentalización (funcional y de proyecto/producto) en una misma estructura, dando lugar a una doble cadena de mando.
+4. **¿Cuál de los siguientes principios establece que un empleado debe recibir órdenes de un solo superior?**
+   * A) Unidad de dirección
+   * B) División del trabajo
+   * C) Unidad de mando
+   * D) Tramo de control
+   * *Respuesta correcta:* C) Unidad de mando.
+
 ---
 
 ### ✍️ Mis Resúmenes y Notas de Clase

@@ -110,6 +110,20 @@ La **comunicación** es el proceso de transmitir información, ideas y emociones
 
 ---
 
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **Según la Teoría X e Y de McGregor, ¿cómo ve el trabajo un directivo con mentalidad "Teoría X"?**
+   * *Respuesta:* Cree que las personas evitan el trabajo por naturaleza, carecen de ambición, buscan seguridad y deben ser obligadas, controladas o amenazadas para producir.
+2. **En la Jerarquía de Necesidades de Maslow, ¿cuál es la base (nivel 1) y cuál la cúspide (nivel 5)?**
+   * *Respuesta:* La base son las necesidades Fisiológicas (alimentación, descanso), y la cúspide es la Autorrealización (desarrollo personal, logros).
+3. **¿Qué define la posición (9,9) en la Rejilla Gerencial de Blake y Mouton?**
+   * *Respuesta:* El estilo de "Líder de Equipo", que muestra un máximo interés tanto por las personas (9) como por la producción (9).
+4. **Si un líder permite que su equipo altamente capacitado tome todas las decisiones sin su intervención directa, ¿qué estilo ejerce?**
+   * A) Autocrático
+   * B) Democrático
+   * C) Laissez-faire (Dejar hacer)
+   * D) Paternalista
+   * *Respuesta correcta:* C) Laissez-faire.
+
 ---
 
 ### ✍️ Mis Resúmenes y Notas de Clase
