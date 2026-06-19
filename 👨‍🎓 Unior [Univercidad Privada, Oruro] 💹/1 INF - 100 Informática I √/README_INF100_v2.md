@@ -1,4 +1,4 @@
-# 💻 Informática I
+# 💻 Informática I — INF-100
 
 ## 🏫 Universidad Privada de Oruro (UNIOR)
 ### 💻 Carrera: Ingeniería de Sistemas
@@ -6,21 +6,27 @@
 ---
 
 ### 📊 Ficha Técnica de la Asignatura
-- **Sigla:** INF-100
-- **Semestre:** 1º Semestre
-- **Prerrequisitos:** Ninguno
-- **Estado:** 🟢 Aprobada
+
+| Campo | Detalle |
+|---|---|
+| **Sigla** | INF-100 |
+| **Semestre** | 1º Semestre |
+| **Prerrequisitos** | Ninguno |
+| **Estado** | 🟢 Aprobada |
 
 ### 📝 Descripción de la Materia
+
 Fundamentos de la computación, algoritmos, lógica de programación e introducción práctica al desarrollo de software, base para todas las materias de programación posteriores de la carrera (Estructura de Datos, Lenguajes de Programación, Bases de Datos, Ingeniería de Software).
 
-### 📚 Apuntes y Resumen de Contenidos
-### 🗺️ Ruta de Aprendizaje de Informática y Programación
-Conceptos clave de diseño de software y estructuras que debes dominar:
+---
 
-#### 📂 Tema 1: Algoritmos y Pseudocódigo
+## 🗺️ Ruta de Aprendizaje Completa
 
-##### 1.1 ¿Qué es un Algoritmo?
+---
+
+## 📂 TEMA 1: Algoritmos y Pseudocódigo
+
+### 1.1 ¿Qué es un Algoritmo?
 
 Un **algoritmo** es una secuencia finita y ordenada de pasos lógicos que, dado un conjunto de datos de entrada, produce un resultado de salida, resolviendo un problema específico.
 
@@ -36,7 +42,7 @@ Un **algoritmo** es una secuencia finita y ordenada de pasos lógicos que, dado 
 
 > Un algoritmo NO es lo mismo que un programa: el algoritmo es la idea/lógica (independiente del lenguaje), el programa es su implementación concreta en un lenguaje como Python, C++ o Java.
 
-##### 1.2 Fases para Resolver un Problema Computacional
+### 1.2 Fases para Resolver un Problema Computacional
 
 ```
 1. Análisis del problema    → ¿Qué datos tengo? ¿Qué necesito obtener?
@@ -47,7 +53,7 @@ Un **algoritmo** es una secuencia finita y ordenada de pasos lógicos que, dado 
 6. Mantenimiento            → Actualizar el programa ante nuevos requisitos
 ```
 
-##### 1.3 Pseudocódigo
+### 1.3 Pseudocódigo
 
 El **pseudocódigo** es un lenguaje intermedio entre el español/inglés natural y un lenguaje de programación real. No tiene una sintaxis estricta, pero sí convenciones ampliamente usadas:
 
@@ -67,7 +73,7 @@ FinAlgoritmo
 
 **Palabras clave típicas en pseudocódigo (español):** `Inicio`, `Fin`, `Leer`, `Escribir`, `Si...Entonces...Sino...FinSi`, `Mientras...FinMientras`, `Para...FinPara`, `Definir`, `<-` (asignación).
 
-##### 1.4 Diagramas de Flujo (Flowcharts)
+### 1.4 Diagramas de Flujo (Flowcharts)
 
 Representación gráfica de un algoritmo usando símbolos estandarizados (norma ANSI):
 
@@ -96,7 +102,7 @@ Representación gráfica de un algoritmo usando símbolos estandarizados (norma 
        [Fin]
 ```
 
-##### 1.5 Variables, Constantes y Tipos de Datos Primitivos
+### 1.5 Variables, Constantes y Tipos de Datos Primitivos
 
 | Tipo de Dato | Descripción | Tamaño típico | Ejemplo |
 |---|---|---|---|
@@ -116,7 +122,7 @@ Representación gráfica de un algoritmo usando símbolos estandarizados (norma 
 - Son sensibles a mayúsculas/minúsculas (`edad` ≠ `Edad`).
 - Deben ser descriptivas: `saldoCuenta` es mejor que `x`.
 
-##### 1.6 Operadores
+### 1.6 Operadores
 
 | Categoría | Operadores | Ejemplo | Resultado |
 |---|---|---|---|
@@ -136,33 +142,9 @@ Representación gráfica de un algoritmo usando símbolos estandarizados (norma 
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué es un algoritmo y cuáles son sus características indispensables?**
-   * *Respuesta:* Un algoritmo es una secuencia finita, ordenada y lógica de pasos para resolver un problema. Características: Finito, Preciso (definido), Entrada, Salida y Eficiente.
-2. **Mencione tres tipos de datos primitivos comunes en programación.**
-   * *Respuesta:* Entero (int), Real/Flotante (float/double), Booleano (bool) y Carácter (char).
-3. **¿Cuál de las siguientes es la representación gráfica de un algoritmo?**
-   * A) Pseudocódigo
-   * B) Diagrama de Flujo
-   * C) Código fuente
-   * D) Compilador
-   * *Respuesta correcta:* B) Diagrama de Flujo.
-4. **Escriba un pseudocódigo simple para sumar dos números ingresados por el usuario.**
-   * *Respuesta:*
-     ```text
-     Inicio
-       Escribir "Ingrese número 1:"
-       Leer num1
-       Escribir "Ingrese número 2:"
-       Leer num2
-       suma <- num1 + num2
-       Escribir "La suma es: ", suma
-     Fin
-     ```
+## 📂 TEMA 2: Estructuras de Control y Secuenciales
 
-#### 📂 Tema 2: Estructuras de Control y Secuenciales
-
-##### 2.1 Estructura Secuencial
+### 2.1 Estructura Secuencial
 
 Es la forma más básica: las instrucciones se ejecutan **una tras otra**, en el orden exacto en que aparecen escritas, sin saltos ni repeticiones, de arriba hacia abajo.
 
@@ -173,7 +155,7 @@ edad = int(input("¿Cuántos años tienes? "))
 print(f"Hola {nombre}, el próximo año tendrás {edad + 1} años")
 ```
 
-##### 2.2 Estructuras de Decisión (Selectivas)
+### 2.2 Estructuras de Decisión (Selectivas)
 
 **a) Simple (`if`)**
 
@@ -225,7 +207,7 @@ else:
     print("Es menor de edad")
 ```
 
-##### 2.3 Estructuras de Repetición (Iterativas / Bucles)
+### 2.3 Estructuras de Repetición (Iterativas / Bucles)
 
 | Estructura | ¿Cuándo evalúa la condición? | ¿Se ejecuta al menos 1 vez? | Cuándo usarla |
 |---|---|---|---|
@@ -256,7 +238,7 @@ do {
 } while (opcion != 2);
 ```
 
-##### 2.4 Control de Flujo dentro de Bucles
+### 2.4 Control de Flujo dentro de Bucles
 
 - **`break`**: termina el bucle inmediatamente, sin evaluar más iteraciones.
 - **`continue`**: salta directamente a la siguiente iteración, sin ejecutar el resto del código de la iteración actual.
@@ -272,23 +254,9 @@ for i in range(1, 10):
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué diferencia existe entre un bucle `while` y un bucle `do-while`?**
-   * *Respuesta:* El bucle `while` evalúa la condición al inicio (si es falsa, el bucle puede no ejecutarse ninguna vez). El bucle `do-while` evalúa la condición al final, garantizando que el cuerpo se ejecute al menos una vez.
-2. **¿Cuándo es preferible utilizar una estructura `switch-case` en lugar de múltiples condicionales `if-else`?**
-   * *Respuesta:* Cuando se evalúa una única variable contra múltiples valores constantes enteros o de caracteres, mejorando la legibilidad y eficiencia del código.
-3. **En un bucle `for (int i = 0; i < 5; i++)`, ¿cuántas veces se ejecuta el bloque de código?**
-   * A) 4 veces
-   * B) 5 veces
-   * C) 6 veces
-   * D) Infinitas veces
-   * *Respuesta correcta:* B) 5 veces (para i = 0, 1, 2, 3, 4).
-4. **¿Cuál es la función de las sentencias `break` y `continue` dentro de un bucle?**
-   * *Respuesta:* `break` termina y sale inmediatamente del bucle actual; `continue` salta el resto de la iteración actual y avanza a la siguiente evaluación de la condición del bucle.
+## 📂 TEMA 3: Programación Orientada a Objetos (POO)
 
-#### 📂 Tema 3: Programación Orientada a Objetos (POO)
-
-##### 3.1 Clases y Objetos
+### 3.1 Clases y Objetos
 
 | Concepto | Definición |
 |---|---|
@@ -322,7 +290,7 @@ mi_auto.acelerar(50)
 print(f"El auto {mi_auto.color} va a {mi_auto.velocidad_actual} km/h")
 ```
 
-##### 3.2 Los 4 Pilares de la POO
+### 3.2 Los 4 Pilares de la POO
 
 **1. Encapsulamiento** — ocultar los datos internos, exponiendo solo lo necesario mediante métodos públicos (`get`/`set`):
 
@@ -369,7 +337,7 @@ for a in animales:
 
 **4. Abstracción** — modelar solo lo relevante de un objeto del mundo real, ocultando la complejidad interna (ej: una clase `Vehiculo` general no necesita saber cómo funciona internamente el motor, solo expone `arrancar()`, `frenar()`, etc.)
 
-##### 3.3 Relaciones entre Clases
+### 3.3 Relaciones entre Clases
 
 | Relación | Descripción | Ejemplo | ¿Puede existir independientemente? |
 |---|---|---|---|
@@ -379,23 +347,9 @@ for a in animales:
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **Explique la diferencia entre una Clase y un Objeto en POO.**
-   * *Respuesta:* Una Clase es la plantilla o molde que define los atributos y métodos comunes; un Objeto es la instancia concreta de esa clase, con datos reales en memoria.
-2. **Defina brevemente el pilar de la "Herencia" en POO.**
-   * *Respuesta:* Permite que una nueva clase (subclase o clase hija) adquiera las propiedades y métodos de una clase existente (superclase o clase padre), promoviendo la reutilización del código.
-3. **El ocultamiento de los datos internos de un objeto mediante el uso de modificadores de acceso (`private`) se conoce como:**
-   * A) Polimorfismo
-   * B) Herencia
-   * C) Encapsulamiento
-   * D) Abstracción
-   * *Respuesta correcta:* C) Encapsulamiento.
-4. **¿Qué es un constructor en una clase?**
-   * *Respuesta:* Es un método especial que se ejecuta automáticamente al instanciar un objeto de la clase, utilizado principalmente para inicializar sus atributos.
+## 📂 TEMA 4: Estructuras de Datos Lineales
 
-#### 📂 Tema 4: Estructuras de Datos Lineales
-
-##### 4.1 Arreglos (Arrays)
+### 4.1 Arreglos (Arrays)
 
 | Tipo | Descripción | Declaración (ejemplo en C) |
 |---|---|---|
@@ -416,7 +370,7 @@ matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(matriz[1][2])  # 6 (fila 1, columna 2)
 ```
 
-##### 4.2 Estructuras de Datos Dinámicas
+### 4.2 Estructuras de Datos Dinámicas
 
 **Pila (Stack) — LIFO (Last In, First Out):**
 
@@ -458,7 +412,7 @@ nodo1.siguiente = nodo2
 nodo2.siguiente = nodo3
 ```
 
-##### 4.3 Comparación: Arreglo vs. Lista Enlazada
+### 4.3 Comparación: Arreglo vs. Lista Enlazada
 
 | Característica | Arreglo | Lista Enlazada |
 |---|---|---|
@@ -469,23 +423,9 @@ nodo2.siguiente = nodo3
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué diferencia a un arreglo (array) de una lista enlazada dinámica?**
-   * *Respuesta:* Un arreglo tiene un tamaño fijo definido en tiempo de compilación y elementos contiguos en memoria. Una lista enlazada tiene tamaño dinámico y sus elementos (nodos) se conectan mediante punteros en cualquier parte de la memoria.
-2. **Explique la diferencia entre las estructuras Pilas (LIFO) y Colas (FIFO).**
-   * *Respuesta:* Pila (LIFO - Last In First Out): el último elemento en entrar es el primero en salir. Cola (FIFO - First In First Out): el primer elemento en entrar es el primero en salir.
-3. **Para acceder al elemento en la fila 2, columna 3 de una matriz bidimensional llamada `M`, la sintaxis habitual es:**
-   * A) `M[2][3]`
-   * B) `M[1][2]` (en indexación 0-based)
-   * C) `M[3][2]`
-   * D) `M(2,3)`
-   * *Respuesta correcta:* B) `M[1][2]` (fila 2 es índice 1, columna 3 es índice 2).
-4. **¿Qué operaciones básicas realiza una Pila?**
-   * *Respuesta:* `push` (insertar un elemento en la cima) y `pop` (eliminar y retornar el elemento de la cima).
+## 📂 TEMA 5: Recursividad y Algoritmos de Búsqueda/Ordenamiento
 
-#### 📂 Tema 5: Recursividad y Algoritmos de Búsqueda/Ordenamiento
-
-##### 5.1 Recursividad
+### 5.1 Recursividad
 
 Una función es **recursiva** cuando se llama a sí misma para resolver una versión más pequeña del mismo problema.
 
@@ -522,7 +462,7 @@ def fibonacci(n):
 
 > ⚠️ Cuidado: la recursividad sin un buen caso base provoca **desbordamiento de pila (stack overflow)**.
 
-##### 5.2 Algoritmos de Ordenamiento
+### 5.2 Algoritmos de Ordenamiento
 
 **Burbuja (Bubble Sort)** — compara elementos adyacentes y los intercambia si están en el orden incorrecto:
 
@@ -544,7 +484,7 @@ def burbuja(arr):
 | **QuickSort** | Elige un pivote, divide en menores/mayores, ordena recursivamente | O(n log n) |
 | **MergeSort** | Divide el arreglo a la mitad recursivamente y luego combina ordenando | O(n log n) |
 
-##### 5.3 Algoritmos de Búsqueda
+### 5.3 Algoritmos de Búsqueda
 
 **Búsqueda Lineal** — recorre elemento por elemento:
 
@@ -579,23 +519,9 @@ def busqueda_binaria(arr, objetivo):
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué es la recursividad y por qué es fundamental definir un "caso base"?**
-   * *Respuesta:* La recursividad es una técnica donde una función se llama a sí misma para resolver subproblemas. El caso base es fundamental porque detiene las llamadas recursivas y evita un bucle infinito de desbordamiento de pila (stack overflow).
-2. **¿Cómo funciona el algoritmo de búsqueda binaria y qué requisito indispensable exige del arreglo?**
-   * *Respuesta:* Divide el espacio de búsqueda por la mitad repetidamente comparando con el elemento central. Requiere obligatoriamente que el arreglo esté ordenado previamente.
-3. **¿Cuál de los siguientes algoritmos de ordenamiento tiene la mejor eficiencia promedio ($O(n \log n)$)?**
-   * A) Ordenamiento Burbuja (BubbleSort)
-   * B) Ordenamiento por Inserción (InsertionSort)
-   * C) Ordenamiento Rápido (QuickSort)
-   * D) Búsqueda Lineal
-   * *Respuesta correcta:* C) Ordenamiento Rápido (QuickSort).
-4. **Explique el funcionamiento básico del ordenamiento Burbuja.**
-   * *Respuesta:* Compara elementos adyacentes y los intercambia si están en el orden incorrecto. Repite este proceso recorriendo la lista varias veces hasta que no se necesiten más intercambios.
+## 📂 TEMA 6: Archivos y Manejo de Excepciones
 
-#### 📂 Tema 6: Archivos y Manejo de Excepciones
-
-##### 6.1 Manejo de Archivos
+### 6.1 Manejo de Archivos
 
 | Tipo | Descripción | Extensiones comunes |
 |---|---|---|
@@ -631,7 +557,7 @@ with open("datos.txt", "a") as archivo:
 
 > `with` se usa porque cierra el archivo automáticamente al terminar el bloque, evitando dejar el archivo abierto innecesariamente.
 
-##### 6.2 Manejo de Excepciones
+### 6.2 Manejo de Excepciones
 
 Una **excepción** es un evento anómalo que ocurre durante la ejecución e interrumpe el flujo normal del programa (ej: dividir por cero, archivo no encontrado, conversión de tipo inválida).
 
@@ -664,48 +590,31 @@ finally:
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué es una excepción en programación y para qué sirve el bloque `try-catch`?**
-   * *Respuesta:* Una excepción es un error que ocurre en tiempo de ejecución. El bloque `try-catch` sirve para capturar y manejar el error de forma controlada sin que el programa aborte o se cierre abruptamente.
-2. **Diferencie entre la lectura de archivos de texto plano y archivos binarios.**
-   * *Respuesta:* Los archivos de texto contienen caracteres legibles por humanos (codificados en UTF-8, ASCII); los archivos binarios contienen datos crudos en formato de bytes (no legibles directamente, optimizados para almacenamiento de estructuras de datos complejos).
-3. **¿Qué bloque se ejecuta SIEMPRE en una estructura de control de excepciones, haya ocurrido un error o no?**
-   * A) `try`
-   * B) `catch`
-   * C) `finally`
-   * D) `throw`
-   * *Respuesta correcta:* C) `finally`.
-4. **Mencione dos excepciones comunes en programación y qué las causa.**
-   * *Respuesta:* `ZeroDivisionError` (dividir un número entre cero) e `IndexError` (intentar acceder a un índice inexistente en un arreglo/lista).
+## 🎯 Ponderación y Control de Calificaciones
 
-### 🗂️ Estructura de Carpetas de Aprendizaje
-Temas y carpetas de estudio organizadas en este directorio:
-- 📁 [Examen 1er Parcial Informática I Unior2017](./Examen%201er%20Parcial%20Inform%C3%A1tica%20I%20Unior2017)
-- 📁 [Tema 1 - Algoritmos y Pseudocodigo](./Tema%201%20-%20Algoritmos%20y%20Pseudocodigo)
-- 📁 [Tema 2 - Estructuras de Control y Secuenciales](./Tema%202%20-%20Estructuras%20de%20Control%20y%20Secuenciales)
-- 📁 [Tema 3 - Programacion Orientada a Objetos POO](./Tema%203%20-%20Programacion%20Orientada%20a%20Objetos%20POO)
-- 📁 [Tema 4 - Estructuras de Datos Lineales](./Tema%204%20-%20Estructuras%20de%20Datos%20Lineales)
-- 📁 [Tema 5 - Recursividad y Algoritmos de Busqueda](./Tema%205%20-%20Recursividad%20y%20Algoritmos%20de%20Busqueda)
-- 📁 [Tema 6 - Archivos y Manejo de Excepciones](./Tema%206%20-%20Archivos%20y%20Manejo%20de%20Excepciones)
-
-### 🎯 Ponderación y Control de Calificaciones
 | Actividad Evaluativa | Ponderación | Nota Obtenida |
-| --- | :---: | :---: |
+|---|---|---|
 | **Examen Primer Parcial** | 30% | `__ / 100` |
 | **Examen Segundo Parcial** | 30% | `__ / 100` |
 | **Examen Final / Proyecto** | 30% | `__ / 100` |
 | **Tareas y Prácticas** | 10% | `__ / 100` |
 | **Nota Final** | **100%** | **`__ / 100`** |
 
-### 📅 Cronograma de Fechas Importantes
-- [ ] **Examen Primer Parcial:** _Fecha: ____/____/_________
-- [ ] **Examen Segundo Parcial:** _Fecha: ____/____/_________
-- [ ] **Entrega de Proyecto/Trabajo Final:** _Fecha: ____/____/_________
-- [ ] **Examen Final:** _Fecha: ____/____/_________
+---
 
-### 📂 Archivos en esta Carpeta
-Aquí tienes un listado de los archivos almacenados en esta materia:
-- 📄 [README_INF100_v2.md](./README_INF100_v2.md)
+## 📅 Cronograma de Fechas Importantes
+
+- [ ] **Examen Primer Parcial:** *Fecha: **/**/*________
+- [ ] **Examen Segundo Parcial:** *Fecha: **/**/*________
+- [ ] **Entrega de Proyecto/Trabajo Final:** *Fecha: **/**/*________
+- [ ] **Examen Final:** *Fecha: **/**/*________
 
 ---
-*Documento autogenerado para el control de estudios del Ing. José Luis Choquevilca - UNIOR*
+
+## 📂 Archivos en esta Carpeta
+
+- 📁 Examen 1er Parcial Informática I Unior2017
+
+---
+
+*Documento enriquecido para el control de estudios del Ing. José Luis Choquevilca — UNIOR 2017*
