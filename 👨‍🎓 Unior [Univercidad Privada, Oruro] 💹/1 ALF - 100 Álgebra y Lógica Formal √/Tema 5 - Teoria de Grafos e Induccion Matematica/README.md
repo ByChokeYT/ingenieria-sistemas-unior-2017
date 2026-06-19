@@ -6,46 +6,54 @@
 ### 📚 Apuntes y Conceptos Clave
 ##### 5.1 Conceptos Básicos de Grafos
 
-Un **grafo** G = (V, E) está formado por un conjunto de **vértices** (V) y un conjunto de **aristas** (E) que conectan pares de vértices.
+Un **grafo** $G=(V,E)$ está formado por un conjunto de **vértices** (V) y un conjunto de **aristas** (E) que conectan pares de vértices.
 
 | Tipo de Grafo | Descripción |
 |---|---|
 | **No dirigido** | Las aristas no tienen dirección (A-B = B-A) |
 | **Dirigido (dígrafo)** | Las aristas tienen dirección (A→B ≠ B→A) |
-| **Ponderado** | Las aristas tienen un peso o costo asociado |
+| **Ponderado** | Las aristas tienen un peso/costo asociado |
 | **Simple** | Sin lazos ni aristas múltiples entre el mismo par de vértices |
-| **Completo** | Todos los vértices están conectados entre sí |
+| **Completo ($K_n$)** | Todos los vértices están conectados entre sí; tiene $\frac{n(n-1)}{2}$ aristas |
+| **Bipartito** | Los vértices se dividen en dos grupos, y las aristas solo conectan vértices de grupos distintos |
 
-##### 5.2 Conceptos Clave
+##### 5.2 Conceptos Clave y Fórmulas
 
-- **Grado de un vértice:** número de aristas que llegan o salen de él.
+- **Grado de un vértice** $\deg(v)$: número de aristas que llegan o salen de él.
+- **Teorema de la suma de grados:** $\sum \deg(v) = 2|E|$ (la suma de todos los grados es el doble del número de aristas, porque cada arista se cuenta dos veces).
 - **Camino:** secuencia de vértices conectados por aristas, sin repetir vértices.
 - **Ciclo:** camino que empieza y termina en el mismo vértice.
-- **Conectividad:** un grafo es conexo si existe un camino entre cualquier par de vértices.
+- **Grafo conexo:** existe un camino entre cualquier par de vértices.
 
 ##### 5.3 Representación Matricial de Grafos
 
-**Matriz de adyacencia:** matriz $n \times n$ donde la celda $(i,j) = 1$ si existe arista entre el vértice $i$ y el vértice $j$, y $0$ si no.
+**Matriz de adyacencia** para el grafo: A-B, A-C, B-C
 
 | | A | B | C |
 |---|---|---|---|
 | **A** | 0 | 1 | 1 |
-| **B** | 1 | 0 | 0 |
-| **C** | 1 | 0 | 0 |
+| **B** | 1 | 0 | 1 |
+| **C** | 1 | 1 | 0 |
 
-> Este grafo de ejemplo tiene a A conectado con B y con C, pero B y C no están conectados entre sí.
+> Este es un grafo completo $K_3$ (triángulo): todos conectados entre sí. Grado de cada vértice = 2. Suma de grados = 6 = 2×3 aristas ✓ (cumple el teorema).
 
 ##### 5.4 Inducción Matemática
 
-La **inducción matemática** es un método de demostración para afirmaciones que dependen de un número natural $n$.
+**Los 3 pasos formales:**
+1. **Caso base:** demostrar para $n=1$ (o el primer valor del dominio).
+2. **Hipótesis inductiva:** suponer verdadero para $n=k$.
+3. **Paso inductivo:** demostrar que, a partir de la hipótesis, también es verdadero para $n=k+1$.
 
-**Pasos del principio de inducción:**
-
-1. **Caso base:** demostrar que la afirmación es verdadera para $n=1$ (o el primer valor del dominio).
-2. **Paso inductivo:** suponer que es verdadera para $n=k$ (hipótesis inductiva) y demostrar que entonces también es verdadera para $n=k+1$.
-3. **Conclusión:** si ambos pasos se cumplen, la afirmación es verdadera para todo $n$ natural.
-
-> *Ejemplo clásico:* demostrar que $1+2+3+\dots+n = \frac{n(n+1)}{2}$ para todo $n \geq 1$, verificando el caso base $n=1$ y luego el paso inductivo de $k$ a $k+1$.
+> *Ejemplo resuelto completo:* Demostrar que $1+2+3+\dots+n = \frac{n(n+1)}{2}$ para todo $n\geq1$.
+>
+> **Caso base ($n=1$):** $1 = \frac{1(1+1)}{2} = \frac{2}{2} = 1$ ✓
+>
+> **Hipótesis inductiva:** suponemos que $1+2+\dots+k = \frac{k(k+1)}{2}$ es verdadero.
+>
+> **Paso inductivo:** demostrar para $n=k+1$:
+> $$1+2+\dots+k+(k+1) = \frac{k(k+1)}{2}+(k+1)$$
+> $$= \frac{k(k+1)+2(k+1)}{2} = \frac{(k+1)(k+2)}{2}$$
+> Esto es exactamente la fórmula con $n=k+1$. ✓ Queda demostrado para todo $n$.
 
 ---
 

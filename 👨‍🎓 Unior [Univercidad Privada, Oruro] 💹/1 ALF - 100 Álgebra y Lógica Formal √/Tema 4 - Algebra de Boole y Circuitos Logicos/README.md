@@ -6,22 +6,22 @@
 ### 📚 Apuntes y Conceptos Clave
 ##### 4.1 Variables y Operaciones Booleanas
 
-El **álgebra de Boole** trabaja con variables que solo pueden tomar dos valores: 0 (falso) o 1 (verdadero). Es la base matemática de los circuitos digitales.
+El **álgebra de Boole** trabaja con variables binarias (0 o 1) y es la base matemática del diseño de circuitos digitales y procesadores.
 
 | Operación | Notación algebraica | Equivalente lógico |
 |---|---|---|
 | AND | A · B (o AB) | Conjunción ∧ |
 | OR | A + B | Disyunción ∨ |
-| NOT | A' o Ā | Negación ¬ |
+| NOT | A' (o Ā) | Negación ¬ |
 
-##### 4.2 Postulados y Teoremas de Boole
+##### 4.2 Postulados y Teoremas de Boole (Tabla Completa)
 
 | Ley | AND | OR |
 |---|---|---|
-| Identidad | A · 1 = A | A + 0 = A |
-| Nulo | A · 0 = 0 | A + 1 = 1 |
-| Idempotencia | A · A = A | A + A = A |
-| Complemento | A · A' = 0 | A + A' = 1 |
+| Identidad | A·1 = A | A+0 = A |
+| Nulo | A·0 = 0 | A+1 = 1 |
+| Idempotencia | A·A = A | A+A = A |
+| Complemento | A·A' = 0 | A+A' = 1 |
 | Conmutativa | A·B = B·A | A+B = B+A |
 | Asociativa | (AB)C = A(BC) | (A+B)+C = A+(B+C) |
 | Distributiva | A(B+C) = AB+AC | A+BC = (A+B)(A+C) |
@@ -29,31 +29,58 @@ El **álgebra de Boole** trabaja con variables que solo pueden tomar dos valores
 
 ##### 4.3 Compuertas Lógicas (Hardware)
 
-| Compuerta | Símbolo eléctrico | Tabla de verdad | Expresión |
-|---|---|---|---|
-| **AND** | Compuerta en forma de D | 1 solo si ambas entradas son 1 | A·B |
-| **OR** | Compuerta curva | 1 si al menos una entrada es 1 | A+B |
-| **NOT** | Triángulo con círculo | Invierte la entrada | A' |
-| **NAND** | AND + círculo (burbuja) | Inverso de AND | (A·B)' |
-| **NOR** | OR + círculo (burbuja) | Inverso de OR | (A+B)' |
-| **XOR** | OR con línea curva doble | 1 si las entradas son diferentes | A⊕B |
-| **XNOR** | XOR + círculo | 1 si las entradas son iguales | (A⊕B)' |
+| Compuerta | Tabla de verdad (A,B → Salida) | Expresión |
+|---|---|---|
+| **AND** | 00→0, 01→0, 10→0, 11→1 | A·B |
+| **OR** | 00→0, 01→1, 10→1, 11→1 | A+B |
+| **NOT** | 0→1, 1→0 | A' |
+| **NAND** | 00→1, 01→1, 10→1, 11→0 | (A·B)' |
+| **NOR** | 00→1, 01→0, 10→0, 11→0 | (A+B)' |
+| **XOR** | 00→0, 01→1, 10→1, 11→0 | A⊕B |
+| **XNOR** | 00→1, 01→0, 10→0, 11→1 | (A⊕B)' |
 
-> NAND y NOR son **compuertas universales**: con solo NAND (o solo NOR) se puede construir cualquier circuito lógico.
+> NAND y NOR son **compuertas universales**: con solo NAND (o solo NOR) repetidas se puede construir CUALQUIER circuito lógico, incluyendo AND, OR y NOT.
+> Ejemplo: $A' = (A \cdot A)'$ → un NAND con ambas entradas iguales a A funciona como NOT.
 
 ##### 4.4 Simplificación de Expresiones Booleanas
 
-**Método algebraico:** aplicar los teoremas de Boole para reducir términos.
+**Método algebraico — ejemplo resuelto paso a paso:**
 
-> *Ejemplo:* $AB + AB' = A(B+B') = A \cdot 1 = A$
+Simplificar: $F = AB + AB' + A'B$
 
-**Mapas de Karnaugh:** método visual con tablas de 2, 4, 8 o 16 casillas que agrupa términos adyacentes (en potencias de 2: grupos de 1, 2, 4, 8...) para simplificar funciones booleanas sin usar álgebra paso a paso.
+```
+F = AB + AB' + A'B
+F = A(B+B') + A'B          [factor común A]
+F = A(1) + A'B               [B+B' = 1, complemento]
+F = A + A'B                  [identidad]
+F = A + B                    [ley de absorción: A + A'B = A + B]
+```
 
-**Pasos para usar un Mapa de Karnaugh:**
-1. Construir la tabla de verdad de la función.
-2. Ubicar los 1s en el mapa según las combinaciones de variables.
-3. Agrupar los 1s adyacentes en bloques de tamaño potencia de 2.
-4. Escribir la expresión simplificada a partir de los grupos formados.
+**Otro ejemplo:** Simplificar $F = (A+B)(A+B')$
+
+```
+F = AA + AB' + BA + BB'
+F = A + AB' + AB + 0        [AA=A, BB'=0]
+F = A + A(B'+B)
+F = A + A(1)
+F = A + A = A
+```
+
+##### 4.5 Mapas de Karnaugh
+
+Método visual con tablas de $2^n$ casillas que agrupa términos adyacentes (en grupos de 1, 2, 4, 8...) para simplificar funciones booleanas sin necesidad de álgebra paso a paso.
+
+**Ejemplo: simplificar F(A,B) con tabla de verdad: F=1 cuando AB=01, 10, 11**
+
+| | B=0 | B=1 |
+|---|---|---|
+| **A=0** | 0 | 1 |
+| **A=1** | 1 | 1 |
+
+**Pasos:**
+1. Ubicar los 1s en el mapa: posiciones (A=0,B=1), (A=1,B=0), (A=1,B=1).
+2. Agrupar adyacentes: el grupo de la fila A=1 completa (ambas columnas) da el término **A**; el grupo de la columna B=1 completa da el término **B**.
+3. Expresión simplificada: $F = A + B$
 
 ---
 

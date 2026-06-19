@@ -1,4 +1,4 @@
-# 📐 Álgebra y Lógica Formal
+# 📐 Álgebra y Lógica Formal — ALF-100
 
 ## 🏫 Universidad Privada de Oruro (UNIOR)
 ### 💻 Carrera: Ingeniería de Sistemas
@@ -6,21 +6,27 @@
 ---
 
 ### 📊 Ficha Técnica de la Asignatura
-- **Sigla:** ALF-100
-- **Semestre:** 1º Semestre
-- **Prerrequisitos:** Ninguno
-- **Estado:** 🟢 Aprobada
+
+| Campo | Detalle |
+|---|---|
+| **Sigla** | ALF-100 |
+| **Semestre** | 1º Semestre |
+| **Prerrequisitos** | Ninguno |
+| **Estado** | 🟢 Aprobada |
 
 ### 📝 Descripción de la Materia
+
 Introducción a las matemáticas discretas, lógica proposicional, teoría de conjuntos y estructuras algebraicas, base fundamental para el razonamiento computacional, el diseño de algoritmos, las bases de datos (álgebra relacional) y la arquitectura digital (circuitos lógicos).
 
-### 📚 Apuntes y Resumen de Contenidos
-### 🗺️ Ruta de Aprendizaje de Álgebra y Lógica Formal
-Fundamentos de lógica y estructuras discretas matemáticas:
+---
 
-#### 📂 Tema 1: Lógica Proposicional y Tablas de Verdad
+## 🗺️ Ruta de Aprendizaje Completa
 
-##### 1.1 Proposiciones
+---
+
+## 📂 TEMA 1: Lógica Proposicional y Tablas de Verdad
+
+### 1.1 Proposiciones
 
 Una **proposición** es un enunciado declarativo que puede calificarse como verdadero (V/1) o falso (F/0), pero nunca ambos a la vez, y nunca ninguno.
 
@@ -34,7 +40,7 @@ Una **proposición** es un enunciado declarativo que puede calificarse como verd
 - Órdenes/exclamaciones: "¡Cierra la puerta!"
 - Enunciados ambiguos o de opinión sin valor de verdad objetivo: "El helado de chocolate es el mejor"
 
-##### 1.2 Conectivos Lógicos (Operadores)
+### 1.2 Conectivos Lógicos (Operadores)
 
 | Conectivo | Símbolo | Nombre | Se lee | Verdadero cuando... |
 |---|---|---|---|---|
@@ -45,7 +51,7 @@ Una **proposición** es un enunciado declarativo que puede calificarse como verd
 | Implicación (condicional) | p → q | IF...THEN | "si p, entonces q" | excepto cuando p=V y q=F |
 | Doble implicación | p ↔ q | IFF | "p si y solo si q" | ambas tienen el mismo valor de verdad |
 
-##### 1.3 Tabla de Verdad Completa
+### 1.3 Tabla de Verdad Completa
 
 | p | q | ¬p | p∧q | p∨q | p⊕q | p→q | p↔q |
 |---|---|---|---|---|---|---|---|
@@ -57,7 +63,7 @@ Una **proposición** es un enunciado declarativo que puede calificarse como verd
 **Regla del número de filas:** con $n$ proposiciones simples distintas, la tabla tiene $2^n$ filas.
 > Con 3 proposiciones (p, q, r) → $2^3 = 8$ filas.
 
-##### 1.4 Construyendo una Tabla de Verdad para una Proposición Compleja
+### 1.4 Construyendo una Tabla de Verdad para una Proposición Compleja
 
 > *Ejemplo resuelto:* Construir la tabla de $(p \to q) \land (\lnot p \lor r)$
 
@@ -77,7 +83,7 @@ Una **proposición** es un enunciado declarativo que puede calificarse como verd
 2. Resolver primero los subexpresiones más simples (p→q, ¬p).
 3. Combinar columnas intermedias hasta llegar a la expresión final.
 
-##### 1.5 Tautologías, Contradicciones y Contingencias
+### 1.5 Tautologías, Contradicciones y Contingencias
 
 | Tipo | Definición | Ejemplo |
 |---|---|---|
@@ -94,7 +100,7 @@ Una **proposición** es un enunciado declarativo que puede calificarse como verd
 
 Como la última columna es siempre V, es una **tautología**.
 
-##### 1.6 Leyes del Álgebra Proposicional
+### 1.6 Leyes del Álgebra Proposicional
 
 | Ley | Expresión |
 |---|---|
@@ -113,7 +119,7 @@ Como la última columna es siempre V, es una **tautología**.
 > Aplicando De Morgan: $(\lnot p \lor \lnot q) \lor (p \land q)$
 > Esta expresión es en realidad una **tautología** de la forma $X \lor \lnot X$ donde $X = p\land q$, por lo tanto siempre es V.
 
-##### 1.7 Razonamiento Lógico — Reglas de Inferencia
+### 1.7 Razonamiento Lógico — Reglas de Inferencia
 
 | Regla | Estructura formal | Ejemplo en lenguaje natural |
 |---|---|---|
@@ -124,7 +130,7 @@ Como la última columna es siempre V, es una **tautología**.
 | **Adición** | p ⊢ p∨q | De una verdad, se puede agregar cualquier disyunción |
 | **Simplificación** | p∧q ⊢ p | De una conjunción, se puede extraer cualquiera de sus partes |
 
-##### 1.8 Falacias Lógicas Comunes (errores de razonamiento)
+### 1.8 Falacias Lógicas Comunes (errores de razonamiento)
 
 | Falacia | Error | Ejemplo |
 |---|---|---|
@@ -133,23 +139,9 @@ Como la última columna es siempre V, es una **tautología**.
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **Diferencie entre una proposición atómica y una molecular.**
-   * *Respuesta:* Una proposición atómica es simple y no contiene conectivos lógicos (ej. "La Paz es la sede de gobierno"); una molecular combina dos o más proposiciones atómicas mediante conectivos lógicos (ej. "Llueve y hace frío").
-2. **Defina qué son Tautología, Contradicción y Contingencia.**
-   * *Respuesta:* Tautología: enunciado que es siempre verdadero bajo cualquier interpretación. Contradicción: enunciado siempre falso. Contingencia: enunciado que puede ser verdadero o falso dependiendo de sus componentes.
-3. **¿Cuántas filas tiene una tabla de verdad para un enunciado que contiene 4 proposiciones simples distintas?**
-   * A) 8 filas
-   * B) 16 filas
-   * C) 32 filas
-   * D) 4 filas
-   * *Respuesta correcta:* B) 16 filas ($2^4 = 16$).
-4. **Aplique la Ley de De Morgan para negar la proposición $p \land q$.**
-   * *Respuesta:* $\neg(p \land q) \equiv \neg p \lor \neg q$.
+## 📂 TEMA 2: Teoría de Conjuntos
 
-#### 📂 Tema 2: Teoría de Conjuntos
-
-##### 2.1 Definición de Conjuntos
+### 2.1 Definición de Conjuntos
 
 Un **conjunto** es una colección bien definida de objetos (elementos), sin importar el orden ni repeticiones.
 
@@ -160,7 +152,7 @@ Un **conjunto** es una colección bien definida de objetos (elementos), sin impo
 
 **Notación:** $a \in A$ (a pertenece a A); $a \notin A$ (a no pertenece a A); $A \subseteq B$ (A es subconjunto de B); $|A|$ (cardinalidad: número de elementos de A).
 
-##### 2.2 Tipos de Conjuntos
+### 2.2 Tipos de Conjuntos
 
 | Tipo | Descripción | Ejemplo |
 |---|---|---|
@@ -171,7 +163,7 @@ Un **conjunto** es una colección bien definida de objetos (elementos), sin impo
 | Universal | Contiene a todos los elementos del contexto en estudio | U |
 | Disjuntos | Dos conjuntos sin elementos en común | A∩B = ∅ |
 
-##### 2.3 Conjunto Potencia
+### 2.3 Conjunto Potencia
 
 El **conjunto potencia** $P(A)$ es el conjunto formado por TODOS los subconjuntos posibles de A, incluyendo el conjunto vacío y A mismo.
 
@@ -181,7 +173,7 @@ $$|P(A)| = 2^n \text{, donde } n = |A|$$
 >
 > $P(A) = \{\emptyset, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}$
 
-##### 2.4 Operaciones entre Conjuntos (con ejemplos resueltos)
+### 2.4 Operaciones entre Conjuntos (con ejemplos resueltos)
 
 Sea $U = \{1,2,3,4,5,6,7,8,9,10\}$, $A=\{1,2,3,4,5\}$, $B=\{4,5,6,7,8\}$
 
@@ -194,7 +186,7 @@ Sea $U = \{1,2,3,4,5,6,7,8,9,10\}$, $A=\{1,2,3,4,5\}$, $B=\{4,5,6,7,8\}$
 | **Complemento** | A' | Elementos del universo que no están en A | {6,7,8,9,10} |
 | **Diferencia simétrica** | A △ B | (A∪B) − (A∩B) | {1,2,3,6,7,8} |
 
-##### 2.5 Leyes de De Morgan para Conjuntos
+### 2.5 Leyes de De Morgan para Conjuntos
 
 $$(A \cup B)' = A' \cap B'$$
 $$(A \cap B)' = A' \cup B'$$
@@ -204,14 +196,14 @@ $$(A \cap B)' = A' \cup B'$$
 > $A' \cap B' = \{9,10\}$
 > $(A\cup B)' = \{1,...,8\}' = \{9,10\}$ ✓ Coinciden, la ley se cumple.
 
-##### 2.6 Producto Cartesiano
+### 2.6 Producto Cartesiano
 
 $$A \times B = \{(a,b) \mid a \in A, b \in B\}$$
 
 > *Ejemplo:* Si A={1,2} y B={x,y}, entonces:
 > $A \times B = \{(1,x),(1,y),(2,x),(2,y)\}$ → tiene $|A| \times |B| = 2\times2=4$ pares ordenados.
 
-##### 2.7 Diagramas de Venn — Representación Gráfica
+### 2.7 Diagramas de Venn — Representación Gráfica
 
 ```
         U
@@ -229,30 +221,16 @@ La zona compartida entre los dos círculos representa $A \cap B = \{4,5\}$.
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué es el conjunto potencia y cuántos elementos tiene el conjunto potencia de $A = \{a, b, c\}$?**
-   * *Respuesta:* Es el conjunto formado por todos los subconjuntos de $A$. Tiene $2^3 = 8$ elementos: $\{\emptyset, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\}\}$.
-2. **Defina la diferencia simétrica entre dos conjuntos $A$ y $B$.**
-   * *Respuesta:* Es el conjunto de elementos que pertenecen a $A$ o a $B$, pero no a ambos a la vez ($A \Delta B = (A \cup B) - (A \cap B)$).
-3. **Si el universo es $U = \{1, 2, 3, 4, 5\}$ y $A = \{1, 3, 5\}$, halle el complemento de $A$ ($A\prime$).**
-   * A) $\{2, 4\}$
-   * B) $\{1, 3, 5\}$
-   * C) $\emptyset$
-   * D) $\{1, 2, 3, 4, 5\}$
-   * *Respuesta correcta:* A) $\{2, 4\}$.
-4. **Enuncie una de las Leyes de De Morgan aplicadas a conjuntos.**
-   * *Respuesta:* $(A \cup B)\prime = A\prime \cap B\prime$ o $(A \cap B)\prime = A\prime \cup B\prime$.
+## 📂 TEMA 3: Relaciones y Funciones Discretas
 
-#### 📂 Tema 3: Relaciones y Funciones Discretas
-
-##### 3.1 Relaciones Binarias
+### 3.1 Relaciones Binarias
 
 Una **relación binaria** R de A en B es cualquier subconjunto del producto cartesiano $A \times B$: $R \subseteq A \times B$.
 
 > *Ejemplo:* Sea A = {1,2,3} y la relación R = "es menor que" definida en A:
 > $R = \{(1,2),(1,3),(2,3)\}$
 
-##### 3.2 Propiedades de las Relaciones (definidas en un conjunto A)
+### 3.2 Propiedades de las Relaciones (definidas en un conjunto A)
 
 | Propiedad | Definición formal | Ejemplo cotidiano | ¿Se cumple en "≤" sobre ℕ? |
 |---|---|---|---|
@@ -261,7 +239,7 @@ Una **relación binaria** R de A en B es cualquier subconjunto del producto cart
 | **Antisimétrica** | Si (a,b)∈R y (b,a)∈R entonces a=b | "es menor o igual que" | Sí |
 | **Transitiva** | Si (a,b)∈R y (b,c)∈R entonces (a,c)∈R | "es ancestro de" | Sí |
 
-##### 3.3 Relación de Equivalencia vs. Relación de Orden
+### 3.3 Relación de Equivalencia vs. Relación de Orden
 
 | Tipo | Propiedades que cumple | Ejemplo |
 |---|---|---|
@@ -270,7 +248,7 @@ Una **relación binaria** R de A en B es cualquier subconjunto del producto cart
 
 > *Ejemplo de clases de equivalencia:* La relación "tiene el mismo resto al dividir por 3" sobre los números enteros divide a todos los enteros en exactamente 3 clases: {...,-3,0,3,6,...}, {...,-2,1,4,7,...}, {...,-1,2,5,8,...}
 
-##### 3.4 Funciones
+### 3.4 Funciones
 
 Una **función** $f: A \to B$ asigna a **cada** elemento de A **exactamente un** elemento de B (no puede faltar ninguno, ni tener dos imágenes).
 
@@ -282,7 +260,7 @@ Una **función** $f: A \to B$ asigna a **cada** elemento de A **exactamente un**
 
 > *Ejemplo:* $f(x) = x^2$ definida de ℝ a ℝ **NO es inyectiva** porque $f(2)=f(-2)=4$ (dos elementos del dominio tienen la misma imagen), y **NO es sobreyectiva** porque ningún número negativo de B tiene preimagen real.
 
-##### 3.5 Composición de Funciones
+### 3.5 Composición de Funciones
 
 $$(f \circ g)(x) = f(g(x))$$
 
@@ -294,23 +272,9 @@ $$(f \circ g)(x) = f(g(x))$$
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué condiciones debe cumplir una relación para ser de equivalencia?**
-   * *Respuesta:* Debe ser reflexiva, simétrica y transitiva.
-2. **Explique la diferencia entre una función inyectiva y una sobreyectiva.**
-   * *Respuesta:* Inyectiva (1 a 1): elementos distintos del dominio tienen imágenes distintas. Sobreyectiva (sobre): el rango de la función es igual a su codominio (toda imagen tiene preimagen).
-3. **Si una función es inyectiva y sobreyectiva al mismo tiempo, se clasifica como:**
-   * A) Reflexiva
-   * B) Identidad
-   * C) Biyectiva
-   * D) Compuesta
-   * *Respuesta correcta:* C) Biyectiva.
-4. **Dada la relación $R = \{(1,1), (2,2)\}$ en el conjunto $A = \{1, 2, 3\}$, ¿es reflexiva? ¿Por qué?**
-   * *Respuesta:* No es reflexiva en $A$, porque falta el elemento $(3,3)$, y la definición exige que $(a,a) \in R$ para todo $a \in A$.
+## 📂 TEMA 4: Álgebra de Boole y Circuitos Lógicos
 
-#### 📂 Tema 4: Álgebra de Boole y Circuitos Lógicos
-
-##### 4.1 Variables y Operaciones Booleanas
+### 4.1 Variables y Operaciones Booleanas
 
 El **álgebra de Boole** trabaja con variables binarias (0 o 1) y es la base matemática del diseño de circuitos digitales y procesadores.
 
@@ -320,7 +284,7 @@ El **álgebra de Boole** trabaja con variables binarias (0 o 1) y es la base mat
 | OR | A + B | Disyunción ∨ |
 | NOT | A' (o Ā) | Negación ¬ |
 
-##### 4.2 Postulados y Teoremas de Boole (Tabla Completa)
+### 4.2 Postulados y Teoremas de Boole (Tabla Completa)
 
 | Ley | AND | OR |
 |---|---|---|
@@ -333,7 +297,7 @@ El **álgebra de Boole** trabaja con variables binarias (0 o 1) y es la base mat
 | Distributiva | A(B+C) = AB+AC | A+BC = (A+B)(A+C) |
 | **De Morgan** | (AB)' = A'+B' | (A+B)' = A'B' |
 
-##### 4.3 Compuertas Lógicas (Hardware)
+### 4.3 Compuertas Lógicas (Hardware)
 
 | Compuerta | Tabla de verdad (A,B → Salida) | Expresión |
 |---|---|---|
@@ -348,7 +312,7 @@ El **álgebra de Boole** trabaja con variables binarias (0 o 1) y es la base mat
 > NAND y NOR son **compuertas universales**: con solo NAND (o solo NOR) repetidas se puede construir CUALQUIER circuito lógico, incluyendo AND, OR y NOT.
 > Ejemplo: $A' = (A \cdot A)'$ → un NAND con ambas entradas iguales a A funciona como NOT.
 
-##### 4.4 Simplificación de Expresiones Booleanas
+### 4.4 Simplificación de Expresiones Booleanas
 
 **Método algebraico — ejemplo resuelto paso a paso:**
 
@@ -372,7 +336,7 @@ F = A + A(1)
 F = A + A = A
 ```
 
-##### 4.5 Mapas de Karnaugh
+### 4.5 Mapas de Karnaugh
 
 Método visual con tablas de $2^n$ casillas que agrupa términos adyacentes (en grupos de 1, 2, 4, 8...) para simplificar funciones booleanas sin necesidad de álgebra paso a paso.
 
@@ -390,23 +354,9 @@ Método visual con tablas de $2^n$ casillas que agrupa términos adyacentes (en 
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué son las compuertas universales y cuáles son en el diseño de circuitos?**
-   * *Respuesta:* Son compuertas con las cuales se puede construir cualquier circuito o función lógica. Son NAND y NOR.
-2. **Simplifique algebraicamente la expresión booleana $Y = A \cdot B + A \cdot B\prime$.**
-   * *Respuesta:* $Y = A \cdot (B + B\prime) = A \cdot 1 = A$.
-3. **¿Cuál es el valor binario de la salida de una compuerta XOR si sus entradas son $A = 1$ y $B = 1$?**
-   * A) 1
-   * B) 0
-   * C) Z (alta impedancia)
-   * D) Indefinido
-   * *Respuesta correcta:* B) 0 (XOR da 1 solo si las entradas son diferentes).
-4. **¿Cuál es la función de un Mapa de Karnaugh?**
-   * *Respuesta:* Es una herramienta gráfica para simplificar funciones booleanas, reduciendo la cantidad de términos de forma visual mediante adyacencias lógicas.
+## 📂 TEMA 5: Teoría de Grafos e Inducción Matemática
 
-#### 📂 Tema 5: Teoría de Grafos e Inducción Matemática
-
-##### 5.1 Conceptos Básicos de Grafos
+### 5.1 Conceptos Básicos de Grafos
 
 Un **grafo** $G=(V,E)$ está formado por un conjunto de **vértices** (V) y un conjunto de **aristas** (E) que conectan pares de vértices.
 
@@ -419,7 +369,7 @@ Un **grafo** $G=(V,E)$ está formado por un conjunto de **vértices** (V) y un c
 | **Completo ($K_n$)** | Todos los vértices están conectados entre sí; tiene $\frac{n(n-1)}{2}$ aristas |
 | **Bipartito** | Los vértices se dividen en dos grupos, y las aristas solo conectan vértices de grupos distintos |
 
-##### 5.2 Conceptos Clave y Fórmulas
+### 5.2 Conceptos Clave y Fórmulas
 
 - **Grado de un vértice** $\deg(v)$: número de aristas que llegan o salen de él.
 - **Teorema de la suma de grados:** $\sum \deg(v) = 2|E|$ (la suma de todos los grados es el doble del número de aristas, porque cada arista se cuenta dos veces).
@@ -427,7 +377,7 @@ Un **grafo** $G=(V,E)$ está formado por un conjunto de **vértices** (V) y un c
 - **Ciclo:** camino que empieza y termina en el mismo vértice.
 - **Grafo conexo:** existe un camino entre cualquier par de vértices.
 
-##### 5.3 Representación Matricial de Grafos
+### 5.3 Representación Matricial de Grafos
 
 **Matriz de adyacencia** para el grafo: A-B, A-C, B-C
 
@@ -439,7 +389,7 @@ Un **grafo** $G=(V,E)$ está formado por un conjunto de **vértices** (V) y un c
 
 > Este es un grafo completo $K_3$ (triángulo): todos conectados entre sí. Grado de cada vértice = 2. Suma de grados = 6 = 2×3 aristas ✓ (cumple el teorema).
 
-##### 5.4 Inducción Matemática
+### 5.4 Inducción Matemática
 
 **Los 3 pasos formales:**
 1. **Caso base:** demostrar para $n=1$ (o el primer valor del dominio).
@@ -459,23 +409,9 @@ Un **grafo** $G=(V,E)$ está formado por un conjunto de **vértices** (V) y un c
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué diferencia a un grafo dirigido (dígrafo) de uno no dirigido?**
-   * *Respuesta:* En el grafo dirigido, las aristas tienen una dirección definida (de un origen a un destino, representadas con flechas); en el no dirigido, las conexiones no tienen sentido de orientación.
-2. **Explique los dos pasos esenciales del método de demostración por Inducción Matemática.**
-   * *Respuesta:* 1. Caso base: se prueba que la proposición es válida para el menor elemento del conjunto (ej: $n=1$). 2. Paso inductivo: se asume que es cierta para $n=k$ (hipótesis inductiva) y se demuestra que entonces también es cierta para $n=k+1$.
-3. **¿Qué representa la matriz de adyacencia de un grafo?**
-   * *Respuesta:* Una matriz cuadrada donde la posición $(i,j)$ vale 1 si existe una arista que conecta al vértice $i$ con el vértice $j$, y 0 en caso contrario.
-4. **Un grafo conexo que no tiene ciclos se denomina:**
-   * A) Dígrafo completo
-   * B) Árbol
-   * C) Grafo bipartito
-   * D) Bucle
-   * *Respuesta correcta:* B) Árbol.
+## 📂 TEMA 6: Máquinas de Estado y Lenguajes Formales
 
-#### 📂 Tema 6: Máquinas de Estado y Lenguajes Formales
-
-##### 6.1 Autómatas Finitos
+### 6.1 Autómatas Finitos
 
 Un **autómata finito** es un modelo matemático con un número finito de estados, usado para reconocer patrones en cadenas (lenguajes formales).
 
@@ -496,7 +432,7 @@ Un **autómata finito** es un modelo matemático con un número finito de estado
 > - Transiciones: desde $q_0$ con "0" se queda en $q_0$; con "1" va a $q_1$. Desde $q_1$ con "0" vuelve a $q_0$; con "1" se queda en $q_1$.
 > - La cadena "1101" termina en $q_1$ (acepta), la cadena "1100" termina en $q_0$ (rechaza).
 
-##### 6.2 Gramáticas Formales y Jerarquía de Chomsky
+### 6.2 Gramáticas Formales y Jerarquía de Chomsky
 
 Una **gramática** $G=(V,T,P,S)$ define las reglas de producción que generan las cadenas válidas de un lenguaje.
 
@@ -511,7 +447,7 @@ Una **gramática** $G=(V,T,P,S)$ define las reglas de producción que generan la
 > $S \to aS \mid b$
 > Genera: b, ab, aab, aaab, ...
 
-##### 6.3 Expresiones Regulares
+### 6.3 Expresiones Regulares
 
 | Símbolo | Significado | Ejemplo |
 |---|---|---|
@@ -527,49 +463,31 @@ Una **gramática** $G=(V,T,P,S)$ define las reglas de producción que generan la
 
 ---
 
-##### 📑 Banco de Preguntas (Auto-Evaluación)
-1. **¿Qué diferencia hay entre un DFA (Autómata Finito Determinista) y un NFA (No Determinista)?**
-   * *Respuesta:* En un DFA, para cada estado y símbolo de entrada hay una única transición posible; en un NFA, puede haber múltiples transiciones posibles, transiciones vacías ($\epsilon$) o ninguna transición para un mismo par de estado y símbolo.
-2. **Describa la Jerarquía de Chomsky de lenguajes y gramáticas formales.**
-   * *Respuesta:* Clasifica las gramáticas en 4 niveles de restricciones crecientes: Tipo 0 (Sin restricciones / Máquina de Turing), Tipo 1 (Sensibles al contexto), Tipo 2 (Libres de contexto / Autómata de pila) y Tipo 3 (Regulares / Autómata finito).
-3. **Dada la expresión regular $a^*b$, ¿cuál de las siguientes cadenas NO es aceptada por ella?**
-   * A) "b"
-   * B) "ab"
-   * C) "aaab"
-   * D) "aba"
-   * *Respuesta correcta:* D) "aba" (la cadena debe terminar estrictamente en un único carácter "b").
-4. **Mencione los 5 componentes formales de un autómata finito.**
-   * *Respuesta:* $M = (Q, \Sigma, \delta, q_0, F)$ donde $Q$ son los estados, $\Sigma$ el alfabeto, $\delta$ la función de transición, $q_0$ el estado inicial y $F$ los estados de aceptación.
+## 🎯 Ponderación y Control de Calificaciones
 
-### 🗂️ Estructura de Carpetas de Aprendizaje
-Temas y carpetas de estudio organizadas en este directorio:
-- 📁 [Tema 1 - Logica Proposicional y Tablas de Verdad](./Tema%201%20-%20Logica%20Proposicional%20y%20Tablas%20de%20Verdad)
-- 📁 [Tema 2 - Teoria de Conjuntos](./Tema%202%20-%20Teoria%20de%20Conjuntos)
-- 📁 [Tema 3 - Relaciones y Funciones Discretas](./Tema%203%20-%20Relaciones%20y%20Funciones%20Discretas)
-- 📁 [Tema 4 - Algebra de Boole y Circuitos Logicos](./Tema%204%20-%20Algebra%20de%20Boole%20y%20Circuitos%20Logicos)
-- 📁 [Tema 4 - Algebra de Boole y Circuitos Lógicos](./Tema%204%20-%20Algebra%20de%20Boole%20y%20Circuitos%20L%C3%B3gicos)
-- 📁 [Tema 5 - Teoria de Grafos e Induccion Matematica](./Tema%205%20-%20Teoria%20de%20Grafos%20e%20Induccion%20Matematica)
-- 📁 [Tema 6 - Maquinas de Estado y Lenguajes Formales](./Tema%206%20-%20Maquinas%20de%20Estado%20y%20Lenguajes%20Formales)
-
-### 🎯 Ponderación y Control de Calificaciones
 | Actividad Evaluativa | Ponderación | Nota Obtenida |
-| --- | :---: | :---: |
+|---|---|---|
 | **Examen Primer Parcial** | 30% | `__ / 100` |
 | **Examen Segundo Parcial** | 30% | `__ / 100` |
 | **Examen Final / Proyecto** | 30% | `__ / 100` |
 | **Tareas y Prácticas** | 10% | `__ / 100` |
 | **Nota Final** | **100%** | **`__ / 100`** |
 
-### 📅 Cronograma de Fechas Importantes
-- [ ] **Examen Primer Parcial:** _Fecha: ____/____/_________
-- [ ] **Examen Segundo Parcial:** _Fecha: ____/____/_________
-- [ ] **Entrega de Proyecto/Trabajo Final:** _Fecha: ____/____/_________
-- [ ] **Examen Final:** _Fecha: ____/____/_________
+---
 
-### 📂 Archivos en esta Carpeta
-Aquí tienes un listado de los archivos almacenados en esta materia:
-- 📄 [README_ALF100_v2.md](./README_ALF100_v2.md)
+## 📅 Cronograma de Fechas Importantes
+
+- [ ] **Examen Primer Parcial:** *Fecha: **/**/*________
+- [ ] **Examen Segundo Parcial:** *Fecha: **/**/*________
+- [ ] **Entrega de Proyecto/Trabajo Final:** *Fecha: **/**/*________
+- [ ] **Examen Final:** *Fecha: **/**/*________
+
+---
+
+## 📂 Archivos en esta Carpeta
+
 - 📄 [TEMA N° 1 Algebla I.docx](./TEMA%20N%C2%B0%201%20Algebla%20I.docx)
 
 ---
-*Documento autogenerado para el control de estudios del Ing. José Luis Choquevilca - UNIOR*
+
+*Documento enriquecido para el control de estudios del Ing. José Luis Choquevilca — UNIOR 2017*

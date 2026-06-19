@@ -6,29 +6,30 @@
 ### 📚 Apuntes y Conceptos Clave
 ##### 1.1 Proposiciones
 
-Una **proposición** es un enunciado que puede calificarse como verdadero (V) o falso (F), pero no ambos a la vez.
+Una **proposición** es un enunciado declarativo que puede calificarse como verdadero (V/1) o falso (F/0), pero nunca ambos a la vez, y nunca ninguno.
 
 | Tipo | Descripción | Ejemplo |
 |---|---|---|
-| **Atómica (simple)** | No contiene conectivos lógicos | "La Paz es la sede de gobierno" |
-| **Molecular (compuesta)** | Combina proposiciones con conectivos | "Llueve y hace frío" |
+| **Atómica (simple)** | No contiene conectivos lógicos | p: "La Paz es la sede de gobierno" |
+| **Molecular (compuesta)** | Combina proposiciones con conectivos | p∧q: "Llueve y hace frío" |
 
-> No son proposiciones las preguntas, órdenes o exclamaciones: "¿Qué hora es?" no es una proposición.
+**NO son proposiciones:**
+- Preguntas: "¿Qué hora es?"
+- Órdenes/exclamaciones: "¡Cierra la puerta!"
+- Enunciados ambiguos o de opinión sin valor de verdad objetivo: "El helado de chocolate es el mejor"
 
-##### 1.2 Conectivos Lógicos
+##### 1.2 Conectivos Lógicos (Operadores)
 
 | Conectivo | Símbolo | Nombre | Se lee | Verdadero cuando... |
 |---|---|---|---|---|
 | Negación | ¬p | NOT | "no p" | p es falso |
 | Conjunción | p ∧ q | AND | "p y q" | ambas son verdaderas |
-| Disyunción | p ∨ q | OR | "p o q" | al menos una es verdadera |
+| Disyunción inclusiva | p ∨ q | OR | "p o q" | al menos una es verdadera |
 | Disyunción exclusiva | p ⊕ q | XOR | "p o q, no ambas" | exactamente una es verdadera |
 | Implicación (condicional) | p → q | IF...THEN | "si p, entonces q" | excepto cuando p=V y q=F |
-| Doble implicación | p ↔ q | IFF | "p si y solo si q" | ambas tienen el mismo valor |
+| Doble implicación | p ↔ q | IFF | "p si y solo si q" | ambas tienen el mismo valor de verdad |
 
-##### 1.3 Tablas de Verdad
-
-**Tabla de los conectivos básicos:**
+##### 1.3 Tabla de Verdad Completa
 
 | p | q | ¬p | p∧q | p∨q | p⊕q | p→q | p↔q |
 |---|---|---|---|---|---|---|---|
@@ -37,36 +38,82 @@ Una **proposición** es un enunciado que puede calificarse como verdadero (V) o 
 | F | V | V | F | V | V | V | F |
 | F | F | V | F | F | F | V | V |
 
-**Número de filas:** con $n$ proposiciones simples, la tabla tiene $2^n$ filas.
+**Regla del número de filas:** con $n$ proposiciones simples distintas, la tabla tiene $2^n$ filas.
+> Con 3 proposiciones (p, q, r) → $2^3 = 8$ filas.
 
-##### 1.4 Tautologías, Contradicciones y Contingencias
+##### 1.4 Construyendo una Tabla de Verdad para una Proposición Compleja
+
+> *Ejemplo resuelto:* Construir la tabla de $(p \to q) \land (\lnot p \lor r)$
+
+| p | q | r | p→q | ¬p | ¬p∨r | (p→q)∧(¬p∨r) |
+|---|---|---|---|---|---|---|
+| V | V | V | V | F | V | V |
+| V | V | F | V | F | F | F |
+| V | F | V | F | F | V | F |
+| V | F | F | F | F | F | F |
+| F | V | V | V | V | V | V |
+| F | V | F | V | V | V | V |
+| F | F | V | V | V | V | V |
+| F | F | F | V | V | V | V |
+
+**Pasos para resolverlo:**
+1. Listar todas las combinaciones posibles de p, q, r ($2^3=8$ filas).
+2. Resolver primero los subexpresiones más simples (p→q, ¬p).
+3. Combinar columnas intermedias hasta llegar a la expresión final.
+
+##### 1.5 Tautologías, Contradicciones y Contingencias
 
 | Tipo | Definición | Ejemplo |
 |---|---|---|
-| **Tautología** | Siempre verdadera, sin importar los valores de verdad | p ∨ ¬p |
-| **Contradicción** | Siempre falsa | p ∧ ¬p |
+| **Tautología** | Siempre verdadera, sin importar los valores de verdad | p ∨ ¬p (Ley del tercio excluido) |
+| **Contradicción** | Siempre falsa | p ∧ ¬p (Ley de no contradicción) |
 | **Contingencia** | A veces verdadera, a veces falsa | p → q |
 
-##### 1.5 Leyes del Álgebra Proposicional
+> *Comprobación de que p ∨ ¬p es tautología:*
+
+| p | ¬p | p∨¬p |
+|---|---|---|
+| V | F | **V** |
+| F | V | **V** |
+
+Como la última columna es siempre V, es una **tautología**.
+
+##### 1.6 Leyes del Álgebra Proposicional
 
 | Ley | Expresión |
 |---|---|
 | Doble negación | ¬(¬p) ≡ p |
-| Idempotencia | p ∧ p ≡ p ; p ∨ p ≡ p |
-| Conmutativa | p ∧ q ≡ q ∧ p ; p ∨ q ≡ q ∨ p |
+| Idempotencia | p∧p ≡ p ; p∨p ≡ p |
+| Conmutativa | p∧q ≡ q∧p ; p∨q ≡ q∨p |
 | Asociativa | (p∧q)∧r ≡ p∧(q∧r) |
 | Distributiva | p∧(q∨r) ≡ (p∧q)∨(p∧r) |
-| De Morgan | ¬(p∧q) ≡ ¬p∨¬q ; ¬(p∨q) ≡ ¬p∧¬q |
+| **De Morgan** | ¬(p∧q) ≡ ¬p∨¬q ; ¬(p∨q) ≡ ¬p∧¬q |
 | Implicación material | p→q ≡ ¬p∨q |
+| Contrapositiva | p→q ≡ ¬q→¬p |
+| Absorción | p∧(p∨q) ≡ p ; p∨(p∧q) ≡ p |
 
-##### 1.6 Razonamiento Lógico — Reglas de Inferencia
+> *Ejemplo de simplificación aplicando leyes:*
+> Simplificar: $\lnot(p \land q) \lor (p \land q)$
+> Aplicando De Morgan: $(\lnot p \lor \lnot q) \lor (p \land q)$
+> Esta expresión es en realidad una **tautología** de la forma $X \lor \lnot X$ donde $X = p\land q$, por lo tanto siempre es V.
 
-| Regla | Estructura | Ejemplo |
+##### 1.7 Razonamiento Lógico — Reglas de Inferencia
+
+| Regla | Estructura formal | Ejemplo en lenguaje natural |
 |---|---|---|
-| **Modus Ponens** | p→q, p ⊢ q | Si llueve, me mojo. Llueve. ∴ Me mojo. |
-| **Modus Tollens** | p→q, ¬q ⊢ ¬p | Si llueve, me mojo. No me mojé. ∴ No llovió. |
-| **Silogismo hipotético** | p→q, q→r ⊢ p→r | Cadena de implicaciones |
-| **Silogismo disyuntivo** | p∨q, ¬p ⊢ q | Es A o B. No es A. ∴ Es B. |
+| **Modus Ponens** | p→q, p ⊢ q | "Si llueve, me mojo. Llueve. ∴ Me mojo." |
+| **Modus Tollens** | p→q, ¬q ⊢ ¬p | "Si llueve, me mojo. No me mojé. ∴ No llovió." |
+| **Silogismo hipotético** | p→q, q→r ⊢ p→r | "Si estudio, apruebo. Si apruebo, me gradúo. ∴ Si estudio, me gradúo." |
+| **Silogismo disyuntivo** | p∨q, ¬p ⊢ q | "Es de día o de noche. No es de día. ∴ Es de noche." |
+| **Adición** | p ⊢ p∨q | De una verdad, se puede agregar cualquier disyunción |
+| **Simplificación** | p∧q ⊢ p | De una conjunción, se puede extraer cualquiera de sus partes |
+
+##### 1.8 Falacias Lógicas Comunes (errores de razonamiento)
+
+| Falacia | Error | Ejemplo |
+|---|---|---|
+| **Afirmación del consecuente** | De p→q y q, concluir p (inválido) | "Si llueve, hay nubes. Hay nubes. ∴ Llueve." (falso: podría estar nublado sin llover) |
+| **Negación del antecedente** | De p→q y ¬p, concluir ¬q (inválido) | "Si llueve, hay nubes. No llueve. ∴ No hay nubes." (falso: puede haber nubes sin lluvia) |
 
 ---
 

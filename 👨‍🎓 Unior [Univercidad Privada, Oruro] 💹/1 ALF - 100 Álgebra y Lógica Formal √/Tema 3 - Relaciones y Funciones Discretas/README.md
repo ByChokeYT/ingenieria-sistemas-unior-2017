@@ -6,35 +6,50 @@
 ### 📚 Apuntes y Conceptos Clave
 ##### 3.1 Relaciones Binarias
 
-Una **relación binaria** R de A en B es cualquier subconjunto del producto cartesiano $A \times B$.
+Una **relación binaria** R de A en B es cualquier subconjunto del producto cartesiano $A \times B$: $R \subseteq A \times B$.
 
-##### 3.2 Propiedades de las Relaciones (en un conjunto A)
+> *Ejemplo:* Sea A = {1,2,3} y la relación R = "es menor que" definida en A:
+> $R = \{(1,2),(1,3),(2,3)\}$
 
-| Propiedad | Definición | Ejemplo |
+##### 3.2 Propiedades de las Relaciones (definidas en un conjunto A)
+
+| Propiedad | Definición formal | Ejemplo cotidiano | ¿Se cumple en "≤" sobre ℕ? |
+|---|---|---|---|
+| **Reflexiva** | ∀a∈A: (a,a)∈R | "es igual a" | Sí (a≤a siempre) |
+| **Simétrica** | Si (a,b)∈R entonces (b,a)∈R | "es hermano de" | No (si a≤b no implica b≤a) |
+| **Antisimétrica** | Si (a,b)∈R y (b,a)∈R entonces a=b | "es menor o igual que" | Sí |
+| **Transitiva** | Si (a,b)∈R y (b,c)∈R entonces (a,c)∈R | "es ancestro de" | Sí |
+
+##### 3.3 Relación de Equivalencia vs. Relación de Orden
+
+| Tipo | Propiedades que cumple | Ejemplo |
 |---|---|---|
-| **Reflexiva** | ∀a∈A: (a,a)∈R | "es igual a" |
-| **Simétrica** | Si (a,b)∈R entonces (b,a)∈R | "es hermano de" |
-| **Antisimétrica** | Si (a,b)∈R y (b,a)∈R entonces a=b | "es menor o igual que" |
-| **Transitiva** | Si (a,b)∈R y (b,c)∈R entonces (a,c)∈R | "es ancestro de" |
+| **Relación de equivalencia** | Reflexiva + Simétrica + Transitiva | "Tiene la misma edad que", "≡ (mod n)" |
+| **Relación de orden** | Reflexiva + Antisimétrica + Transitiva | "≤", "es subconjunto de (⊆)" |
 
-**Relación de equivalencia:** cumple reflexiva + simétrica + transitiva (ej: "tiene la misma edad que").
-**Relación de orden:** cumple reflexiva + antisimétrica + transitiva (ej: "≤").
+> *Ejemplo de clases de equivalencia:* La relación "tiene el mismo resto al dividir por 3" sobre los números enteros divide a todos los enteros en exactamente 3 clases: {...,-3,0,3,6,...}, {...,-2,1,4,7,...}, {...,-1,2,5,8,...}
 
-##### 3.3 Funciones
+##### 3.4 Funciones
 
-Una **función** f: A → B asigna a cada elemento de A exactamente un elemento de B.
+Una **función** $f: A \to B$ asigna a **cada** elemento de A **exactamente un** elemento de B (no puede faltar ninguno, ni tener dos imágenes).
 
-| Tipo | Definición | ¿Cómo verificarlo? |
-|---|---|---|
-| **Inyectiva (1 a 1)** | Elementos distintos del dominio tienen imágenes distintas | Ningún elemento de B recibe dos flechas |
-| **Sobreyectiva (sobre)** | Todo elemento de B tiene al menos una preimagen | Todos los elementos de B son alcanzados |
-| **Biyectiva** | Es inyectiva y sobreyectiva a la vez | Correspondencia uno a uno perfecta, admite función inversa |
+| Tipo | Definición | Verificación visual | Ejemplo |
+|---|---|---|---|
+| **Inyectiva (1 a 1)** | Elementos distintos del dominio tienen imágenes distintas | Ningún elemento de B recibe dos flechas | $f(x)=x+1$ en ℝ |
+| **Sobreyectiva (sobre)** | Todo elemento de B tiene al menos una preimagen | Todos los elementos de B son alcanzados | $f(x)=x^3$ en ℝ |
+| **Biyectiva** | Es inyectiva y sobreyectiva a la vez | Correspondencia exacta uno a uno | $f(x)=2x$ en ℝ |
 
-##### 3.4 Composición de Funciones
+> *Ejemplo:* $f(x) = x^2$ definida de ℝ a ℝ **NO es inyectiva** porque $f(2)=f(-2)=4$ (dos elementos del dominio tienen la misma imagen), y **NO es sobreyectiva** porque ningún número negativo de B tiene preimagen real.
+
+##### 3.5 Composición de Funciones
 
 $$(f \circ g)(x) = f(g(x))$$
 
-Primero se aplica $g$, luego $f$ al resultado.
+> *Ejemplo resuelto:* Si $f(x) = x+1$ y $g(x) = x^2$, entonces:
+> $(f \circ g)(3) = f(g(3)) = f(9) = 10$
+> $(g \circ f)(3) = g(f(3)) = g(4) = 16$
+>
+> Nótese que $f \circ g \neq g \circ f$ en general — la composición **no es conmutativa**.
 
 ---
 

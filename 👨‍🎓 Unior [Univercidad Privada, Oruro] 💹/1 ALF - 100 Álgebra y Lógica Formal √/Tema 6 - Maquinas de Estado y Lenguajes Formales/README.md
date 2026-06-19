@@ -6,31 +6,28 @@
 ### 📚 Apuntes y Conceptos Clave
 ##### 6.1 Autómatas Finitos
 
-Un **autómata finito** es un modelo matemático que representa un sistema con un número finito de estados, usado para reconocer patrones y procesar lenguajes formales.
+Un **autómata finito** es un modelo matemático con un número finito de estados, usado para reconocer patrones en cadenas (lenguajes formales).
+
+**Definición formal:** $M = (Q, \Sigma, \delta, q_0, F)$
+- $Q$: conjunto finito de estados
+- $\Sigma$: alfabeto de entrada
+- $\delta$: función de transición ($Q \times \Sigma \to Q$)
+- $q_0$: estado inicial
+- $F$: conjunto de estados de aceptación
 
 | Tipo | Característica |
 |---|---|
-| **DFA** (Determinista) | Para cada estado y símbolo de entrada, hay exactamente una transición posible |
+| **DFA** (Determinista) | Para cada estado y símbolo, exactamente una transición posible |
 | **NFA** (No determinista) | Puede haber cero, una o varias transiciones posibles para el mismo símbolo |
 
-**Componentes de un autómata finito:** $M = (Q, \Sigma, \delta, q_0, F)$
+> *Ejemplo:* Autómata que reconoce cadenas binarias que terminan en "1":
+> - Estados: $\{q_0, q_1\}$, donde $q_0$ es inicial y $q_1$ es de aceptación.
+> - Transiciones: desde $q_0$ con "0" se queda en $q_0$; con "1" va a $q_1$. Desde $q_1$ con "0" vuelve a $q_0$; con "1" se queda en $q_1$.
+> - La cadena "1101" termina en $q_1$ (acepta), la cadena "1100" termina en $q_0$ (rechaza).
 
-- $Q$: conjunto finito de estados
-- $\Sigma$: alfabeto de símbolos de entrada
-- $\delta$: función de transición
-- $q_0$: estado inicial
-- $F$: conjunto de estados finales (de aceptación)
+##### 6.2 Gramáticas Formales y Jerarquía de Chomsky
 
-##### 6.2 Gramáticas Formales
-
-Una **gramática formal** $G = (V, T, P, S)$ define las reglas de producción que generan las cadenas válidas de un lenguaje:
-
-- $V$: símbolos no terminales (variables)
-- $T$: símbolos terminales (alfabeto)
-- $P$: reglas de producción
-- $S$: símbolo inicial
-
-**Jerarquía de Chomsky (clasificación de gramáticas):**
+Una **gramática** $G=(V,T,P,S)$ define las reglas de producción que generan las cadenas válidas de un lenguaje.
 
 | Tipo | Nombre | Reconocida por |
 |---|---|---|
@@ -39,9 +36,11 @@ Una **gramática formal** $G = (V, T, P, S)$ define las reglas de producción qu
 | Tipo 2 | Libre de contexto | Autómata de pila |
 | Tipo 3 | Regular | Autómata finito |
 
-##### 6.3 Expresiones Regulares
+> *Ejemplo de gramática regular* que genera cadenas con cualquier número de "a" seguidas de una "b":
+> $S \to aS \mid b$
+> Genera: b, ab, aab, aaab, ...
 
-Las **expresiones regulares** son patrones que describen conjuntos de cadenas de texto, ampliamente usadas en programación para validación y búsqueda de texto.
+##### 6.3 Expresiones Regulares
 
 | Símbolo | Significado | Ejemplo |
 |---|---|---|
@@ -51,7 +50,9 @@ Las **expresiones regulares** son patrones que describen conjuntos de cadenas de
 | `\|` | Alternancia (o) | `a\|b` → "a" o "b" |
 | `.` | Cualquier carácter | `a.c` → "abc", "axc"... |
 
-> Las expresiones regulares son equivalentes en poder de reconocimiento a los autómatas finitos: todo lo que reconoce un DFA puede expresarse como una expresión regular, y viceversa.
+> *Ejemplo práctico:* la expresión regular para validar un número de teléfono boliviano simple podría ser `[67][0-9]{7}` (empieza con 6 o 7, seguido de 7 dígitos).
+
+> Las expresiones regulares son equivalentes en poder de reconocimiento a los autómatas finitos (Tipo 3): todo lo que reconoce un DFA puede expresarse como expresión regular, y viceversa.
 
 ---
 
