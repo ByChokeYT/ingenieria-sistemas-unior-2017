@@ -1047,33 +1047,408 @@ Comprende la interacción de la ingeniería informática con el ecosistema empre
         "emoji": "📐",
         "title": "Álgebra y Lógica Formal",
         "prereq": "Ninguno",
-        "description": "Introducción a las matemáticas discretas, lógica proposicional, teoría de conjuntos y estructuras algebraicas.",
+        "description": "Introducción a las matemáticas discretas, lógica proposicional, teoría de conjuntos y estructuras algebraicas, base fundamental para el razonamiento computacional, el diseño de algoritmos y la arquitectura digital.",
         "apuntes": """### 🗺️ Ruta de Aprendizaje de Álgebra y Lógica Formal
 Fundamentos de lógica y estructuras discretas matemáticas:
 
 #### 📂 Tema 1: Lógica Proposicional y Tablas de Verdad
-* Proposiciones atómicas y moleculares. Conectivas lógicas (negación, conjunción, disyunción, implicación).
-* Construcción de tablas de verdad. Análisis de tautologías, contradicciones y contingencias.
+
+##### 1.1 Proposiciones
+
+Una **proposición** es un enunciado que puede calificarse como verdadero (V) o falso (F), pero no ambos a la vez.
+
+| Tipo | Descripción | Ejemplo |
+|---|---|---|
+| **Atómica (simple)** | No contiene conectivos lógicos | "La Paz es la sede de gobierno" |
+| **Molecular (compuesta)** | Combina proposiciones con conectivos | "Llueve y hace frío" |
+
+> No son proposiciones las preguntas, órdenes o exclamaciones: "¿Qué hora es?" no es una proposición.
+
+##### 1.2 Conectivos Lógicos
+
+| Conectivo | Símbolo | Nombre | Se lee | Verdadero cuando... |
+|---|---|---|---|---|
+| Negación | ¬p | NOT | "no p" | p es falso |
+| Conjunción | p ∧ q | AND | "p y q" | ambas son verdaderas |
+| Disyunción | p ∨ q | OR | "p o q" | al menos una es verdadera |
+| Disyunción exclusiva | p ⊕ q | XOR | "p o q, no ambas" | exactamente una es verdadera |
+| Implicación (condicional) | p → q | IF...THEN | "si p, entonces q" | excepto cuando p=V y q=F |
+| Doble implicación | p ↔ q | IFF | "p si y solo si q" | ambas tienen el mismo valor |
+
+##### 1.3 Tablas de Verdad
+
+**Tabla de los conectivos básicos:**
+
+| p | q | ¬p | p∧q | p∨q | p⊕q | p→q | p↔q |
+|---|---|---|---|---|---|---|---|
+| V | V | F | V | V | F | V | V |
+| V | F | F | F | V | V | F | F |
+| F | V | V | F | V | V | V | F |
+| F | F | V | F | F | F | V | V |
+
+**Número de filas:** con $n$ proposiciones simples, la tabla tiene $2^n$ filas.
+
+##### 1.4 Tautologías, Contradicciones y Contingencias
+
+| Tipo | Definición | Ejemplo |
+|---|---|---|
+| **Tautología** | Siempre verdadera, sin importar los valores de verdad | p ∨ ¬p |
+| **Contradicción** | Siempre falsa | p ∧ ¬p |
+| **Contingencia** | A veces verdadera, a veces falsa | p → q |
+
+##### 1.5 Leyes del Álgebra Proposicional
+
+| Ley | Expresión |
+|---|---|
+| Doble negación | ¬(¬p) ≡ p |
+| Idempotencia | p ∧ p ≡ p ; p ∨ p ≡ p |
+| Conmutativa | p ∧ q ≡ q ∧ p ; p ∨ q ≡ q ∨ p |
+| Asociativa | (p∧q)∧r ≡ p∧(q∧r) |
+| Distributiva | p∧(q∨r) ≡ (p∧q)∨(p∧r) |
+| De Morgan | ¬(p∧q) ≡ ¬p∨¬q ; ¬(p∨q) ≡ ¬p∧¬q |
+| Implicación material | p→q ≡ ¬p∨q |
+
+##### 1.6 Razonamiento Lógico — Reglas de Inferencia
+
+| Regla | Estructura | Ejemplo |
+|---|---|---|
+| **Modus Ponens** | p→q, p ⊢ q | Si llueve, me mojo. Llueve. ∴ Me mojo. |
+| **Modus Tollens** | p→q, ¬q ⊢ ¬p | Si llueve, me mojo. No me mojé. ∴ No llovió. |
+| **Silogismo hipotético** | p→q, q→r ⊢ p→r | Cadena de implicaciones |
+| **Silogismo disyuntivo** | p∨q, ¬p ⊢ q | Es A o B. No es A. ∴ Es B. |
+
+---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **Diferencie entre una proposición atómica y una molecular.**
+   * *Respuesta:* Una proposición atómica es simple y no contiene conectivos lógicos (ej. "La Paz es la sede de gobierno"); una molecular combina dos o más proposiciones atómicas mediante conectivos lógicos (ej. "Llueve y hace frío").
+2. **Defina qué son Tautología, Contradicción y Contingencia.**
+   * *Respuesta:* Tautología: enunciado que es siempre verdadero bajo cualquier interpretación. Contradicción: enunciado siempre falso. Contingencia: enunciado que puede ser verdadero o falso dependiendo de sus componentes.
+3. **¿Cuántas filas tiene una tabla de verdad para un enunciado que contiene 4 proposiciones simples distintas?**
+   * A) 8 filas
+   * B) 16 filas
+   * C) 32 filas
+   * D) 4 filas
+   * *Respuesta correcta:* B) 16 filas ($2^4 = 16$).
+4. **Aplique la Ley de De Morgan para negar la proposición $p \\land q$.**
+   * *Respuesta:* $\\neg(p \\land q) \\equiv \\neg p \\lor \\neg q$.
 
 #### 📂 Tema 2: Teoría de Conjuntos
-* Definición de conjuntos por extensión y comprensión. Conjunto potencia.
-* Operaciones entre conjuntos (unión, intersección, diferencia, complemento) y diagramas de Venn.
+
+##### 2.1 Definición de Conjuntos
+
+Un **conjunto** es una colección bien definida de objetos llamados elementos.
+
+| Forma de definir | Notación | Ejemplo |
+|---|---|---|
+| **Por extensión** | Se listan los elementos | A = {2, 4, 6, 8} |
+| **Por comprensión** | Se describe una propiedad | A = {x \\| x es par, 0<x<10} |
+
+**Notación de pertenencia:** $a \\in A$ (a pertenece a A), $a \\notin A$ (a no pertenece a A).
+
+##### 2.2 Tipos de Conjuntos
+
+| Tipo | Descripción | Ejemplo |
+|---|---|---|
+| Vacío | No tiene elementos | ∅ o {} |
+| Unitario | Tiene un solo elemento | {5} |
+| Finito | Número limitado de elementos | {1,2,3} |
+| Infinito | Número ilimitado de elementos | Números naturales ℕ |
+| Universal | Contiene a todos los elementos del contexto | U |
+
+##### 2.3 Conjunto Potencia
+
+El **conjunto potencia** P(A) es el conjunto de todos los subconjuntos posibles de A, incluyendo el vacío y A mismo.
+
+$$|P(A)| = 2^n \\text{, donde } n = |A|$$
+
+> *Ejemplo:* Si A = {1, 2}, entonces P(A) = {∅, {1}, {2}, {1,2}} → tiene $2^2=4$ elementos.
+
+##### 2.4 Operaciones entre Conjuntos
+
+| Operación | Símbolo | Definición | Diagrama de Venn |
+|---|---|---|---|
+| **Unión** | A ∪ B | Elementos en A o en B (o ambos) | Ambos círculos sombreados |
+| **Intersección** | A ∩ B | Elementos en A y en B | Solo zona compartida |
+| **Diferencia** | A − B | Elementos en A pero no en B | Solo A, sin la parte de B |
+| **Complemento** | A' o Aᶜ | Elementos del universo que no están en A | Todo excepto A |
+| **Diferencia simétrica** | A △ B | Elementos en A o B, pero no en ambos | (A∪B) − (A∩B) |
+
+##### 2.5 Propiedades de las Operaciones
+
+- **Leyes de De Morgan:** $(A \\cup B)' = A' \\cap B'$ ; $(A \\cap B)' = A' \\cup B'$
+- **Distributivas:** $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$
+- **Conmutativas:** $A \\cup B = B \\cup A$
+- **Asociativas:** $(A \\cup B) \\cup C = A \\cup (B \\cup C)$
+
+##### 2.6 Producto Cartesiano
+
+$$A \\times B = \\{(a,b) \\mid a \\in A, b \\in B\\}$$
+
+> *Ejemplo:* Si A={1,2} y B={x,y}, entonces A×B = {(1,x),(1,y),(2,x),(2,y)}
+
+---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué es el conjunto potencia y cuántos elementos tiene el conjunto potencia de $A = \\{a, b, c\\}$?**
+   * *Respuesta:* Es el conjunto formado por todos los subconjuntos de $A$. Tiene $2^3 = 8$ elementos: $\\{\\emptyset, \\{a\\}, \\{b\\}, \\{c\\}, \\{a,b\\}, \\{a,c\\}, \\{b,c\\}, \\{a,b,c\\}\\}$.
+2. **Defina la diferencia simétrica entre dos conjuntos $A$ y $B$.**
+   * *Respuesta:* Es el conjunto de elementos que pertenecen a $A$ o a $B$, pero no a ambos a la vez ($A \\Delta B = (A \\cup B) - (A \\cap B)$).
+3. **Si el universo es $U = \\{1, 2, 3, 4, 5\\}$ y $A = \\{1, 3, 5\\}$, halle el complemento de $A$ ($A\\prime$).**
+   * A) $\\{2, 4\\}$
+   * B) $\\{1, 3, 5\\}$
+   * C) $\\emptyset$
+   * D) $\\{1, 2, 3, 4, 5\\}$
+   * *Respuesta correcta:* A) $\\{2, 4\\}$.
+4. **Enuncie una de las Leyes de De Morgan aplicadas a conjuntos.**
+   * *Respuesta:* $(A \\cup B)\\prime = A\\prime \\cap B\\prime$ o $(A \\cap B)\\prime = A\\prime \\cup B\\prime$.
 
 #### 📂 Tema 3: Relaciones y Funciones Discretas
-* Producto cartesiano. Relaciones binarias, propiedades de reflexividad, simetría y transitividad.
-* Funciones discretas e inyectividad, sobreyectividad y biyectividad.
+
+##### 3.1 Relaciones Binarias
+
+Una **relación binaria** R de A en B es cualquier subconjunto del producto cartesiano $A \\times B$.
+
+##### 3.2 Propiedades de las Relaciones (en un conjunto A)
+
+| Propiedad | Definición | Ejemplo |
+|---|---|---|
+| **Reflexiva** | ∀a∈A: (a,a)∈R | "es igual a" |
+| **Simétrica** | Si (a,b)∈R entonces (b,a)∈R | "es hermano de" |
+| **Antisimétrica** | Si (a,b)∈R y (b,a)∈R entonces a=b | "es menor o igual que" |
+| **Transitiva** | Si (a,b)∈R y (b,c)∈R entonces (a,c)∈R | "es ancestro de" |
+
+**Relación de equivalencia:** cumple reflexiva + simétrica + transitiva (ej: "tiene la misma edad que").
+**Relación de orden:** cumple reflexiva + antisimétrica + transitiva (ej: "≤").
+
+##### 3.3 Funciones
+
+Una **función** f: A → B asigna a cada elemento de A exactamente un elemento de B.
+
+| Tipo | Definición | ¿Cómo verificarlo? |
+|---|---|---|
+| **Inyectiva (1 a 1)** | Elementos distintos del dominio tienen imágenes distintas | Ningún elemento de B recibe dos flechas |
+| **Sobreyectiva (sobre)** | Todo elemento de B tiene al menos una preimagen | Todos los elementos de B son alcanzados |
+| **Biyectiva** | Es inyectiva y sobreyectiva a la vez | Correspondencia uno a uno perfecta, admite función inversa |
+
+##### 3.4 Composición de Funciones
+
+$$(f \\circ g)(x) = f(g(x))$$
+
+Primero se aplica $g$, luego $f$ al resultado.
+
+---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué condiciones debe cumplir una relación para ser de equivalencia?**
+   * *Respuesta:* Debe ser reflexiva, simétrica y transitiva.
+2. **Explique la diferencia entre una función inyectiva y una sobreyectiva.**
+   * *Respuesta:* Inyectiva (1 a 1): elementos distintos del dominio tienen imágenes distintas. Sobreyectiva (sobre): el rango de la función es igual a su codominio (toda imagen tiene preimagen).
+3. **Si una función es inyectiva y sobreyectiva al mismo tiempo, se clasifica como:**
+   * A) Reflexiva
+   * B) Identidad
+   * C) Biyectiva
+   * D) Compuesta
+   * *Respuesta correcta:* C) Biyectiva.
+4. **Dada la relación $R = \\{(1,1), (2,2)\\}$ en el conjunto $A = \\{1, 2, 3\\}$, ¿es reflexiva? ¿Por qué?**
+   * *Respuesta:* No es reflexiva en $A$, porque falta el elemento $(3,3)$, y la definición exige que $(a,a) \\in R$ para todo $a \\in A$.
 
 #### 📂 Tema 4: Álgebra de Boole y Circuitos Lógicos
-* Definición de variables y operaciones booleanas. Compuertas lógicas de hardware (AND, OR, NOT, XOR).
-* Simplificación de expresiones booleanas algebraicamente y mediante Mapas de Karnaugh.
+
+##### 4.1 Variables y Operaciones Booleanas
+
+El **álgebra de Boole** trabaja con variables que solo pueden tomar dos valores: 0 (falso) o 1 (verdadero). Es la base matemática de los circuitos digitales.
+
+| Operación | Notación algebraica | Equivalente lógico |
+|---|---|---|
+| AND | A · B (o AB) | Conjunción ∧ |
+| OR | A + B | Disyunción ∨ |
+| NOT | A' o Ā | Negación ¬ |
+
+##### 4.2 Postulados y Teoremas de Boole
+
+| Ley | AND | OR |
+|---|---|---|
+| Identidad | A · 1 = A | A + 0 = A |
+| Nulo | A · 0 = 0 | A + 1 = 1 |
+| Idempotencia | A · A = A | A + A = A |
+| Complemento | A · A' = 0 | A + A' = 1 |
+| Conmutativa | A·B = B·A | A+B = B+A |
+| Asociativa | (AB)C = A(BC) | (A+B)+C = A+(B+C) |
+| Distributiva | A(B+C) = AB+AC | A+BC = (A+B)(A+C) |
+| **De Morgan** | (AB)' = A'+B' | (A+B)' = A'B' |
+
+##### 4.3 Compuertas Lógicas (Hardware)
+
+| Compuerta | Símbolo eléctrico | Tabla de verdad | Expresión |
+|---|---|---|---|
+| **AND** | Compuerta en forma de D | 1 solo si ambas entradas son 1 | A·B |
+| **OR** | Compuerta curva | 1 si al menos una entrada es 1 | A+B |
+| **NOT** | Triángulo con círculo | Invierte la entrada | A' |
+| **NAND** | AND + círculo (burbuja) | Inverso de AND | (A·B)' |
+| **NOR** | OR + círculo (burbuja) | Inverso de OR | (A+B)' |
+| **XOR** | OR con línea curva doble | 1 si las entradas son diferentes | A⊕B |
+| **XNOR** | XOR + círculo | 1 si las entradas son iguales | (A⊕B)' |
+
+> NAND y NOR son **compuertas universales**: con solo NAND (o solo NOR) se puede construir cualquier circuito lógico.
+
+##### 4.4 Simplificación de Expresiones Booleanas
+
+**Método algebraico:** aplicar los teoremas de Boole para reducir términos.
+
+> *Ejemplo:* $AB + AB' = A(B+B') = A \\cdot 1 = A$
+
+**Mapas de Karnaugh:** método visual con tablas de 2, 4, 8 o 16 casillas que agrupa términos adyacentes (en potencias de 2: grupos de 1, 2, 4, 8...) para simplificar funciones booleanas sin usar álgebra paso a paso.
+
+**Pasos para usar un Mapa de Karnaugh:**
+1. Construir la tabla de verdad de la función.
+2. Ubicar los 1s en el mapa según las combinaciones de variables.
+3. Agrupar los 1s adyacentes en bloques de tamaño potencia de 2.
+4. Escribir la expresión simplificada a partir de los grupos formados.
+
+---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué son las compuertas universales y cuáles son en el diseño de circuitos?**
+   * *Respuesta:* Son compuertas con las cuales se puede construir cualquier circuito o función lógica. Son NAND y NOR.
+2. **Simplifique algebraicamente la expresión booleana $Y = A \\cdot B + A \\cdot B\\prime$.**
+   * *Respuesta:* $Y = A \\cdot (B + B\\prime) = A \\cdot 1 = A$.
+3. **¿Cuál es el valor binario de la salida de una compuerta XOR si sus entradas son $A = 1$ y $B = 1$?**
+   * A) 1
+   * B) 0
+   * C) Z (alta impedancia)
+   * D) Indefinido
+   * *Respuesta correcta:* B) 0 (XOR da 1 solo si las entradas son diferentes).
+4. **¿Cuál es la función de un Mapa de Karnaugh?**
+   * *Respuesta:* Es una herramienta gráfica para simplificar funciones booleanas, reduciendo la cantidad de términos de forma visual mediante adyacencias lógicas.
 
 #### 📂 Tema 5: Teoría de Grafos e Inducción Matemática
-* Grafos, dígrafos, caminos, ciclos, conectividad y representación matricial.
-* Principio de inducción matemática y su aplicación en demostraciones formales.
+
+##### 5.1 Conceptos Básicos de Grafos
+
+Un **grafo** G = (V, E) está formado por un conjunto de **vértices** (V) y un conjunto de **aristas** (E) que conectan pares de vértices.
+
+| Tipo de Grafo | Descripción |
+|---|---|
+| **No dirigido** | Las aristas no tienen dirección (A-B = B-A) |
+| **Dirigido (dígrafo)** | Las aristas tienen dirección (A→B ≠ B→A) |
+| **Ponderado** | Las aristas tienen un peso o costo asociado |
+| **Simple** | Sin lazos ni aristas múltiples entre el mismo par de vértices |
+| **Completo** | Todos los vértices están conectados entre sí |
+
+##### 5.2 Conceptos Clave
+
+- **Grado de un vértice:** número de aristas que llegan o salen de él.
+- **Camino:** secuencia de vértices conectados por aristas, sin repetir vértices.
+- **Ciclo:** camino que empieza y termina en el mismo vértice.
+- **Conectividad:** un grafo es conexo si existe un camino entre cualquier par de vértices.
+
+##### 5.3 Representación Matricial de Grafos
+
+**Matriz de adyacencia:** matriz $n \\times n$ donde la celda $(i,j) = 1$ si existe arista entre el vértice $i$ y el vértice $j$, y $0$ si no.
+
+| | A | B | C |
+|---|---|---|---|
+| **A** | 0 | 1 | 1 |
+| **B** | 1 | 0 | 0 |
+| **C** | 1 | 0 | 0 |
+
+> Este grafo de ejemplo tiene a A conectado con B y con C, pero B y C no están conectados entre sí.
+
+##### 5.4 Inducción Matemática
+
+La **inducción matemática** es un método de demostración para afirmaciones que dependen de un número natural $n$.
+
+**Pasos del principio de inducción:**
+
+1. **Caso base:** demostrar que la afirmación es verdadera para $n=1$ (o el primer valor del dominio).
+2. **Paso inductivo:** suponer que es verdadera para $n=k$ (hipótesis inductiva) y demostrar que entonces también es verdadera para $n=k+1$.
+3. **Conclusión:** si ambos pasos se cumplen, la afirmación es verdadera para todo $n$ natural.
+
+> *Ejemplo clásico:* demostrar que $1+2+3+\\dots+n = \\frac{n(n+1)}{2}$ para todo $n \\geq 1$, verificando el caso base $n=1$ y luego el paso inductivo de $k$ a $k+1$.
+
+---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué diferencia a un grafo dirigido (dígrafo) de uno no dirigido?**
+   * *Respuesta:* En el grafo dirigido, las aristas tienen una dirección definida (de un origen a un destino, representadas con flechas); en el no dirigido, las conexiones no tienen sentido de orientación.
+2. **Explique los dos pasos esenciales del método de demostración por Inducción Matemática.**
+   * *Respuesta:* 1. Caso base: se prueba que la proposición es válida para el menor elemento del conjunto (ej: $n=1$). 2. Paso inductivo: se asume que es cierta para $n=k$ (hipótesis inductiva) y se demuestra que entonces también es cierta para $n=k+1$.
+3. **¿Qué representa la matriz de adyacencia de un grafo?**
+   * *Respuesta:* Una matriz cuadrada donde la posición $(i,j)$ vale 1 si existe una arista que conecta al vértice $i$ con el vértice $j$, y 0 en caso contrario.
+4. **Un grafo conexo que no tiene ciclos se denomina:**
+   * A) Dígrafo completo
+   * B) Árbol
+   * C) Grafo bipartito
+   * D) Bucle
+   * *Respuesta correcta:* B) Árbol.
 
 #### 📂 Tema 6: Máquinas de Estado y Lenguajes Formales
-* Autómatas finitos deterministas (DFA) y no deterministas (NFA).
-* Gramáticas formales y expresiones regulares en computación."""
+
+##### 6.1 Autómatas Finitos
+
+Un **autómata finito** es un modelo matemático que representa un sistema con un número finito de estados, usado para reconocer patrones y procesar lenguajes formales.
+
+| Tipo | Característica |
+|---|---|
+| **DFA** (Determinista) | Para cada estado y símbolo de entrada, hay exactamente una transición posible |
+| **NFA** (No determinista) | Puede haber cero, una o varias transiciones posibles para el mismo símbolo |
+
+**Componentes de un autómata finito:** $M = (Q, \\Sigma, \\delta, q_0, F)$
+
+- $Q$: conjunto finito de estados
+- $\\Sigma$: alfabeto de símbolos de entrada
+- $\\delta$: función de transición
+- $q_0$: estado inicial
+- $F$: conjunto de estados finales (de aceptación)
+
+##### 6.2 Gramáticas Formales
+
+Una **gramática formal** $G = (V, T, P, S)$ define las reglas de producción que generan las cadenas válidas de un lenguaje:
+
+- $V$: símbolos no terminales (variables)
+- $T$: símbolos terminales (alfabeto)
+- $P$: reglas de producción
+- $S$: símbolo inicial
+
+**Jerarquía de Chomsky (clasificación de gramáticas):**
+
+| Tipo | Nombre | Reconocida por |
+|---|---|---|
+| Tipo 0 | Sin restricciones | Máquina de Turing |
+| Tipo 1 | Sensible al contexto | Autómata linealmente acotado |
+| Tipo 2 | Libre de contexto | Autómata de pila |
+| Tipo 3 | Regular | Autómata finito |
+
+##### 6.3 Expresiones Regulares
+
+Las **expresiones regulares** son patrones que describen conjuntos de cadenas de texto, ampliamente usadas en programación para validación y búsqueda de texto.
+
+| Símbolo | Significado | Ejemplo |
+|---|---|---|
+| `*` | Cero o más repeticiones | `a*` → "", "a", "aa", "aaa"... |
+| `+` | Una o más repeticiones | `a+` → "a", "aa", "aaa"... |
+| `?` | Cero o una repetición (opcional) | `a?` → "" o "a" |
+| `\\|` | Alternancia (o) | `a\\|b` → "a" o "b" |
+| `.` | Cualquier carácter | `a.c` → "abc", "axc"... |
+
+> Las expresiones regulares son equivalentes en poder de reconocimiento a los autómatas finitos: todo lo que reconoce un DFA puede expresarse como una expresión regular, y viceversa.
+
+---
+
+##### 📑 Banco de Preguntas (Auto-Evaluación)
+1. **¿Qué diferencia hay entre un DFA (Autómata Finito Determinista) y un NFA (No Determinista)?**
+   * *Respuesta:* En un DFA, para cada estado y símbolo de entrada hay una única transición posible; en un NFA, puede haber múltiples transiciones posibles, transiciones vacías ($\\epsilon$) o ninguna transición para un mismo par de estado y símbolo.
+2. **Describa la Jerarquía de Chomsky de lenguajes y gramáticas formales.**
+   * *Respuesta:* Clasifica las gramáticas en 4 niveles de restricciones crecientes: Tipo 0 (Sin restricciones / Máquina de Turing), Tipo 1 (Sensibles al contexto), Tipo 2 (Libres de contexto / Autómata de pila) y Tipo 3 (Regulares / Autómata finito).
+3. **Dada la expresión regular $a^*b$, ¿cuál de las siguientes cadenas NO es aceptada por ella?**
+   * A) "b"
+   * B) "ab"
+   * C) "aaab"
+   * D) "aba"
+   * *Respuesta correcta:* D) "aba" (la cadena debe terminar estrictamente en un único carácter "b").
+4. **Mencione los 5 componentes formales de un autómata finito.**
+   * *Respuesta:* $M = (Q, \\Sigma, \\delta, q_0, F)$ donde $Q$ son los estados, $\\Sigma$ el alfabeto, $\\delta$ la función de transición, $q_0$ el estado inicial y $F$ los estados de aceptación."""
     },
     "MAT-100": {
         "emoji": "🔢",
