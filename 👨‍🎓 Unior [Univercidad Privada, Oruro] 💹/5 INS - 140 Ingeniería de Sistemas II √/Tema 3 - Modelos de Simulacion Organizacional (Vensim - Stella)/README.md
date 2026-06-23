@@ -1,4 +1,4 @@
-# Tema 3: Modelos de Simulación Organizacional (Vensim / Stella)
+# Tema 3: Modelos de Simulación Organizacional (Vensim - Stella)
 ## 🏫 Materia: Ingeniería de Sistemas II (INS-140)
 
 ---
